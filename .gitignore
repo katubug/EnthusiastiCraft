@@ -1,7 +1,9 @@
 changelogs/generator/
-overrides/.mixin-out/
+overrides/.mixin.out/
 overrides/astralsorcery/
 overrides/backups/
+overrides/configs/adchimneys/Containers/
+overrides/configs/adchimneys/Emitters/
 overrides/configs/agricraft/json/server_play-enthusiasticraft-cf/
 overrides/configs/agricraft/json/defaults/mod_agriculturalexpansion
 overrides/configs/agricraft/json/defaults/mod_arsmagica2
