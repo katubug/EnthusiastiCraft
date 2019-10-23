@@ -1,0 +1,552 @@
+[1.7.4] 
+ 
+Mod Additions/Removals/Updates: 
+- Added TexFix.
+- Added AromaBackup.
+- Updated Fish's Undead Rising to 1.0.9.
+- Updated Additional Structures to 2.3.0.
+- Updated Arcane Archives to 0.2.0.11.
+- Updated Corail Tombstone 3.5.9.
+- Updated CreativeCore to 1.9.68.
+- Updated Dynamic Surroundings to 3.5.5.0.
+- Updated Foamfix to 0.10.7.
+- Updated ForgeEndertech to 4.4.23.0-build.0418.
+- Updated FTB Library to 5.4.3.141.
+- Updated FTB Utilities to 5.4.0.107.
+- Updated Ice and Fire to 1.8.3.
+- Updated Just Enough Items JEI to 4.15.0.291.
+- Updated LibraryEx to 1.0.12.
+- Updated LittleTiles to 1.5.0-pre168.
+- Updated Mystic World to 1.4.7.
+- Updated MysticalLib to 1.3.8.
+- Updated OreLib to 3.5.2.3.
+- Updated RandomPatches to 1.9.11.
+- Updated Roots to 3.0.17.
+- Updated Broken Wings to 2.1.0.
+ 
+Configs/Quests/Compatibility: 
+[10/3/19]
+- More ZAWA animals have had their spawning biomes tweaked: Spider Monkeys, Dolphins, Clownfish, Cockatoos, Iguanas. 
+- ZAWA animals can now spawn in dimensions other than the overworld.
+[10/4/19]
+- Animania animals may no longer starve if they go hungry or thirsty.
+- Natura's generation will no longer occur in The Twilight Forest, The Betweenlands, or Anu's Lair.
+- Flight from the Wings mod is now prohibited in Twilight Forest and Betweenlands.
+- Flight in prohibited dimensions is now possible with certain items in one's inventory.
+-- To fly in The Betweenlands, one must obtain the Swamp Viscera from the Primordial Malevolence.
+-- To fly in The Twilight Forest, one must kill a Cave Troll to obtain its Precious Doll.
+-- To fly in all dimensions using only one item, one must craft the Tear of Icarus, a glowing gem crafted by surrounding a block of diamond with a Dragon's Breath, a Nether Star, some Swamp Viscera, and a Precious Doll.
+[10/5/19]
+- The spawn rates of Animania animals have received a slight buff.
+- More ZAWA spawn changes. Tree frogs are slightly less common now.
+- It will no longer be permanently day in the Mining Dimension. Hostile mobs should still be blocked from spawning (except dragons).
+[10/6/19]
+- Pam's Market has been disabled due to excessive emerald gluttony. Please use the Farming for Blockheads Market in its place.
+- The Farming for Blockheads Market now sells Leads and Queen Bees.
+- Prices and amounts in the Farming for Blockheads Market have been adjusted.
+[10/7/19]
+- Wither Logs and Trees have been added to the ore dictionary.
+ 
+Server Changelog: 
+[10/3/19]
+- The Dynmap has been reset in order to produce lower-res images that take up less space.
+- Dragons and other flying mounts should now perform correctly.
+[10/9/19]
+- We've switched backup mods to AromaBackup. It will take backups every hour and hopefully should keep us under our disk space allotment.
+ 
+Mod Changelog: 
+
+Fish's Undead Rising - 
+ - version 1.0.9  - Omen of War
+ - [New Contents]:
+ - [Items]:
+ - Molten Pan: New item used to cook special cuisines. 
+ - Molten Armor: New armor set that can reduce fire damage as well as dealing bonus damage to burning entities.
+ - [Changes]:
+ - [Entities]:
+ - Ingheta: No longer fireproof. Will now recieve 100% more burning damage. Will now have a chance to wield Frozen thigh (but won't drop it after death).
+ - Wendigo:
+ -- the model has received a minor tweak.
+ -- the pounce attack now has 12 secs cooldown. 
+ -- Will now actively seek meat item left on floor, recover 5 HP when pickup. 
+ -- Animals will now try to run away from Wendigo if the "AnimalAttack" config option is set to true.
+ - Undead Swine: the model has received a minor tweak.
+ - Parasite: New Varient: a new varient that only appears in the jungle, and has a venomous attack. Players can be modify the rate of spawning parasute when destroying sand blocks.
+ - Mimicrab:
+ -- Now have opening/close sounds.
+ -- Will now only spawn at light level < 7.
+ -- Is neutral now when in peaceful mode
+ -- Will now only spawn 1 Mimicrab at once per chunk
+ -- Add a new config option allowing player to not open GUI when shift-right clicking.
+ - Raven: New Varient: a emperor varient with white neck feathers. Sit Raven won't try to mount on players anymore.
+ - Sludge Lord: Now have a new hurt sound. 
+ - [Items]:
+ - Caned Beef/Porkchop/Rotten Meat: Will now need a Molten pan to craft. Will now only need raw meat instead of cooked ones.
+ - Molten Hammer: The amount of Molten meat needed 5 ? 3
+ - Green Bacon & Eggs: Will now need a Molten pan to craft instead of Blaze Powder
+ - Intestine: Now have tooltips.
+ - Golden Heart: Now have support Baubles as a tricket. Tooltips has recieved a update.
+ - Potion of Fission: New generated entity which would be untamed previously will now be set as tamed by the user who uses the potion. 
+ - Azrael's Scythe: Attack damage 7 + 9(bypassing armor) ? 12(bypassing armor), Tooltips has recieved a update. 
+ - Bone Sword: Tooltips has recieved a update.
+ - Enchantments: Lifesteal: Heal 1/2/3 ? 15/30/45% of weapon damage
+ - [Fixes]:
+ - Fixed a bug where player can't recieve Glass bottle after using Potion of Fission.
+ - Fixed a bug where entities tend to drop less loots.
+ - Fixed a bug where Looting enchantment is not applied to certain loots.
+ - Fixed a bug where food items have superior saturation points
+ - Fixed a bug where weapon damage is not applied on Bone Sword & Azrael's Scythe
+
+Additional Structures - 
+ - 17 new structures! (silverfish cluster, bush, rock, mushroom, chest trap, flotsam, totem altars, towers)
+ - 3 new end structures! (obsidian spikes)
+ - structures no longer generate in flat world types
+ - new config options
+ - support for 'spooky' biomes in other mods
+ - changed "hill"-structures to "mountain'
+ - stone circle ruin generation fixed
+ - changed end config values
+ - fixed update-url
+ - changed update message
+
+Arcane Archives - 
+ - This is a quick release to fix issue #73: players being able to access Radiant Chests in claimed chunks that are not their own.
+ - Removed references to "sneak to upgrade" for tanks and troves; upgrades are now performed with the Scepter of Manipulation.
+ - Troves can no longer be broken by hand in Creative Mode, allowing you to retrieve items from them without fear of losing everything. To properly break them, you need to do so with a scepter in hand. Note: "destruction" animation and noise will still be played.
+ - Fill/drain restrictions on Amphorae ItemStack handlers have been removed. This may cause unexpected or unwanted complications and will be reviewed presently.
+ - Amphorae now work in dimensions that are not the overworld.
+ - Resonator volume can now be adjusted in configuration.
+ - The Brazier's insert method has been reworked (again): using hoppers or pipes to insert items will no longer blanket "accept" them, only to eject them, but instead properly reject items that it cannot store.
+ - An empty row should no longer display in the Gem Cutter's Table when some modules are enabled or disabled.
+ - The Radiant Crafting Table now supports Crafting Tweaks.
+ - You can now use the Scroll Wheel to move between valid recipes in the Gem Cutter's Table. This is not fully tested and there may be some bugs.
+
+Corail Tombstone - 
+ - prevents to create a grave if the only drop is the meat from Cannibalism
+ - the chance of enchanted grave's key can be disabled if the related config is set to -1
+ - chinese lang (by Aikinitt)
+
+CreativeCore - 
+ - Fixed incompatibility with old forge version
+ - Fixed compatibility with OpenBlocks sky block
+
+Dynamic Surroundings - 
+ - [Fixes]
+  - Waterfall splash sound should no longer linger after the waterfall effect is gone. Yay!
+ - No breath effect in spectator mode.
+ - No footstep effects in spectator mode.
+ - Fixed AbyssalCraft config. Should no longer play Nether sounds in regular biomes. (It should play in Omothol.)
+ - Fixed non-positive random parameter to Random in fountain jet effects.
+ - [Changes]
+ - Update to support Serene Seasons 1.12.2-1.2.18. If you use Serene Seasons you must update otherwise Dynamic Surroundings will not start!
+ - Update to support Animania 1.12.2-1.7.2. If you use Animania you must update otherwise Dynamic Surroundings will not start!
+ - Player jump sound is disabled by default.
+
+FoamFix - 
+ - Barring more crash bugs, this is probably the final FoamFix release for 1.12.2.
+ - It mostly removes functionality which I couldn't manage to fix in time (or people kept force-enabling against defaults despite the resulting instability), but it also tries to fix some other patches.
+
+ForgeEndertech - 
+ - added: CommonString.Joiner class for better string concatenation
+ - added: missing @SideOnly annotations for GUI classes and methods
+ - added: better static initializer for WeightedList class
+ - added: classes for working with tile inventory and its GUI
+ - improved: UnitId class for quick matching with block and item states
+
+FTB Utilities - 
+ - Fixed yet another crash
+ - Fixed some issues with players not working correctly when logged in/out
+ - Fixed crash with new people logging in/out
+
+FTB Utilities - 
+ - FTB Library changes
+
+Ice and Fire - 
+ - Added config for dragon block breaking whitelist
+ - Fixed lectern/bestiary pages server side crash
+ - Fixed dragons not fighting back when punched
+ - Fixed dragons suddenly stopping attacks and not moving
+ - Fixed dragons nudging players and not attacking
+ - Fixed dragon wing flap attack not triggering
+ - Fixed siren song client crash
+ - Fixed dragons becoming comatose when in water
+
+Just Enough Items JEI - 
+ - Update changelog plugin - mezz
+ - Improve the render ingredient crash report - mezz
+ - Minor misc cleanup - mezz
+ - Fix #1673 Treat GuiScreen#mc as nullable - mezz
+ - Fix #1651 Race condition during crash can cause NPE in InputHandler - mezz
+ - Fix #1635 Bookmark button leaks color state on hover - mezz
+ - Fix #1621 Enchanted book tooltip compatibility with other mods - mezz
+ - Fix #1611 Rare crash when cycling items - mezz
+Updated Polish translation (#1610) - Greg-21
+ - Fix #1576 Unable to view IE Metal Press recipes - mezz
+ - Fix typo in French localization (#1593) - Neerwan
+ - Updated Polish translation (#1587) - Greg-21
+ - Fix #1567 Fix #1575 Improve display of wildcard items with no creative menu subtypes - mezz
+ - Add warning log when a mod GUI does not draw the dark background layer - mezz
+ - Update French Localization (#1557) - Neerwan
+ - Make defensive copies of gui exclusion areas to prevent a bug when they are mutated - mezz
+ - Fix #1549 Add support for Forge IRarity for item tooltip colors - mezz
+ - Fix #1518 Add support for Crafttweaker removing brewing recipes - mezz
+ - Update sv_se.lang (#1535) - A. Regnander
+ - Updated Polish translation (#1533) - Greg-21
+ - Add shortcut key for item edit/hide mode (#1530) - Austin
+ - Fix #1524 RecipeCategory tabs are not always sorted properly - mezz
+ - Fix #1523 Recipe transfer button texture issues with transparency - mezz
+ - Update to latest Forge in dev - mezz
+ - Fix #1507 Memory is wasted by UID cache after loading - mezz
+
+LibraryEx - 
+ - Fixed an issue with trades having incorrect values
+
+LittleTiles - 
+ - Fixed not adding overflow to bags
+ - Fixed incompatibility with old forge version
+ - Fixed compatibility with OpenBlocks sky block
+
+Mystic World - 
+ - New entity: Silkworm! These do not spawn natively in the world. Instead, you may find silkworm eggs when breaking tall grass (like seeds), or breaking leaves (like saplings). Silkworm eggs have a 30% chance to spawn a silkworm, which will wobble around growing until it plops out a Silk Coccoon. You can drop leaves (as items) near the silkworm in order to speed up the process; in addition, the more leaves they eat, the higher the chance they will drop additional cocoons.
+ - New items: silk cocoon, silk thread & spindle: you can directly convert silk cocoons into silk thread (an alternative to string) in a somewhat lossy fashion, or you can craft a spindle and combine the cocoon with the spindle: you will gain considerably more return, although the spindle will take some damage.
+ - Materials have been greatly improved and conditional registration has been removed. Now, ore dictionary registration, ore spawning and recipes will be enabled or disabled instead.
+ - Fix #53: Repair items are now properly set for Amethyst, Copper and Silver tools.
+ - There is now an option to give the player (true by default) the Mystical World Patchouli Guide.
+ - Baked models have been replaced with standard Minecraft blockstate files, preventing future issues with Patchouli visualisations & Direwolf's Building Gadget.
+ - Mystical World entities no longer return "false" by default to "isAIDisabled".
+ - Patchouli: Amethyst, Copper and Silver entries are now conditionally displayed depending on whether or not they are enabled.
+ - Patchouli: All entity pages will display conditionally determined by whether or not the entity's spawn is enabled.
+ - It is no longer possible to disable Sprouts, as these entities are essential to Roots. They will be moved into Roots at a later date.
+ - Fix #57: ores now generation in dimensions specified in a whitelist in the config.
+ - Properly add Aubergines to the Just Enough Resources integration (instead of having it be in Roots)
+ - Improved the Standard Drops interface for Patchouli for Silkworm and Lava Cats (Silkworm currently unused)
+ - Added loot tables for silkworms and lava cats: silkworms have a chance to drop eggs, obsidian cats drop cobble and have a chance to drop obsidian
+ - Fix similar issue with Squid cooldowns (from bottling ink) potentially causing crashes with the new animal cooldown capability.
+
+MysticalLib - 
+ - This mod is now compiled against the latest version of Forge for 1.12.2, 2847.
+ - Properly annotate functions with @Override
+ - ItemUtil functions to fetch ItemStacks from BlockStates and vice versa.
+ - Adjusted the size of leaf particles to prevent Mip-Map errors.
+ - Fix Roots #221: baffle-cap mushroom blocks use the wood sound instead of hte stone sound.
+ - Hopefully fix situations where high values of fortune can result in 0 drops being made from ore blocks (such as Amethyst Ore).
+ - New system for handling handing-out-books-upon-login that can be extended by other mods.
+ - New system for dynamically generating blockstate files for various block types: "block", "button", "double_slab", "fence", "fence_gate", "pressure_plate", "slab", "stairs", "wall" -- multi-texture blocks (log, door, trapdoor) coming soon.
+ - Moved the entity cooldown capability serialisation into the base code to prevent duplication of effort.
+
+OreLib - 
+ - Fixes Client compatibility with Advanced Rocketry. Addresses crash with Dynamic Surroundings.
+
+RandomPatches - 
+ - Temporary fix for SpongeForge compatibility.
+ - Fixed compatibility between the smooth eye level change animation and Valkyrien Skies.
+ - Fixed Ice and Fire compatibility.
+ - Added a fix for MC-5694, which causes fast mining to sometimes only destroy blocks client-side only.
+ - Added a fix for MC-54026, which causes blocks attached to slime blocks in some circumstances to create ghost blocks if a piston pushes the slime block.
+ - The Dismount keybind no longer displays as conflicting with the Sneak keybind.
+ - The Dismount keybind is now enabled by default.
+
+Roots - 
+ - Hopefully fix an unexpected but should-have-expected-it bug with the change to Runic Shears that caused crashes and/or the shears to simply not function.
+ - Fix a misunderstanding that RenderHelper.drawEntity is not GuiScreenInventory.drawEntityOnScreen. Don't code tired!
+ - Fix an unexpected interaction with Tinker's Tool Leveling that caused a crash during initialisation.
+ - Properly import the commit that instated JER integration with elemental soils.
+ - Added Lava Cat & Silkworm to the animal harvest ritual (see Mystical World 1.4.6)
+ - The mod is now built against the latest version of Forge for 1.12, 2947.
+ - Fix #241: Geas has no effect on creatures.
+ - Translated Geas, Invulnerability & Time Stop into potion effects away from the effects manager; removed the effects manager bloat.
+ - Fix #237: Tall flowers spawned by Grove Stones will no longer void blocks above them.
+ - Fix #240: Iced Touch & Frost Lands no longer convert flowing liquid into solid variants.
+ - Fix #236: Localisation for the Touch module.
+ - Fix #230: Overgrowth now works with all suitable targets for moss conversion.
+ - The Grove Stone is now a multipart model; hopefully this will resolve some shadow issues that users have with Optifine. In addition, it now has proper bounding boxes.
+ - It is now possible to visualise all rituals that have a multiblock structure.
+ - Hand animations now play when using Runic Shears on entities.
+ - Fix #271: remove debug statements from the Flower Growth ritual.
+ - Fix #268: extend the /ritual command to cover large quantities of ritual stones.
+ - Fix #267: give back dirt when swapping farmland for elemental soil.
+ - Fix #266: the Sure-Footed Stone is no longer converted to stone with lava, nor can it be removed with a bucket. It can be voided by a sponge, however, and there's no way around that: this is now a feature!
+ - Fix #214: Buff the Purity ritual to no longer cleanse hostile creatures. This allows for its improvement of the speed of the Zombie Villager conversion to happen without removing the weakness debuff.
+ - Added utilities for entities.
+ - Fey leather is now in the ore dictionary under the entry "leather".
+ - Fix #298: The wording of the Elemental Soil entry has been updated to indicate that elemental soil must be throw into the top of a block of lava, rather than the sides.
+ - Adjusted some Mortar recipes in light of changes to Mystical World; added additional Mortar recipes for: orange dye (carrots), string x 3 (wool), string x 5 (silkworm cocoon), blaze powder x 5 (blaze rod).
+ - Buffed the output of petal production from double-tall flowers. It is no longer possible to combine single flowers with double-tall flowers in the Mortar.
+ - The are no longer conflicting/doubled recipes for smelting iron & gold dust into their equivalent ingots; this is handled in Mystical World.
+ - Fix #296: Knives can now be used in dispensers. When provided with a redstone signal, they will attempt to scrape moss from the block they are facing; if successful, the knife will be damaged, and terra moss will be spawned the block above the dispenser.
+ - Time conditions are deprecated for now and will not likely make a return until the Twilight Grove is implemented.
+ - The Overgrowth Ritual now happens twice as fast, but producing the same amount of Terra Moss.
+ - The Elemental Soil recipe in the Fey Crafter now produces 4 elemental soil for each craft, rather than 1.
+ - The Infernal Bulb recipe now requires Wildroot, Magma Cream, Gunpowder, a Lava Bucket and Glowstone; this means that a Nether trip is still required, but finding a Nether Fortress is no longer required; in addition, you can convert Magma Blocks into Magma Creams in a Mortar.
+ - The Bonfire no longer consumes fire but speeds up its decay.
+ - Petal Shell now functions as a Potion Effect, and its rendering has returned (although not as pretty as previously).
+ - Fix #283: check to see if blocks can sustain plants before planting them.
+ - The Wild Growth ritual now requires any bark + dark oak bark, instead of normal oak bark.
+ - The Windwall Ritual now uses EntityUtil to determine if things are hostile.
+ - Radiance no longer requires Infernal Bulb, but instead uses Cloud Berry (it makes more sense that it would be closer to the sun than closer to the Nether, in that it does holy damage). This means that only 1 of the 2 current damaging ranged spells is locked behind the Nether.
+ - Transmutation Ritual: Cocoa crop can now be converted to carrots (as items); fully-grown carrot crops will be converted into newly-planted beetroot. As Cocoa beans can be obtained through the ritual already, this removes the necessity of finding a village for beetroots (and pereskia).
+ - Transmutaiton Ritual: Carpet placed over water (it can be done!) can be converted to lily pads; trapdoors placed on top of any wool block will be converted to cobwebs; redstone placed on top of leaf blocks will be converted into vines.
+ - Heights (based on the defaults) are specified in the Patchouli documentation for elemental soils (air and earth).
+ - Significant changes to spell recipes. Some have been made considerably easier to obtain, while others have been made slightly more complex. Bone meal has been removed from recipes that it is not appropriate for. Changes:
+ -- Acid Cloud now require Spider Eye, Baffle-Cap Mushroom, Lime Dye, Cactus Block and Rotten Flesh
+ -- Dandelion Winds now requires Dandelion, any Leaves, Runic Dust, Cloud Berry and Terra Spores.
+ -- Fey Light now requires Lit Pumpkin, Sunflower, Cloud Berry, Cloud Berry and Acacia Bark. (Note: Sunflowers can be easily obtained through the growth function of the Grove Stone).
+ -- Geas now requires Cobweb (obtained via the Transmutation Ritual & shears), a Lead, Carrot-on-a-Stick, Terra Spores, Baffle-Cap Mushroom
+ -- Harvest now requires Golden Hoe, Aubergine Seeds, Wildewheet, Beetroot Seeds and Wheat Seeds
+ -- Iced Touch now requires Dewgonia, Snow, Snow Layer, Snow Ball and Blue Orchid (which can be obtained through the Flower Growth ritual)
+ -- Life Drain now requires Baffle-Cap Mushroom, Moonglow Leaf, Moonglow Seads, Iron Sword and Block Cactus
+ -- Light Drifter's cooldown has been increased to 250, but its duration is now 200. It requires Ender Pearl, Moonglow Leaf, Sunflower (obtained through the Grove Stone), Yellow Dye and Wildewheet.
+ -- Magnetism now requires Iron Ingot, Redstone Dust, Paper, Wildroot and Aubergine
+ -- Petal Shell now requires Petals, Aubergine, Spirit Herb, Shield and Pereskia
+ -- Rampant Growth now requires Any Sapling, Golden Apple, Any Sapling, Spirit Herb, Pereskia
+ -- Rose Thorns now requires Cactus Block, Rose Bush, Bone, Rose Red, Terra Moss
+ -- Sanctuary now requires Armor Stand, Pereskia, Milk Bucket, Spruce Bark and Wildroot
+ -- Sense Animals now requires Carrot, Lead, Wildewheet, Wheat and Gold Nugget
+ -- Sense Danger now requires Gold Nugget, Compass, Spider Eye, any Bark, Aubergine
+ -- Shatter now requires Flint, Stone Pickaxe, Stalicripe, TNT block and Cobblestone
+ -- Sky Soarer now requires Ladder, Petals, Arrow, Aubergine Seed and Cloud Berry
+ -- Time Stop now requires Ender Pearl, Moonglow Leaf, Potion of Slowness (base duration), Pereskia and Clock
+ -- Wildfire now requires Orange Dye, Charcoal, Gunpowder, Infernal Bulb, TNT Block
+ - Animal Harvest will now have a chance to, if there is a suitable source block of water, spawn fish in it. Fish spawn according to the default weights outlined in the loot table for fishing, and can be adjusted through CraftTweaker.
+ - When extinguishing Pyres with a bucket of water (or whatever) in creative mode, the bucket will not itself by drained.
+ - Fix #173: continue to refill Pyres with appropriate ingredients following a server restart.
+ - Fix #273: don't override the "id" tag when serialising ritual entities. This prevents ritual entities from being discarded following server restarts.
+ - Fix #260: Ritual of Gathering now places ingredients into the first inventory found in a 3x3 around the Pyre.
+ - When failing to start a ritual, you will now be given an informative message as to what actually failed.
+ - There is now an option (default false) to give players the Roots Patchouli Guide when starting a new game.
+ - Wildwood Fence Gates are now a thing! In addition, all blocks have been converted from baked models into standard Minecraft blockstates. This should resolve all issues with Patchouli visualisation and Direwolf's Building Gadgets.
+ - Fix #282: The Component Pouch is now specifically mentioned in the spell section of the Patchouli guide.
+ - Fix #279: If you have no component pouch, the message specifically states that you require one to store your components, instead of saying "Not enough of X herb".
+ - Fix #276: The Fey Crafter now accepts any type of sapling instead of only oak saplings.
+ - Fey Crafter: the JEI transfer-from-inventory button will now function properly with the last slot of the hotbar.
+ - Fix #281: Container items used in the Mortar, Fey Crafter & Pyre are now properly emptied and returned, instead of being destroyed.
+ - Fix #310: if the Fey Crafter can't be activated with a knife, instead open the GUI.
+ - The Fey Crafter crafting visual is now more appropriately coloured.
+ - Fix #311: Improve handling of animal cooldown capabilities: when loading from a save file, actually set the cooldown value to its previous number, instead of adding it. This means that it is possible to re-shear entities between sessions.
+ - Fix #234: Using the Runic Shears on a suitable mossy (or state that can be converted to mossy) block will attempt to shear all suitable blocks in a 5x5 radius around it for Terra Moss.
+ - Work on #197: added sections for Standing Stones & Ritual Automation with explanations of how these work. In addition, all entries for Rituals using Standing Stones have a link to those standing stones at the bottom of the first page.
+ - Fix #258: there is now JEI support for entities and Runic Shears. It should automatically fill in the details, with the cooldown being displayed in the item tooltip. Scaling and positioning not guaranteed to be functional for every entity in-game.
+ - Fix #308: the size of the GUI is now adjusted depending on being Apothecary Pouch or Component Pouch; unfortunately the positioning is a little off, but it should prevent strange overlap.
+ - Thanks to Davoleo, we now have an Italian translation!
+ - Bats have been removed from the default list of Pacifist animals, as they are sometimes too easy to accidentally kill; silkworms and lava cats have been added.
+ - Fix a bug with Wild Growth ritual not working.
+ - Added a recipe for stuffed aubergine using roasted pereskia bulbs
+ - Modified Sky Soarer to continue momentum after the spell ends. This will make using it while riding horses or boats feel much smoother
+
+Broken Wings - 
+ - add the ability to set metadata on whitelist items
+ - add the ability to set whitelist items only for a particular dimension - Check GitHub readme
+ - add countermeasure for wings from the Wings mod
+ 
+===================================== 
+ 
+ 
+[Full Modlist:] 
+ 
+|   ActuallyAdditions-1.12.2-r150.jar
+|   ActuallyBaubles-1.12-1.1.jar
+|   AdChimneys-1.12.2-3.5.6.0-build.0412.jar
+|   ae2stuff-0.7.0.4-mc1.12.2.jar
+|   aerialaffinity-1.2.jar
+|   AgriCraft-2.12.0-1.12.0-a6.jar
+|   AIImprovements-1.12-0.0.1b3.jar
+|   AkashicTome-1.2-12.jar
+|   AmbientSounds_v3.0.9_mc1.12.2.jar
+|   animania-1.12.2-1.7.2.jar
+|   AppleCore-mc1.12.2-3.2.0.jar
+|   AppleSkin-mc1.12-1.0.9.jar
+|   appliedenergistics2-rv6-stable-7.jar
+|   arcanearchives-0.2.0.11.jar
+|   armoryexpansion-1.4.0.jar
+|   Aroma1997Core-1.12.2-2.0.0.2.b165.jar
+|   Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.b89.jar
+|   AromaBackup-1.12.2-3.0.0.0.b129.jar
+|   astralsorcery-1.12.2-1.10.20.jar
+|   AttributeFix-1.12.2-1.0.9.jar
+|   AutoRegLib-1.3-32.jar
+|   base-1.12.2-3.13.0.jar
+|   Baubles-1.12-1.5.2.jar
+|   baubley-heart-canisters-1.12.2-2.0.3.jar
+|   bdlib-1.14.3.12-mc1.12.2.jar
+|   betteranimalsplus-1.12.2-7.1.1.jar
+|   BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar
+|   BetterFoliage-MC1.12-2.2.0.jar
+|   BetterFps-1.4.8.jar
+|   BiblioCraft[v2.4.5][MC1.12.2].jar
+|   BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar
+|   blockcraftery-1.12.2-1.3.1.jar
+|   bonsaitrees-1.1.3-b156.jar
+|   Bookshelf-1.12.2-2.3.585.jar
+|   bookworm-1.12.2-2.3.0.jar
+|   Botania r1.10-362.jar
+|   Bountiful-2.2.0.jar
+|   brokenwings-2.1.0.jar
+|   BuildingGadgets-2.7.3.jar
+|   Ceramics-1.12-1.3.7.jar
+|   Chameleon-1.12-4.1.3.jar
+|   chickens-6.1.0.jar
+|   Chisel-MC1.12.2-0.2.1.35.jar
+|   chiselsandbits-14.33.jar
+|   classicbar-0.4.1.jar
+|   ClientTweaks_1.12.2-3.1.11.jar
+|   Clumps-3.1.2.jar
+|   CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+|   CoFHCore-1.12.2-4.6.3.27-universal.jar
+|   CoFHWorld-1.12.2-1.3.1.7-universal.jar
+|   CommonCapabilities-1.12.2-2.4.4.jar
+|   compactmachines3-1.12.2-3.0.18-b278.jar
+|   conarm-1.12.2-1.2.4.jar
+|   ContentTweaker-1.12.2-4.9.1.jar
+|   Controlling-3.0.7.jar
+|   CookingForBlockheads_1.12.2-6.4.71.jar
+|   CosmeticArmorReworked-1.12.2-v4a.jar
+|   CraftingTweaks_1.12.2-8.1.9.jar
+|   CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar
+|   CraftTweaker2-1.12-4.1.19.jar
+|   CreativeCore_v1.9.68_mc1.12.2.jar
+|   CTM-MC1.12.2-0.3.3.22.jar
+|   Currency-1.12.0-1.3.11.jar
+|   CustomMainMenu-MC1.12.2-2.0.9.jar
+|   Cyclic-1.12.2-1.19.17.jar
+|   CyclopsCore-1.12.2-1.5.0.jar
+|   dankstorage-1.12.2-1.4-pre11.jar
+|   DarkUtils-1.12.2-1.8.226.jar
+|   Decocraft-2.6.3_1.12.2.jar
+|   deepmoblearning-1.12.2-2.5.2-universal.jar
+|   DefaultOptions_1.12.2-9.2.8.jar
+|   DocumentYourModMod-1.2.0.jar
+|   DynamicSurroundings-1.12.2-3.5.5.0.jar
+|   EnchantmentDescriptions-1.12.2-1.1.15.jar
+|   EnderCompass-1.12.2-1.0.jar
+|   EnderCore-1.12.2-0.5.68.jar
+|   EnderIO-1.12.2-5.0.46.jar
+|   EnderStorage-1.12.2-2.4.6.137-universal.jar
+|   engineers_doors-1.12.2-0.8.0.jar
+|   ExtraBotany-r1.1-55-fixed.jar
+|   extrautils2-1.12-1.9.9.jar
+|   FarmingForBlockheads_1.12.2-3.1.28.jar
+|   FastFurnace-1.12.2-1.3.1.jar
+|   FastWorkbench-1.12.2-1.7.2.jar
+|   fencejumper-1.12-1.0.5.jar
+|   Fishs_Undead_Rising-1.0.9.jar
+|   foamfix-0.10.7-1.12.2.jar
+|   ForgeEndertech-1.12.2-4.4.24.0-build.0421.jar
+|   Forgelin-1.8.4.jar
+|   fossilsarcheology-8.0.3.jar
+|   FTBLib-5.4.3.141.jar
+|   FTBQuests-1.7.2.218.jar
+|   FTBUtilities-5.4.0.107.jar
+|   FTBUtilitiesBackups-1.0.0.12.jar
+|   furniture-6.3.1-1.12.2.jar
+|   GottschCore-mc1.12.2-f14.23.5.2768-v1.8.0.jar
+|   GravelMiner_1.12.1-6.1.2.jar
+|   Harvest-1.12-1.2.7-20.jar
+|   iceandfire-1.8.3.jar
+|   ImmersiveEngineering-0.12-92.jar
+|   immersivepetroleum-1.12.2-1.1.9.jar
+|   ImprovedBackpacks-1.12.2-1.4.0.0.jar
+|   industrialforegoing-1.12.2-1.12.13-237.jar
+|   infinitylib-1.12.0.jar
+|   instantunify-1.12.2-1.1.2.jar
+|   IntegratedDynamics-1.12.2-1.1.0.jar
+|   IntegrationForegoing-1.12.2-1.9.jar
+|   InventoryTweaks-1.64+dev.146.jar
+|   ItemFilters-1.0.3.12.jar
+|   itemzoom_1.12.2-1.11.jar
+|   jehc-1.12.2-1.6.4.jar
+|   jei_1.12.2-4.15.0.291.jar
+|   journeymap-1.12.2-5.5.5.jar
+|   JustEnoughIDs-1.0.3-44.jar
+|   JustEnoughResources-1.12.2-0.9.2.60.jar
+|   LagGoggles-THIN-1.12.2-4.8.jar
+|   LibraryEx-1.12.2-1.0.12.jar
+|   littleopener-1.0.1.jar
+|   LittleTiles_v1.5.0-pre168_mc1.12.2.jar
+|   llibrary-1.7.19-1.12.2.jar
+|   longfallboots-1.2.1b.jar
+|   LootTweaker-1.12.2-0.0.10.jar
+|   Mantle-1.12-1.3.3.55.jar
+|   mcjtylib-1.12-3.5.4.jar
+|   MCMultiPart-2.5.3.jar
+|   MineMenu-1.12.2-1.6.11-universal.jar
+|   MmmMmmMmmMmm-1.12-1.14.jar
+|   MoarSigns-1.12.2-6.0.0.11.jar
+|   MobControlWands_1.12.2-1.0.4.jar
+|   modnametooltip_1.12.2-1.10.1.jar
+|   morechickens-1.12.2-3.1.0.jar
+|   moreoverlays-1.15.1-mc1.12.2.jar
+|   MouseTweaks-2.10-mc1.12.2.jar
+|   mowziesmobs-1.5.4.jar
+|   mysticallib-1.12.2-1.3.8.jar
+|   MysticWorld-1.12.2-1.4.7.jar
+|   natura-1.12.2-4.3.2.69.jar
+|   NaturesCompass-1.12.2-1.5.1.jar
+|   NetherEx-1.12.2-2.0.15.jar
+|   NoMobSpawningOnTrees-1.2.2-mc1.12.2.jar
+|   NoMoreRecipeConflict-0.13(1.12.2).jar
+|   Nutrition-1.12.2-4.4.0.jar
+|   OnlinePicFrame_v1.4.28_mc1.12.2.jar
+|   OpenBlocks-1.12.2-1.8.1.jar
+|   OpenModsLib-1.12.2-0.12.2.jar
+|   OreExcavation-1.4.143.jar
+|   OreLib-1.12.2-3.5.2.3.jar
+|   Pam's HarvestCraft 1.12.2zf.jar
+|   pamsimpleharvest-2.0.0.jar
+|   Patchouli-1.0-20.jar
+|   Pewter-1.4.3.jar
+|   phosphor-1.12.2-0.2.6+build50-universal.jar
+|   Placebo-1.12.2-1.6.0.jar
+|   platforms-1.12.0-1.4.6.jar
+|   plustic-7.1.6.1.jar
+|   ProjectVibrantJourneys-1.12.2-1.6.4.jar
+|   PTRLib-1.0.4.jar
+|   Quark-r1.6-177.jar
+|   quickconsume-1.12.2.1.0.1.0.jar
+|   QuickLeafDecay-MC1.12.1-1.2.4.jar
+|   randompatches-1.12.2-1.19.1.1.jar
+|   RandomThings-MC1.12.2-4.2.7.3.jar
+|   randomtweaks-1.12.2-2.7.1.0.jar
+|   rangedpumps-0.5.jar
+|   reauth-3.6.0.jar
+|   RedstoneFlux-1.12-2.1.0.6-universal.jar
+|   Reliquary-1.12.2-1.3.4.796.jar
+|   ResourceLoader-MC1.12.1-1.5.3.jar
+|   Rex's-Additional-Structures-1.12.x-(v.2.3.0).jar
+|   roost-1.12.2-2.0.10.jar
+|   Roots-1.12.2-3.0.17.jar
+|   rustic-1.1.1.jar
+|   shetiphiancore-1.12.0-3.5.9.jar
+|   SoundFilters-0.11_for_1.12.jar
+|   stg-1.12.2-1.2.3.jar
+|   StorageDrawers-1.12.2-5.4.0.jar
+|   subterraneanwaters-1.12.2-1.7.9.jar
+|   supersoundmuffler-1.12.2-1.0.2.10.jar
+|   TConstruct-1.12.2-2.12.0.157.jar
+|   tesla-core-lib-1.12.2-1.0.15.jar
+|   TexFix V-1.12-4.0.jar
+|   TheBetweenlands-3.4.12-universal.jar
+|   theoneprobe-1.12-1.4.28.jar
+|   ThermalCultivation-1.12.2-0.3.3.12-universal.jar
+|   ThermalDynamics-1.12.2-2.5.5.21-universal.jar
+|   ThermalExpansion-1.12.2-5.5.4.43-universal.jar
+|   ThermalFoundation-1.12.2-2.6.3.27-universal.jar
+|   ThermalInnovation-1.12.2-0.3.3.12-universal.jar
+|   tinkersjei-1.2.jar
+|   TinkerToolLeveling-1.12.2-1.1.0.jar
+|   Toast Control-1.12.2-1.8.1.jar
+|   tombstone-3.5.9-1.12.2.jar
+|   topaddons-1.12.2-1.11.0.jar
+|   torchmaster_1.12.2-1.8.0.79.jar
+|   Treasure2-mc1.12.2-f14.23.5.2768-v1.5.1.jar
+|   twilightforest-1.12.2-3.9.984-universal.jar
+|   UniDict-1.12.2-2.9.3.jar
+|   UnlimitedChiselWorks-0.2.4.jar
+|   unloader-1.2.0.jar
+|   VanillaFix-1.0.10-99.jar
+|   WanionLib-1.12.2-2.3.jar
+|   Waystones_1.12.2-4.0.72.jar
+|   wings-1.1.5-1.12.2.jar
+|   WitherSkeletonTweaks-1.12.2-2.6.3.jar
+|   worleycaves-1.5.1.jar
+|   zawa-1.12.2-1.7.0.jar
+|   [1.12]MoVillages-1.5.4.jar

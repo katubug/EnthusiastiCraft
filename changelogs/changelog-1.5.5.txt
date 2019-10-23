@@ -1,0 +1,631 @@
+[1.5.5]
+
+Mod Additions/Removals/Updates:
+- Updated Actually Additions to 1.12.2-r149.
+- Updated Advanced Chimneys to 3.5.2.1-build.0377.
+- Updated Common Capabilities to 2.4.3.
+- Updated Cooking for Blockheads to 6.4.7.
+- Updated Corail Tombstone to 3.5.5.
+- Updated CreativeCore to 1.9.54.
+- Updated CyclopsCore to 1.4.0.
+- Updated EnderIO to 5.0.46.
+- Updated EnderCore to 0.5.59.
+- Updated Fairy Lights to 2.1.9.
+- Updated Farming For Blockheads to 3.1.28.
+- Updated Fossils and Archaeology to 8.0.2.
+- Updated FTBLib to 5.4.3.127.
+- Updated FTB Quests to 1.7.2.187.
+- Updated /dank/null to 1.5.71.
+- Updated Good Ol Currency to 1.3.11.
+- Updated Just Enough Items JEI to 4.15.0.285.
+- Updated LittleTiles to 1.5.0-pre149.
+- Updated MysticalLib to 1.3.1.
+- Updated OnlinePictureFrame to 1.4.26.
+- Updated Quark to 1.5-167.
+- Updated Random Things to 4.2.7.2.
+- Updated RandomPatches to 1.17.2.
+- Updated RandomTweaks to 2.6.0.0.
+- Updated Waystones to 4.0.72.
+
+Configs/Quests/Compatibility:
+- The ability of Iron Buckets to stack has been disabled due to unintended bucket and content consumption.
+- Code Chicken Lib (CCL) will no longer notify players about rendering exceptions.
+- Several config changes have been made to improve performance:
+-- Recursion of Models Deduplication has been increased to 12 from 9. This may slightly increase load times but should free up some RAM while the client is running.
+-- FoamFix's "fasterEntityDataManager" has been changed to "true." Please report any issues that you suspect occur as a result of this.
+-- Redstone's light has been disabled via FoamFix. This can be changed in the config if desired.
+
+Server Changelog:
+- Myrmex have been disabled again due to lag issues.
+
+Mod Changelog:
+Actually Additions - 
+ - Items can now be removed from the bio reactor.
+ - Mining lens energy use is now a config.
+ - Items converted by the atomic reconstructor can no longer be further converted until being picked up.
+
+Advanced Chimneys - 
+ - fixed: support for Furnace Overhaul (delete old Emitters/furnaceoverhaul$* configs) (thanks to PokeBenji)
+ - improved: configs for Tinkers' Construct (delete old Emitters/tconstruct$* configs) (thanks to KidBrine)
+
+Common Capabilities - 
+ - Add slotless item handler for Thermal Expansion caches
+  This fixes Integrated Crafting not being able to craft
+  with 64+ items at a time when extracting from caches.
+  Closes CyclopsMC/IntegratedCrafting#27
+ - Fix slotted extraction from slotless item handler emitting wrong items
+  This fixes a dupe exploit when AE2 is used over IT item tunnels.
+  Closes CyclopsMC/IntegratedTunnels#166
+ - Improve performance of storage wrapping by avoiding hasCapability calls
+
+Cooking for Blockheads - 
+ - Fixed custom 2x2 recipes (e.g. by CraftTweaker) not working correctly in the Cooking Table / Recipe Book
+ - Fixed Cow in a Jar recipe showing up in JEI even if it is disabled
+ - Fixed InventoryTweaks sorting buttons being aligned incorrectly in fridge and large counter GUIs
+ - Fixed fridge not rendering items when it's flipped (by Skydragonsz)
+ - Added Korean Translation (by cs8minty)
+
+Corail Tombstone - 
+ - custom trigger for advancements (#68)
+
+CreativeCore - 
+ - Fixed not setting index
+ - Fixed incompatibility with new SpongeForge 8+ (unfortunately old ones now crash)
+ - Added hasChanged boolean to CreativeWorld
+ - Fixed weird entity rendering when game is paused
+ - Fixed overlapping controls not overlapping
+ - Added rotation method for BlockPos
+ - Added parseInteger and parseFloat to GuiTextfield
+ - Added rendering methods to VecOrigin
+ - Added write and read Packet to CreativeCorePacket
+ - Added IRenderChunkSupplier to CreativeWorld
+ - Added more helper methods for IVecOrigin
+ - Added the ability to have nested vec origins
+ - Added write and read block state
+ - Redesigned SubContainerHeldItem
+ - Expanded Rotation
+ - Fixed incorrect gui content rect calculations with messed up rendering
+ - Fixed getPixelOffset not taking care of GuiParent content offset
+ - Fixed combobox not being on top
+ - Fixed being able to create duplicated keys
+ - Fixed being able to remove unmodifiable keys
+ - Fixed tooltip for layer SubGuis
+
+Cyclops Core - 
+ - Lib changes: Throw exception instead of warning on lost ingred during movement. This fixed the problem where items could silently go lost in Integrated Tunnels network upon movement failures.
+ - Lib additions: Add getter for scroll position in GuiScrollBar
+
+EnderIO - 
+ - Added more configs for the Weather Obelisk
+ - Fixed selection of travel anchor locations when rendered behind the player
+ - Use a bit less memory for dark steel upgrade recipes
+ - Fixed Dark Steel Anvil not firing Forge's anvil damage chance event
+ - Fixed conduit connection check not being symmetrical
+ - Fixed multiple issues with redstone conduits
+ - Fixed Magnet not having enabled/disabled feedback messages
+ - Added workaround for JEI focus in Enchanter recipe
+ - Fixed totemic capacitors not being able to be enchanted with efficiency
+ - Added tree harvesting limit configurations
+ - Kill mount so rider can die
+ - Changed Direct trait to be applied on attack instead on hit
+ - Changed Lava Generator to accept cooling from tanks
+ - Changed Solar Panels to optionally accept Liquid Sunshine as light
+ - Fixed Dark Steel Anvil recipes not checking stack size
+ - Added more configs for the Tank
+
+Fairy Lights - 
+ - Fix render chunk crash (#56 - https://github.com/pau101/Fairy-Lights/issues/56)
+
+Farming for Blockheads - 
+ - Added XL Food Mod seeds to default market entries
+ - Added new Pam's saplings and seeds to default market entries
+ - Increased the default maximum animal limit for feeding troughs to 8 instead of 5
+ - Fixed zombies not attacking merchants
+ - Added Korean Translation (by cs8minty)
+
+Fossils and Archaeology - 
+ - New content:
+ -- Added Crassigyrinus, a large eel-like amphibian from the early Carboniferous period
+ -- Added Diplocaulus, a boomerang-headed amphibian from the Carboniferous and Permian
+ - Changes:
+ -- Decreased Tiktaalik size slightly
+ -- Increased default rarity of Aztec structures and dig sites
+ -- Vastly decreased the amount of CPU usage of dinosaurs
+ -- Added dinosaurUpdateTick config option to deal with dinosaur-caused lag
+ -- Added Pregnancy Time config option to make births much faster
+ -- Friendly zombie pigmen now registered as undead mobs
+ - Bug fixes:
+ -- Fixed server crash on startup
+ -- Fixed Foozia misnomered as Paleopanax
+ -- Fixed analyzer, sifter and culture vat not working after several uses
+ -- Fixed Platybelodon embryos creating baby pigs
+ -- Fixed crash on opening Ancient Chest
+ -- Fixed Calamites blocks not being craftable
+ -- Fixed Calamites sapling not cultivating
+ -- Fixed tar slimes spawning on peaceful mode
+ -- Fixed Tiktaalik being very aggressive
+ -- Fixed mushrooms not accepted as culture vat fuel
+ -- Fixed dinopedia not showing progress for vanilla or Animania mobs
+ -- Fixed Spinosaurus leg detaching during sleep
+ -- Fixed tips of Palaeoraphe trees despawning
+ -- Fixed fully aquatic mobs moving on ground
+ -- Fixed structures spawning on trees
+ -- Fixed structures spawning underwater
+ -- Fixed Meganeura not being able to attack
+ -- FIxed quark chickens being immune to Meganeura attacks
+ -- Fixed Meganeura not being able to move after colliding into a tree
+ -- Fixed analyzer recipe not accepting all bio-fossils
+ -- Fixed Keleken not being rideable
+ -- Fixed dinosaur mood not affected by hunger
+ -- Fixed baby Elasmotherium having a horn
+ -- Fixed battle music not playing when fighting Anu
+ -- Fixed dinopedia typos
+ -- Fixed Plesiosaurus having ungodly amount of damage
+ -- Fixed fossil block having iced stone texture
+ -- Fixed sarcophagus block rendering backwards in inventory
+ -- Fixed only 1 bonemeal being made from a skull block
+
+FTBLib - 
+ - Added minimum width to button list base gui - LatvianModder
+ - Improved runLater(), no longer cancer code - LatvianModder
+
+FTB Quests - 
+ - Fixed item rewards not showing custom titles - LatvianModder
+ - Fixed auto-claim type being ignored in invisible chapters - LatvianModder
+ - Added Run as Player config for command rewards - LatvianModder
+ - Added quest favoriting - LatvianModder
+ - Renamed favorites to pins, removed command, added button in gui instead - LatvianModder
+ - Fixed screen recipes - LatvianModder
+ - Fixed screen placement issues - LatvianModder
+
+/dank/null - 
+ - Fixed upgrade recipe not outputting correct /dank/null item (even though the datafixer took care of it, it still showed in JEI)
+ - Reimplemented Docking Station GUI
+ - Fixed odd player /dank/null swap bug
+ - Fixed item deletion bug
+ - Fixed dupe bugs
+ - Now works with Building Gadgets undo
+ - pwlib colored shaders support
+ - albedo support
+ - removed CCL dep
+ - Thaumcraft tooltip support in /dank/null GUIs
+ - Hide HUD Keybind added
+ - Demagnetize compat added
+ - New /dank/null panel models
+ - prolly other stuff I've forgotten about...
+
+Good Ol Currency - 
+ - ACTUALLY fixed the ATM recipe issue.
+
+Integrated Dynamics - 
+ - Additions:
+ -- Expose slotted ingredient networks. This significantly improves performance when external handlers are interacting with networks, such as hoppers inserting or extracting items. Closes CyclopsMC/IntegratedTunnels#167
+ - Fixes:
+ -- Fix ingredients duping when externals are interacting with IT interfaces. Fixes dupe bug with Thermal Expansion Item Allocator. Closes CyclopsMC/IntegratedTunnels#169
+ -- Fix counting in infinite lists causing infinite loop and crashing, Closes #748
+ -- Fix LP list creation incorrectly remembering values after deselecting, Closes #739
+ -- Improve Named and Uniquely Named value type categories, Closes #741, Closes #742
+ -- Fix mechanical machines not working if internal energy buffer too small. Even if there is a valid energy network available., Closes #743
+ -- Set default ingredientNetworkObserverFrequencyForced to 0. This fixes a problem where IT networks would not get re-indexed by AE2 storage terminals. This requires a config reset! Related to CyclopsMC/IntegratedTunnels#166
+ - Fixes:
+ -- Fix performance issue when importing/exporting in IT. Closes CyclopsMC/IntegratedTunnels#170
+ -- Add type check when using combined operators with operators, Closes #749
+
+Just Enough Items - 
+ - Fix #1611 Rare crash when cycling items
+ - Updated Polish translation (#1610)
+ - Fix #1576 Unable to view IE Metal Press recipes
+ - Fix typo in French localization (#1593)
+ - Updated Polish translation (#1587)
+ - Fix #1567 Fix #1575 Improve display of wildcard items with no creative menu subtypes
+ - Add warning log when a mod GUI does not draw the dark background layer
+ - Update French Localization (#1557)
+ - Make defensive copies of gui exclusion areas to prevent a bug when they are mutated
+ - Fix #1549 Add support for Forge IRarity for item tooltip colors
+ - Fix #1518 Add support for Crafttweaker removing brewing recipes
+ - Update sv_se.lang (#1535)
+ - Updated Polish translation (#1533)
+ - Add shortcut key for item edit/hide mode (#1530)
+ - Fix #1524 RecipeCategory tabs are not always sorted properly
+ - Fix #1523 Recipe transfer button texture issues with transparency
+ - Update to latest Forge in dev
+ - Fix #1507 Memory is wasted by UID cache after loading
+
+LagGoggles - 
+ - Update Sponge, added more robust way to prevent future updates from breaking functionality. In theory, you can even go back further now. Fix button not working since 4.4
+
+LittleTiles - 
+ - Reworked animation rendering
+ - Reworked how animations store their structure data. Added structure and structure identifier to animation
+ - Reworked internal door structure. Door now handle activation during animation on its own
+ - Reworked door opening
+ - Enhanced children of structure. changed children from linkedhashmap to list
+ - Added child configuration for all door types (allow to use doors in doors)
+ - Added LittleDoorActivator structure (allows to have double doors and so much more)
+ - Added AnimationEvent
+ - Added selection boxes for animations
+ - Added being able to interacting with animation
+ - Added the ability to activate door while the other door is moving (if they are not linked by an event)
+ - Added world based packets (support for subworld)
+ - Added rendering animation bounding boxes (when enabled by F3 + B)
+ - Added support for premade structures from other mods (hint: will be used soon)
+ - Added new colored block variants (gravel, sand, stone, wood) - textures done by Taco
+ - Added new colored block variant (white opaque water) - suggested by Kiro
+ - Added dialog when trying to import a structure with an unavailable grid size
+ - Added missing translation for keybindings and config options
+ - Added color support for line preview
+ - Added option for line preview
+ - Added support for WarpDrive
+ - Added option to enable randomdisplaytick (now disabled by default)
+ - Added highestharvestlevelsurvival option
+ - Added wrench destroying all broken tiles when using second mode (sneaking)
+ - Enhanced tileentity rendering (will fix a couple of rendering issues)
+ - Enhanced storage block texture
+ - Updated zh_CN.lang (by EdgewalkerBlue)
+ - Updated nl_NL.lang (by N247S)
+ - Fixed not keeping track whether door is added or not properly
+ - Fixed interaction issues caused by rightclicking animation
+ - Fixed opengll error
+ - Fixed several iteration issue
+ - Fixed not rotating door controller
+ - Fixed crash when setting children for doors (when structure is null)
+ - Fixed being able to duplicate the little bag when dropping and opening it at the same time
+ - Fixed rendering empty tileentities (may increase loading performance)
+ - Fixed rendering thread issue clearing renderbuffer
+ - Fixed several issue to duplicated doors
+ - Fixed advanced door not remembering door axis
+ - Fixed creating chunk supplier no server side
+ - Fixed crash with using IGCM
+ - Fixed warp drive support (using clockwise instead of counter clockwise)
+ - Added scrollbox to Door Activator
+ - Added exception to weird issue (structure adding itself to children)
+ - Added new /lt-tovanilla command
+ - Changed tilesToLoad from HashMap to LinkedHashMap
+ - Made tempchildren of LittleStructure private
+ - Fixed warp drive support not working with structures
+ - Fixed door closing too early
+ - Fixed not updating world collision boxes when changed
+ - Fixed wobbling animations (gets worse when FPS is low)
+ - Fixed not taking the animation in front
+ - Fixed selection & collision (part 1) not working on child doors
+ - Fixed not updating empty tileentities properly in certain causes (more likely with low fps)
+ - Fixed issue with wrong grayed out slot when using the bag
+ - Fixed not taking care of children for stored preview when using undo
+ - Fixed child doors sometimes not move with parent when axis has changed in gui
+ - Fixed animation starting at first tick
+ - Fixed not sending update to client (warp drive support)
+ - Changed button to combobox in export gui
+
+MysticalLib - 
+ - Fixed flipped operation (addition instead of subtraction) that was inflating the damage output of knives. They should now be 1 less than swords as intended.
+ - Anything roots 3 needs is in this version.
+
+OnlinePictureFrame - 
+ - Switched back to fmsware gif decoder by Kevin Weiner
+ - Added max render distance and only creative config options
+ - Create nl_NL.lang (by N247S)
+
+Quark - 
+ - Client: Added items rendering in chat.
+ - Experimental: Added an option to reject mods.
+ - Management: Fixed Better Craft Shifting not working properly.
+ - Oddities: Matrix Enchanting will no longer give you more enchants that you can use.
+ - Tweaks: Fixed Ladder Drop Down not working properly.
+ - World: Fixed liquids not spawning properly in underground biomes.
+ - World: Fixed the Pickarang taking damage even if it doesn't hit anything.
+ - World: Improved the consistency of Pickarang item pickup.
+
+Random Things - 
+ - Fixed: Dupe Bug using Portkeys
+ - Fixed: Thaumcraft Golems not harvesting Lotus Plants
+ - Fixed: Crash with Sponge
+
+RandomPatches - 
+ - The packet size limit patch no longer loads when LittleTiles is installed.
+ - Hopefully fixed the window icons not working on Mac OS X.
+ - Implemented an invisible player model fix.
+ - Fixed /rpreload and /rpreloadclient.
+
+RandomTweaks - 
+ - Fixed void island spawn points.
+ - Added an option to make nearby monsters glow when a player attempts to sleep.
+ - Added an option to make torches reorient themselves when the block they are attached to is broken.
+ - Added an option to force mobs to drop all of their armor and equipment along with their loot on death.
+ - Wet sponges now dry when placed in the Nether.
+ - Fixed the armor equip sounds not playing when the inventory is not open.
+ - Players can now swap their armor with armor stands by right-clicking on them while sneaking.
+ - Fixed skeleton arrows not picking up.
+ - Burning arrows can now set blocks on fire.
+
+Waystones - 
+ - Fixed "Warp Stone Costs XP" and "Short Travel is Free" option not being synced to clients, causing incorrect XP cost display on clients
+ - Added "Short Travel is Free" option, enabled by default
+ -- Currently, if XP cost is enabled, the first 500 blocks (by default, see distance-per-level option) will not cost any experience.
+ -- By disabling the option, the XP cost is shifted, so the first 500 blocks already cost one level, then the next 500 blocks another, etc.
+ - Fixed bound scrolls binding a whole stack of items instead of just one
+ - Fixed boudn scrolls not working when the player has not activated the waystone they're bound to (by Laike-Endaril)
+ - Added Korean Translation (by cs8minty)
+ - Added Dutch Translation (by Skydragonsz) 
+ 
+[Full Modlist:] 
+ 
+Folder PATH listing
+Volume serial number is C042-8549
+C:\USERS\KATU\DOCUMENTS\CURSE\MINECRAFT\INSTANCES\ENTHUSIASTICRAFT\MODS
+|   ActuallyAdditions-1.12.2-r149.jar
+|   ActuallyBaubles-1.12-1.1.jar
+|   AdChimneys-1.12.2-3.5.2.1-build.0377.jar
+|   ae2stuff-0.7.0.4-mc1.12.2.jar
+|   AE2WTLib-1.12.2-1.0.30.jar
+|   aerialaffinity-1.2.jar
+|   AgriCraft-2.12.0-1.12.0-a6.jar
+|   AIImprovements-1.12-0.0.1b3.jar
+|   AkashicTome-1.2-12.jar
+|   AmbientSounds_v3.0.9_mc1.12.2.jar
+|   AppleCore-mc1.12.2-3.2.0.jar
+|   AppleSkin-mc1.12-1.0.9.jar
+|   appliedenergistics2-rv6-stable-6.jar
+|   armoryexpansion-1.3.1.jar
+|   Aroma1997Core-1.12.2-2.0.0.2.b165.jar
+|   Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.b89.jar
+|   astralsorcery-1.12.2-1.10.19.jar
+|   AttributeFix-1.12.2-1.0.7.jar
+|   AutoRegLib-1.3-31.jar
+|   base-1.12.2-3.13.0.jar
+|   Baubles-1.12-1.5.2.jar
+|   baubley-heart-canisters-1.12.2-2.0.3.jar
+|   bdlib-1.14.3.12-mc1.12.2.jar
+|   betteranimalsplus-1.12.2-6.0.3.jar
+|   BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar
+|   BetterFoliage-MC1.12-2.2.0.jar
+|   BetterFps-1.4.8.jar
+|   BiblioCraft[v2.4.5][MC1.12.2].jar
+|   BiomesOPlenty-1.12.2-7.0.1.2439-universal.jar
+|   blockcraftery-1.12.2-1.3.1.jar
+|   bonsaitrees-1.1.3-b156.jar
+|   Bookshelf-1.12.2-2.3.585.jar
+|   bookworm - 2.2.0 (1.12.2).jar
+|   Botania r1.10-361.jar
+|   Bountiful-2.2.0.jar
+|   brokenwings-2.0.0.jar
+|   BuildingGadgets-2.6.8.jar
+|   Ceramics-1.12-1.3.7.jar
+|   Chameleon-1.12-4.1.3.jar
+|   chickens-6.1.0.jar
+|   Chisel-MC1.12.2-0.2.1.35.jar
+|   chiselsandbits-14.33.jar
+|   ClientTweaks_1.12.2-3.1.11.jar
+|   Clumps-3.1.2.jar
+|   CodeChickenLib-1.12.2-3.2.2.353-universal.jar
+|   CoFHCore-1.12.2-4.6.3.27-universal.jar
+|   CoFHWorld-1.12.2-1.3.1.7-universal.jar
+|   CommonCapabilities-1.12.2-2.4.3.jar
+|   compactmachines3-1.12.2-3.0.18-b278.jar
+|   conarm-1.12.2-1.2.4.jar
+|   ContentTweaker-1.12.2-4.9.1.jar
+|   Controlling-3.0.7.jar
+|   CookingForBlockheads_1.12.2-6.4.71.jar
+|   CosmeticArmorReworked-1.12.2-v4a.jar
+|   CraftingTweaks_1.12.2-8.1.9.jar
+|   CraftTweaker2-1.12-4.1.19.jar
+|   CreativeCore_v1.9.54_mc1.12.2.jar
+|   CTM-MC1.12.2-0.3.3.22.jar
+|   Currency-1.12.0-1.3.11.jar
+|   CustomMainMenu-MC1.12.2-2.0.9.jar
+|   Cyclic-1.12.2-1.19.12.jar
+|   CyclopsCore-1.12.2-1.4.0.jar
+|   DankNull-1.12.2-1.5.71.jar
+|   DarkUtils-1.12.2-1.8.226.jar
+|   Decocraft-2.6.2_1.12.2.jar
+|   deepmoblearning-1.12.2-2.5.2-universal.jar
+|   DefaultOptions_1.12.2-9.2.8.jar
+|   DynamicSurroundings-1.12.2-3.5.4.3.jar
+|   ElecCore-1.12.2-1.9.452.jar
+|   EnderCore-1.12.2-0.5.59.jar
+|   EnderIO-1.12.2-5.0.46.jar
+|   EnderStorage-1.12.2-2.4.5.135-universal.jar
+|   engineers_doors-1.12.2-0.8.0.jar
+|   ExtraBotany-r1.1-54.jar
+|   extrautils2-1.12-1.9.9.jar
+|   fairylights-2.1.9-1.12.2.jar
+|   FamiliarFauna-1.12.2-1.0.11.jar
+|   FarmingForBlockheads_1.12.2-3.1.28.jar
+|   FastFurnace-1.12.2-1.3.1.jar
+|   FastWorkbench-1.12.2-1.7.2.jar
+|   fencejumper-1.12-1.0.5.jar
+|   fluxnetworks-1.12.2-3.0.19-21.jar
+|   foamfix-0.10.5-1.12.2.jar
+|   ForgeEndertech-1.12.2-4.4.21.1-build.0377.jar
+|   Forgelin-1.8.3.jar
+|   fossilsarcheology-8.0.2.jar
+|   FTBLib-5.4.3.127.jar
+|   FTBQuests-1.7.2.187.jar
+|   FTBUtilities-5.4.0.100.jar
+|   FTBUtilitiesBackups-1.0.0.4.jar
+|   furniture-6.3.0-1.12.2.jar
+|   Harvest-1.12-1.2.7-20.jar
+|   iceandfire-1.7.1-1.12.2.jar
+|   ImmersiveEngineering-0.12-89.jar
+|   immersivepetroleum-1.12.2-1.1.9.jar
+|   ImprovedBackpacks-1.12.2-1.4.0.0.jar
+|   industrialforegoing-1.12.2-1.12.12-236.jar
+|   InfernalMobs-1.12.1.jar
+|   infinitylib-1.12.0.jar
+|   Inspirations-1.12.2-0.2.4.jar
+|   instantunify-1.12.2-1.1.2.jar
+|   IntegratedDynamics-1.12.2-1.0.16.jar
+|   IntegrationForegoing-1.12.2-1.9.jar
+|   InventoryTweaks-1.64+dev.146.jar
+|   ItemFilters-1.0.3.12.jar
+|   jehc-1.12.2-1.6.4.jar
+|   jei_1.12.2-4.15.0.285.jar
+|   journeymap-1.12.2-5.5.4.jar
+|   JustEnoughIDs-1.0.2-26.jar
+|   JustEnoughResources-1.12.2-0.9.2.60.jar
+|   LagGoggles-THIN-1.12.2-4.6.jar
+|   LibEx-1.12.2-1.0.8.jar
+|   littleopener-1.0.1.jar
+|   LittleTiles_v1.5.0-pre149_mc1.12.2.jar
+|   llibrary-1.7.19-1.12.2.jar
+|   longfallboots-1.2.1b.jar
+|   LootBags-1.12.2-2.5.8.5.jar
+|   LootTweaker-1.12.2-0.0.10.jar
+|   Mantle-1.12-1.3.3.55.jar
+|   MCMultiPart-2.5.3.jar
+|   MmmMmmMmmMmm-1.12-1.14.jar
+|   MoarSigns-1.12.2-6.0.0.11.jar
+|   modnametooltip_1.12.2-1.10.0.jar
+|   morechickens-1.12.2-3.1.0.jar
+|   moreoverlays-1.14-mc1.12.2.jar
+|   MouseTweaks-2.10-mc1.12.2.jar
+|   MTLib-3.0.6.jar
+|   multimob-1.0.5.jar
+|   mysticallib-1.12.2-1.3.1.jar
+|   NaturesCompass-1.12.2-1.5.1.jar
+|   NetherEx-1.12.2-2.0.8.jar
+|   NoMobSpawningOnTrees-1.2.2-mc1.12.2.jar
+|   NoMoreRecipeConflict-0.13(1.12.2).jar
+|   Nutrition-1.12.2-4.3.0.jar
+|   OnlinePicFrame_v1.4.26_mc1.12.2.jar
+|   OpenBlocks-1.12.2-1.8.1.jar
+|   OpenModsLib-1.12.2-0.12.2.jar
+|   OreExcavation-1.4.140.jar
+|   OreLib-1.12.2-3.5.2.2.jar
+|   p455w0rdslib-1.12.2-2.2.151.jar
+|   Pam's HarvestCraft 1.12.2zd Surprise for Yogcast.jar
+|   pamsimpleharvest-2.0.0.jar
+|   Patchouli-1.0-20.jar
+|   Pewter-1.4.3.jar
+|   phosphor-1.12.2-0.2.4+build46-universal.jar
+|   Placebo-1.12.2-1.6.0.jar
+|   PlayerActivity_V1.4.jar
+|   plustic-7.0.7.0.jar
+|   primitivemobs-1.2.3a.jar
+|   ProjectVibrantJourneys-1.12.2-1.6.3.jar
+|   PTRLib-1.0.4.jar
+|   Quark-r1.5-167.jar
+|   QuickLeafDecay-MC1.12.1-1.2.4.jar
+|   randompatches-1.12.2-1.17.2.0.jar
+|   RandomThings-MC1.12.2-4.2.7.2.jar
+|   randomtweaks-1.12.2-2.6.0.0.jar
+|   rangedpumps-0.5.jar
+|   reauth-3.6.0.jar
+|   RedstoneFlux-1.12-2.1.0.6-universal.jar
+|   Reliquary-1.12.2-1.3.4.786.jar
+|   ResourceLoader-MC1.12.1-1.5.3.jar
+|   RoguelikeDungeons-1.12.2-1.8.0.jar
+|   roost-1.12.2-2.0.10.jar
+|   rsgauges-1.12.2-1.1.5.jar
+|   rustic-1.1.0.jar
+|   SilentLib-1.12.2-3.0.13+167.jar
+|   sonarcore-1.12.2-5.0.19-20.jar
+|   SoundFilters-0.11_for_1.12.jar
+|   stg-1.12.2-1.2.3.jar
+|   StorageDrawers-1.12.2-5.3.8.jar
+|   supersoundmuffler-1.12.2-1.0.2.10.jar
+|   TConstruct-1.12.2-2.12.0.157.jar
+|   tesla-core-lib-1.12.2-1.0.15.jar
+|   Thaumcraft-1.12.2-6.1.BETA26.jar
+|   ThaumicJEI-1.12.2-1.6.0-27.jar
+|   TheBetweenlands-3.4.9-universal.jar
+|   theoneprobe-1.12-1.4.28.jar
+|   ThermalCultivation-1.12.2-0.3.3.12-universal.jar
+|   ThermalDynamics-1.12.2-2.5.5.21-universal.jar
+|   ThermalExpansion-1.12.2-5.5.4.43-universal.jar
+|   ThermalFoundation-1.12.2-2.6.3.27-universal.jar
+|   ThermalInnovation-1.12.2-0.3.3.12-universal.jar
+|   tinkersjei-1.2.jar
+|   TinkerToolLeveling-1.12.2-1.1.0.jar
+|   Toast Control-1.12.2-1.8.1.jar
+|   tombstone-3.5.5-1.12.jar
+|   topaddons-1.12.2-1.11.0.jar
+|   torchmaster_1.12.2-1.7.1.74.jar
+|   twilightforest-1.12.2-3.8.689-universal.jar
+|   UniDict-1.12.2-2.9.2.jar
+|   UnlimitedChiselWorks-0.2.2.jar
+|   unloader-1.2.0.jar
+|   VanillaFix-1.0.10-99.jar
+|   WanionLib-1.12.2-2.2.jar
+|   Waystones_1.12.2-4.0.72.jar
+|   WirelessCraftingTerminal-1.12.2-3.12.93.jar
+|   WitherSkeletonTweaks-1.12.2-2.6.3.jar
+|   zawa - 1.6.0 (1.12.2).jar
+|   [1.12]MoVillages-1.5.4.jar
+|   
+\---memory_repo
+    +---angrypixel
+    |   \---TheBetweenlands
+    |       +---3.4.6
+    |       |       TheBetweenlands-3.4.6-core.jar
+    |       |       TheBetweenlands-3.4.6-core.jar.meta
+    |       |       
+    |       +---3.4.7
+    |       |       TheBetweenlands-3.4.7-core.jar
+    |       |       TheBetweenlands-3.4.7-core.jar.meta
+    |       |       
+    |       +---3.4.8
+    |       |       TheBetweenlands-3.4.8-core.jar
+    |       |       TheBetweenlands-3.4.8-core.jar.meta
+    |       |       
+    |       \---3.4.9
+    |               TheBetweenlands-3.4.9-core.jar
+    |               TheBetweenlands-3.4.9-core.jar.meta
+    |               
+    +---blusunrize
+    |   \---ImmersiveEngineering-core
+    |       \---0.12-89
+    |               ImmersiveEngineering-core-0.12-89.jar
+    |               ImmersiveEngineering-core-0.12-89.jar.meta
+    |               
+    +---com
+    |   \---enderio
+    |       \---core
+    |           \---EnderCore
+    |               +---1.12.2-0.5.53
+    |               |       EnderCore-1.12.2-0.5.53-core.jar
+    |               |       EnderCore-1.12.2-0.5.53-core.jar.meta
+    |               |       
+    |               +---1.12.2-0.5.56
+    |               |       EnderCore-1.12.2-0.5.56-core.jar
+    |               |       EnderCore-1.12.2-0.5.56-core.jar.meta
+    |               |       
+    |               +---1.12.2-0.5.57
+    |               |       EnderCore-1.12.2-0.5.57-core.jar
+    |               |       EnderCore-1.12.2-0.5.57-core.jar.meta
+    |               |       
+    |               \---1.12.2-0.5.59
+    |                       EnderCore-1.12.2-0.5.59-core.jar
+    |                       EnderCore-1.12.2-0.5.59-core.jar.meta
+    |                       
+    +---info
+    |   \---loenwind
+    |       +---autoconfig
+    |       |   \---AutoConfig
+    |       |       +---1.12.2-1.0.1
+    |       |       |       AutoConfig-1.12.2-1.0.1.jar
+    |       |       |       AutoConfig-1.12.2-1.0.1.jar.meta
+    |       |       |       
+    |       |       \---1.12.2-1.0.2
+    |       |               AutoConfig-1.12.2-1.0.2.jar
+    |       |               AutoConfig-1.12.2-1.0.2.jar.meta
+    |       |               
+    |       \---autosave
+    |           \---AutoSave
+    |               \---1.12.2-1.0.10
+    |                       AutoSave-1.12.2-1.0.10.jar
+    |                       AutoSave-1.12.2-1.0.10.jar.meta
+    |                       
+    +---net
+    |   \---ilexiconn
+    |       \---llibrary-core
+    |           \---1.0.11-1.12.2
+    |                   llibrary-core-1.0.11-1.12.2.jar
+    |                   llibrary-core-1.0.11-1.12.2.jar.meta
+    |                   
+    \---org
+        \---orecruncher
+            \---DynamicSurroundings-core
+                \---1.12.2-3.5.4.3
+                        DynamicSurroundings-core-1.12.2-3.5.4.3.jar
+                        DynamicSurroundings-core-1.12.2-3.5.4.3.jar.meta
+                        

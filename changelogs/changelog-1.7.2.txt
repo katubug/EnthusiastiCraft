@@ -1,0 +1,297 @@
+[1.7.2] 
+ALERT: Extra Utilities 2's Bags of Holding have been disabled this update due to issues. Please remove items from them before you update your existing worlds to this pack.
+
+Additionally, keybindings have been reset this update to make room. My apologies.
+ 
+Mod Additions/Removals/Updates: 
+- Added MineMenu.
+- Added Document Your Mod Mod.
+- Added Mob Control Wands.
+- Added Stronghold Compass.
+- Added Enchantment Descriptions.
+- Removed FutureMC.
+- Updated Armory Expansion to 1.4.0.
+- Updated FTB Quests to 1.7.2.218.
+- Updated FTB Utilities to 5.4.0.106.
+- Updated PlusTiC to 7.1.6.1.
+- Updated RandomPatches to 1.18.2.1.
+ 
+Configs/Quests/Compatibility: 
+- With the addition of MineMenu, many keybindings have been reworked for better overall compatibility. You may hold the "O" (that's the letter o, not the number 0) key to view the radial menu with its present configurations. Feel free to edit or add your own!
+- A guidebook to the modpack has been added. It is heavily under construction. Feedback is welcome!
+- Due to myriad issues, Bags of Holding have been disabled.
+- Re-enabled recipes for Dense, Smart, and Dense Smart cables. Sorry about that.
+- Fixed an issue where Tar Pits and Slimes were mistakenly spawning.
+- Adjusted spawn rates of several mobs in Mowzie's and Fish's Undead Rising. Ferrous Wroughtnaughts should spawn less often, and most other creatures have a slightly higher chance of spawning.
+- Quark's Frogs have had their spawn rate significantly reduced. Additionally, they have undergone some schooling and now know what day of the week it is.
+- Quark's Archaeologists now spawn less frequently.
+- Modded chickens now spawn slightly less frequently but can be purchased from the Farming for Blockheads Market.
+- Some hostile and ambient creatures from Project: Vibrant Journeys have had their spawn rates reduced.
+- ZAWA's Gaur and Hawksbill Sea Turtles have had their spawn weights slightly reduced.
+- Nature's Compass will no longer attempt to search for biomes from Twilight Forest, Fossils & Archaeology, and other invalid biomes.
+- More crops should now be right-click harvestable.
+- Treasure 2 will now generate additional files in the config folder instead of the mods folder.
+- Rock Crystal Ore and the Biomes O Plenty gems can now be found, rarely, in the Mining Dimension.
+- Mana-Infused Chickens now correctly lay Mana-Infused Nuggets instead of Ingots.
+- BiblioCraft's Lock and Key may now be crafted.
+- LittleTiles' Colored Blocks now require Cyclic's Rainbow Crayon to craft, to avoid conflicts.
+- Re-disabled ZAWA's tranquilizer gun.
+- Berried Juniper Leaves have been disabled from PVJ's Juniper Sapling's Bonsai output.
+- The following trees are now compatible with Bonsai Pots: Fossil's Palaeoraphes, Quark's Swamp Oaks and Blossoming Spruce, Roots' Wildwood and Natura's Redwood. To maintain balance, Wildwood Trees do not produce saplings. Most saplings can be grown on any dirt/grass, but Wildwood saplings require Elemental Soil.
+- OreExcavator no longer excavates shapes. This can be reenabled clientside.
+- Re-disabled EnderWings. Not sure how that got undone.
+- Modded Chickens in item form will now only stack to 8. Any existing stacks will not be affected as long as they remain in their roosts.
+- Dynamic Surroundings will no longer play sounds in Compact Machines.
+- Betweenlands Equipment will now show to the left of the hotbar instead of the right, to avoid overlap with Quick Consume 2.
+- Worley's Caves will no longer affect the Twilight Forest.
+- The recipe for the Wand of Pacification has been altered from the default.
+- The "Danks" from Donk Storage have been renamed "Nullification Cubes" in the name of dignity. Functionality has not been changed.
+- Hollow Hills in the Twilight Forest may now contain modded ores and gems.
+- The newly-added Black Cave Crystals from Quark may now be crafted in the same manner as the others.
+- Bark from the Quark mod may now be crafted into Roots' vanilla-flavored barks by placing them in a crafting grid alongside a Roots/Mystical World knife.
+- To prevent issues, the following bags can no longer be placed in Backpacks: Extra Botany's Mini Handbag, Cyclic's Storage Bag, Actually Addition's Traveler's and Void Sacks, Roots' Component and Apothecary Pouches.
+- Project Vibrant Journeys' Juniper Berries can now be used in place of Pam's.
+- Pam's Juniper Berries and Tomatillos are now compatible with AgriCraft's Crop Sticks.
+- Modded Chickens for Actually Additions crystals (Restonia, Palis, Diamatine, Void, Emeraric, Enori) now lay shards instead of full crystals, to bring them in line with the other chickens.
+- The starting inventory has been changed to provide players with a guidebook to the modpack, craftable (with dirt) into a complete Akashic Tome.
+- ZAWA's Blubber and HarvestCraft's Beeswax have been OreDicted for use in Quark and Rustic recipes.
+- Removed a recipe for Roost Collectors that was causing issues.
+- Compact Machines now won't try as hard to keep players inside themselves. This should help ops attempting to troubleshoot things near the walls.
+- The Paypal link has been removed from the main menu because I keep getting razzed about it, lmao.
+ 
+Server Changelog: 
+- The following items are no longer craftable due to lag-causing properties: Roost Collectors, AE2 Fuzzy Cards, Cyclic's Hydrator and Dehydrator, Torchmaster's Feral Flare Lantern. Also, auto-crafters from the following mods: Cyclic, EnderIO, and Extra Utilties 2. Existing blocks will not be affected.
+- The mod clearing script has been updated. The following mobs will be cleared every 30 minutes: Zombies (including the ones from Fish's Undead Rising), Creepers, Skeletons, Slimes, Spiders, Goons, Shades, Witches. The following mobs will be cleared *only* if they do not have nametags: Feral Wolves (Better Animals Plus), Clams (Project Vibrant Journeys) and Hawksbill Sea Turtles (ZAWA).
+ 
+Mod Changelog: 
+
+Armory Expansion - 
+ - Split Trait config from Material config;
+ - Added some trait support to the ConArm Module, courtesy of SirAron_GameLabs (Give him and his work some love, he's earned it!)
+
+FTB Quests - 
+ - Player Detector bounding box now only visible to creative players and lines can only be seen trough walls when you sneak
+ - Added color to player detector border
+ - Added full screen quest view config
+
+FTB Utilities - 
+ - Added ftbutilities.chunk.claimed, unclaimed, loaded, unloaded KubeJS events
+
+PlusTiC - 
+ - Fix Emerald casting to proper values
+ - Add Skeletal, Mystite, and Ghostly Stone
+ - Improve Blind Bandit spawning slightly
+ - Fix Blind Bandit spawning bug
+
+RandomPatches - 
+ - Fixed the transformer exclusion.
+ 
+===================================== 
+ 
+ 
+[Full Modlist:] 
+ 
+    ActuallyAdditions-1.12.2-r150.jar
+    ActuallyBaubles-1.12-1.1.jar
+    AdChimneys-1.12.2-3.5.6.0-build.0412.jar
+    ae2stuff-0.7.0.4-mc1.12.2.jar
+    aerialaffinity-1.2.jar
+    AgriCraft-2.12.0-1.12.0-a6.jar
+    AIImprovements-1.12-0.0.1b3.jar
+    AkashicTome-1.2-12.jar
+    AmbientSounds_v3.0.9_mc1.12.2.jar
+    AppleCore-mc1.12.2-3.2.0.jar
+    AppleSkin-mc1.12-1.0.9.jar
+    appliedenergistics2-rv6-stable-7.jar
+    arcanearchives-0.2.0.9.jar
+    armoryexpansion-1.4.0.jar
+    Aroma1997Core-1.12.2-2.0.0.2.b165.jar
+    Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.b89.jar
+    astralsorcery-1.12.2-1.10.20.jar
+    AttributeFix-1.12.2-1.0.9.jar
+    AutoRegLib-1.3-32.jar
+    base-1.12.2-3.13.0.jar
+    Baubles-1.12-1.5.2.jar
+    baubley-heart-canisters-1.12.2-2.0.3.jar
+    bdlib-1.14.3.12-mc1.12.2.jar
+    betteranimalsplus-1.12.2-7.1.1.jar
+    BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar
+    BetterFoliage-MC1.12-2.2.0.jar
+    BetterFps-1.4.8.jar
+    BiblioCraft[v2.4.5][MC1.12.2].jar
+    BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar
+    blockcraftery-1.12.2-1.3.1.jar
+    Bloodmoon-MC1.12.2-1.5.3.jar
+    bonsaitrees-1.1.3-b156.jar
+    Bookshelf-1.12.2-2.3.585.jar
+    bookworm-1.12.2-2.3.0.jar
+    Botania r1.10-362.jar
+    Bountiful-2.2.0.jar
+    brokenwings-2.0.0.jar
+    BuildingGadgets-2.7.3.jar
+    Ceramics-1.12-1.3.7.jar
+    Chameleon-1.12-4.1.3.jar
+    chickens-6.1.0.jar
+    Chisel-MC1.12.2-0.2.1.35.jar
+    chiselsandbits-14.33.jar
+    classicbar-0.4.1.jar
+    ClientTweaks_1.12.2-3.1.11.jar
+    Clumps-3.1.2.jar
+    CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+    CoFHCore-1.12.2-4.6.3.27-universal.jar
+    CoFHWorld-1.12.2-1.3.1.7-universal.jar
+    CommonCapabilities-1.12.2-2.4.4.jar
+    compactmachines3-1.12.2-3.0.18-b278.jar
+    conarm-1.12.2-1.2.4.jar
+    ContentTweaker-1.12.2-4.9.1.jar
+    Controlling-3.0.7.jar
+    CookingForBlockheads_1.12.2-6.4.71.jar
+    CosmeticArmorReworked-1.12.2-v4a.jar
+    CraftingTweaks_1.12.2-8.1.9.jar
+    CraftTweaker2-1.12-4.1.19.jar
+    CreativeCore_v1.9.62_mc1.12.2.jar
+    CTM-MC1.12.2-0.3.3.22.jar
+    Currency-1.12.0-1.3.11.jar
+    CustomMainMenu-MC1.12.2-2.0.9.jar
+    Cyclic-1.12.2-1.19.16.jar
+    CyclopsCore-1.12.2-1.5.0.jar
+    dankstorage-1.12.2-1.4-pre11.jar
+    DarkUtils-1.12.2-1.8.226.jar
+    Decocraft-2.6.3_1.12.2.jar
+    deepmoblearning-1.12.2-2.5.2-universal.jar
+    DefaultOptions_1.12.2-9.2.8.jar
+    DocumentYourModMod-1.2.0.jar
+    DynamicSurroundings-1.12.2-3.5.4.3.jar
+    EnchantmentDescriptions-1.12.2-1.1.15.jar
+    EnderCompass-1.12.2-1.0.jar
+    EnderCore-1.12.2-0.5.68.jar
+    EnderIO-1.12.2-5.0.46.jar
+    EnderStorage-1.12.2-2.4.6.137-universal.jar
+    engineers_doors-1.12.2-0.8.0.jar
+    ExtraBotany-r1.1-55-fixed.jar
+    extrautils2-1.12-1.9.9.jar
+    FarmingForBlockheads_1.12.2-3.1.28.jar
+    FastFurnace-1.12.2-1.3.1.jar
+    FastWorkbench-1.12.2-1.7.2.jar
+    fencejumper-1.12-1.0.5.jar
+    Fishs_Undead_Rising-1.0.8.jar
+    foamfix-0.10.5-1.12.2.jar
+    ForgeEndertech-1.12.2-4.4.22.2-build.0405.jar
+    Forgelin-1.8.4.jar
+    fossilsarcheology-8.0.2.jar
+    FTBLib-5.4.3.138.jar
+    FTBQuests-1.7.2.218.jar
+    FTBUtilities-5.4.0.106.jar
+    FTBUtilitiesBackups-1.0.0.5.jar
+    furniture-6.3.1-1.12.2.jar
+    GottschCore-mc1.12.2-f14.23.5.2768-v1.8.0.jar
+    GravelMiner_1.12.1-6.1.2.jar
+    Harvest-1.12-1.2.7-20.jar
+    iceandfire-1.8.1.jar
+    ImmersiveEngineering-0.12-91.jar
+    immersivepetroleum-1.12.2-1.1.9.jar
+    ImprovedBackpacks-1.12.2-1.4.0.0.jar
+    industrialforegoing-1.12.2-1.12.13-237.jar
+    infinitylib-1.12.0.jar
+    instantunify-1.12.2-1.1.2.jar
+    IntegratedDynamics-1.12.2-1.1.0.jar
+    IntegrationForegoing-1.12.2-1.9.jar
+    InventoryTweaks-1.64+dev.146.jar
+    ItemFilters-1.0.3.12.jar
+    jehc-1.12.2-1.6.4.jar
+    jei_1.12.2-4.15.0.289.jar
+    journeymap-1.12.2-5.5.5.jar
+    JustEnoughIDs-1.0.3-44.jar
+    JustEnoughResources-1.12.2-0.9.2.60.jar
+    LagGoggles-THIN-1.12.2-4.8.jar
+    LibraryEx-1.12.2-1.0.11.jar
+    littleopener-1.0.1.jar
+    LittleTiles_v1.5.0-pre158_mc1.12.2.jar
+    llibrary-1.7.19-1.12.2.jar
+    longfallboots-1.2.1b.jar
+    LootTweaker-1.12.2-0.0.10.jar
+    Mantle-1.12-1.3.3.55.jar
+    mcjtylib-1.12-3.5.4.jar
+    MCMultiPart-2.5.3.jar
+    MineMenu-1.12.2-1.6.11-universal.jar
+    MmmMmmMmmMmm-1.12-1.14.jar
+    MoarSigns-1.12.2-6.0.0.11.jar
+    MobControlWands_1.12.2-1.0.4.jar
+    modnametooltip_1.12.2-1.10.1.jar
+    morechickens-1.12.2-3.1.0.jar
+    moreoverlays-1.15.1-mc1.12.2.jar
+    MouseTweaks-2.10-mc1.12.2.jar
+    mowziesmobs-1.5.4.jar
+    mysticallib-1.12.2-1.3.7.jar
+    MysticWorld-1.12.2-1.4.4.jar
+    natura-1.12.2-4.3.2.69.jar
+    NaturesCompass-1.12.2-1.5.1.jar
+    NetherEx-1.12.2-2.0.15.jar
+    NoMobSpawningOnTrees-1.2.2-mc1.12.2.jar
+    NoMoreRecipeConflict-0.13(1.12.2).jar
+    Nutrition-1.12.2-4.3.0.jar
+    OnlinePicFrame_v1.4.26_mc1.12.2.jar
+    OpenBlocks-1.12.2-1.8.1.jar
+    OpenModsLib-1.12.2-0.12.2.jar
+    OreExcavation-1.4.140.jar
+    OreLib-1.12.2-3.5.2.2.jar
+    Pam's HarvestCraft 1.12.2zf.jar
+    pamsimpleharvest-2.0.0.jar
+    Patchouli-1.0-20.jar
+    Pewter-1.4.3.jar
+    phosphor-1.12.2-0.2.6+build50-universal.jar
+    Placebo-1.12.2-1.6.0.jar
+    platforms-1.12.0-1.4.6.jar
+    plustic-7.1.6.1.jar
+    ProjectVibrantJourneys-1.12.2-1.6.4.jar
+    PTRLib-1.0.4.jar
+    Quark-r1.6-177.jar
+    quickconsume-1.12.2.1.0.1.0.jar
+    QuickLeafDecay-MC1.12.1-1.2.4.jar
+    randompatches-1.12.2-1.18.2.1.jar
+    RandomThings-MC1.12.2-4.2.7.3.jar
+    randomtweaks-1.12.2-2.7.1.0.jar
+    rangedpumps-0.5.jar
+    reauth-3.6.0.jar
+    RedstoneFlux-1.12-2.1.0.6-universal.jar
+    Reliquary-1.12.2-1.3.4.796.jar
+    ResourceLoader-MC1.12.1-1.5.3.jar
+    Rex's-Additional-Structures-1.12.2-(v.2.2.3).jar
+    roost-1.12.2-2.0.10.jar
+    Roots-1.12.2-3.0.13.jar
+    rustic-1.1.1.jar
+    shetiphiancore-1.12.0-3.5.9.jar
+    SoundFilters-0.11_for_1.12.jar
+    stg-1.12.2-1.2.3.jar
+    StorageDrawers-1.12.2-5.4.0.jar
+    subterraneanwaters-1.12.2-1.7.9.jar
+    supersoundmuffler-1.12.2-1.0.2.10.jar
+    TConstruct-1.12.2-2.12.0.157.jar
+    tesla-core-lib-1.12.2-1.0.15.jar
+    TheBetweenlands-3.4.11-universal.jar
+    theoneprobe-1.12-1.4.28.jar
+    ThermalCultivation-1.12.2-0.3.3.12-universal.jar
+    ThermalDynamics-1.12.2-2.5.5.21-universal.jar
+    ThermalExpansion-1.12.2-5.5.4.43-universal.jar
+    ThermalFoundation-1.12.2-2.6.3.27-universal.jar
+    ThermalInnovation-1.12.2-0.3.3.12-universal.jar
+    tinkersjei-1.2.jar
+    TinkerToolLeveling-1.12.2-1.1.0.jar
+    Toast Control-1.12.2-1.8.1.jar
+    tombstone-3.5.8-1.12.2.jar
+    topaddons-1.12.2-1.11.0.jar
+    torchmaster_1.12.2-1.8.0.79.jar
+    Treasure2-mc1.12.2-f14.23.5.2768-v1.5.1.jar
+    twilightforest-1.12.2-3.9.984-universal.jar
+    UniDict-1.12.2-2.9.2.jar
+    UnlimitedChiselWorks-0.2.4.jar
+    unloader-1.2.0.jar
+    VanillaFix-1.0.10-99.jar
+    WanionLib-1.12.2-2.2.jar
+    Waystones_1.12.2-4.0.72.jar
+    wings-1.1.5-1.12.2.jar
+    WitherSkeletonTweaks-1.12.2-2.6.3.jar
+    worleycaves-1.5.1.jar
+    zawa-1.12.2-1.7.0.jar
+    [1.12]MoVillages-1.5.4.jar
+    

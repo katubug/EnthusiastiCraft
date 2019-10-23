@@ -1,0 +1,533 @@
+[1.7.3] 
+
+I'm sorry to say that this update will again override client options, in order to force the correct keybinds and hide the attack indicator beneath the crosshair.
+ 
+Mod Additions/Removals/Updates: 
+- Removed Bloodmoon. It was added by mistake because I am really good at things.
+- Added Animania and CraftStudioAPI.
+- Added ItemZoom.
+- Updated Nutrition to 4.4.0.
+- Updated CreativeCore to 1.9.67.
+- Updated Cyclic to 1.19.17.
+- Updated Fossils and Archaeology to 8.0.3.
+- Updated LittleTiles to 1.5.0.-pre167.
+- Updated OnlinePictureFrame to 1.4.28.
+- Updated Ore Excavation to 1.4.143.
+- Updated UniDict to 2.9.3.
+- Updated The Betweenlands to 3.4.12.
+- Updated Ice and Fire to 1.8.2.
+- Updated Immersive Engineering to 0.12-92.
+- Updated WanionLib to 2.3.
+ 
+Configs/Quests/Compatibility: 
+- Lag warnings have been added to a handful of items, to help players keep their worlds running smoothly.
+- The default keybinding for Inventory Sorting has been changed to ";" (semicolon) because it apparently activates even when one's inventory is closed, and having it bound to "S" was conflicting.
+- The attack-cooldown crosshair has been disabled, as it was not being used.
+- The following configs have been changed to no longer expect integration with mods not in the pack: Thermal Expansion, Cyclic, Chisel, and PlusTiC.
+- The following animals now spawn in more fitting biomes: Gorillas, Macaws, Lions, Orcas, Albatrosses, Leopards, Condors, Elephants, Tigers, Rhinos, and Zebras.
+- Nature's Compass has been changed to correctly hide Betweenlands Biomes, and the JEID error biome placeholder.
+- A fair number of Chisel and Unlimited Chisel Works blocks can now be used to make Platforms.
+- There is a small chance that if a pregnant Animania creature is not properly fed or watered, it will lose its pregnancy. This should help with overbreeding issues.
+- Animania's Ferrets, Hamsters, Hedgehogs, and Rabbits can now sleep on beds.
+- Peacocks and Chickens will now try to sleep in their nests.
+- Seeds to feed Chickens/Peacocks with must be placed by crouching and right-clicking, to prevent accidental seed placement.
+- Vanilla animals now have a small chance to drop Prime meats.
+- Pigs have a small chance to drop their hoarded truffles upon death.
+- Animania foods have had their hunger/saturation values brought in line with the rest of the pack.
+- Ore Dictionary Entries have been added to all applicable Unlimited Chisel Works blocks.
+- Flight is now possible in all dimensions when the Precious Emerald is in a player's inventory. It is crafted with an Emerald, a Twilight Forest Thorns block, and Swamp Viscera.
+- The Primordial Malevolence now drops a new item - Swamp Viscera. This can be used to craft the Precious Emerald.
+- Gravel Beaches now generate on more cold biomes, to make Naga easier to find.
+- Wings from the Wings mod have had their durabilities made consistent across all types. They now have the same durability as Cyclic's Air Charm.
+- Wings from the Wings mod now consume about half as much hunger. This may be adjusted in the future.
+- Because of these significant buffs, Fairy Dust Ore now spawns significantly less often.
+- The following items have been added to the Farming for Blockheads Market: Treasure 2's Spanish Moss, Twilight Forest's Moss Patch, Animania's Random Spawn Eggs.
+- Fixed an issue where OpenBlocks Tanks were mistakenly hidden from JEI.
+- To make TexFix compatible with the modlist, FoamFix's config has been changed to disable the "dynamicItemModels" option.
+
+ 
+Server Changelog: 
+- We've changed the server container to use Java HotSpot instead of OpenJ9, and our JVM arguments have also changed. This will hopefully result in increased performance.
+ 
+Mod Changelog: 
+
+Nutrition - 
+ - Added support for Growthcraft CE, BetterNether, Complex Crops, PizzaCraft, and Taco Tuesday
+ - Updated support for Pam's Harvestcraft, Simply Tea, Twilight Forest, Vanilla Food Pantry, and XL Food Mod
+ - Added support for Advent Of Ascension and Rats (contribution from Sunconure11)
+
+CreativeCore - 
+ - Added ExtendedRenderItem
+ - Added some more methods to GuiParent
+ - Added block selector by class
+ - Added more primitive class types
+ - Expanded RotationUtils
+ - Reorganized some packages
+ - Fixed numeric hashmaps not working properly
+ - Fixed tileentity handle initial data as update packet
+ - Fixed issue caused by recent fix with SpongeForge #2
+ - Fixed issue caused by recent fix with SpongeForge
+ - Fixed fakeWorld chunks not marked as being loaded
+ - Added new send method to PacketHandler
+ - Added getRealWorld to IOrientatedWorld
+ - Updated to newest Forge version
+
+Cyclic - 
+ - updated ru_RU.lang by Bytegm.
+ - Extractor cables are now rock material.
+ - storage_bag now checks that the stack size is 1 before opening, and avoids self pickup. 
+
+Fossils and Archaeology - 
+ - Content Changes:
+ - Added Edaphosaurus, the Sail-backed reptiles of the Late Carboniferous and Early Permian!
+ - Added Arthropleura, a monsterous giant millipede from the Carboniferous
+ - Added Citipati, an oviraptorid dinosaur from the Cretaceous!
+ - Added the Sigillaria, an ancient Carboniferous tree-like plant, obtained from plant fossils
+ - Added the Cordaites, an ancient Carboniferous tree-like plant, obtained from plant fossils
+ - Added CraftTweaker support for Analyzer, Culture Vat, Sifter and Archeology Worktable
+ - Added config to make machines require RF Energy to function
+ - Added config to disable helmet overlays
+ - Added config to disable whipping of dinosaurs
+ - Added config to allow all mod’s trees to spawn in overworld
+ - Added advancements
+ - Added tar bubble particles
+ - Added new tar block texture
+ - Ridden prehistoric mobs can now jump
+ - Increased range of feeders
+ - Increased Tooth Dagger attack speed
+ - Added fossil ore spawn configs
+ - Added new herding AI
+ - Eating chicken soup now gives bucket back
+ - Dromaeosaurs will now do both a jump attack and a bite attack randomly
+ - Improved server side performance of Dinosaur AI
+ - Bug Fixes (Crashes):
+ - Fixed a crash related to Horse Embryo
+ - Fixed using bonemeal on Horsetails crashing the game
+ - Fixed crash when changing Quagga’s inventory
+ - Fixed comparator next to Culture Vat crashing game
+ - Fixed a crash related to music in Anu Dimension
+ - Bug Fixes (Other):
+ - Fixed Dinopedia thinking every mob is pregnant
+ - Fixed Duisbergia plant having no localization
+ - Fixed Items with missing textures showing up in the Dinopedia
+ - Fixed dinosaurs not obeying doMobGreifing game rule
+ - Fixed nautiluses going in their shell around creative players
+ - Fixed calamites slab not being craftable
+ - Fixed Culture Vat being clear underwater
+ - Fixed dino healing config not working
+ - Fixed henodus model issue when sleeping
+ - Fixed dinosaurs sleeping when targeting prey
+ - Fixed dinosaurs breeding when config option turned to false
+ - Fixed velociraptor going underground when attacking pachycephalosaurus
+ - Fixed plesiosaurus not having sounds
+ - Fixed megalograptus leaving water frequently
+ - Fixed fish items disappearing from inventory
+ - Fixed some dinosaurs never growing their hitboxes
+ - Fixed turn speeds for some big dinosaurs
+ - Fixed fern seeds being analyzed from normal plant fossils instead of cultivated
+ - Fixed tar slimes freezing in air
+ - Fixed smilodons losing their tails when sitting or sleeping
+ - Fixed Friendly Zombie Pigman not using the damage of a held item
+ - Fixed nautilus overproducing eggs
+ - Fixed balls getting stuck in corners
+ - Fixed gravestone blocks not being able to be broken in Anu Dimension
+ - Fixed Sarcosuchus never waking up
+ - Fixed DNA color tints being incorrect to the mod’s general style
+ - Fixed Archeologist Villager not having a zombie texture
+ - Fixed male tiktaalik not closing eyes when sleeping
+ - Fixed Friendly Zombie Pigman healing even at full health
+ - Fixed Meganuera not moving
+ - Fixed getSimpleName slowing down server performance
+ - Fixed hoppers not being able to shove fuel into Culture Vats
+ - Fixed inability to make charcoal from Fossil’s Logs
+ - Fixed music not stopping on Anu death
+ - Fixed music discs being unobtainable
+ - Fixed failure plant destroying some blocks
+ - Fixed some dinosaurs dealing ridiculous amounts of damage
+ - Fixed carnivores not eating dropped meat items
+ - Fixed tamed dinosaurs sleeping during fights
+ - Fixed hunger slowing down during sleep
+ - Fixed aquatic animal AI lag
+ - Fixed aquatic animals always heading north
+ - Fixed fossil model rotating being buggy
+ - Fixed plesiosaurus being unable to attack
+ - Fixed megaloceros being unable to attack
+ - Fixed smilodons being passive
+ - Fixed tethered logs duping when broken
+ - Fixed ancient stone brick being uncraftable
+ - Fixed anubites teleporting away from fights and generally being buggy
+ - Fixed fossil dupe bug with Tinker’s Construct
+ - Fixed tamed tyrannosaurus attacking their owners
+ - Fixed entering Anu Dimension causing players to plummet to their death
+ - Internal Reworks:
+ - Rewrite of Flock/Herd Code
+ - Rewrite of Dinosaur Growth Code
+ - Rewrite of Culture Vat/Analyzer recipes to allow other mods to add recipes for these machines
+ - Culture Vat/Analyzer now accepts RF or FE
+ - Rewrote Anubite AI
+ - Complete rewrite of dinosaur eating AI including feeders, blocks and items; now more similar to vanilla rabbits than the previous lag machines
+ - Rewrite of some Tyrannosaurus animation code
+ - Rewrite of Velociraptor and Deinonychus attack AI
+ - Rewrite of Dinosaur Move Helper
+ - Rewrite of Dinosaur Riding
+ - Rewrite of Anu Music code
+
+LittleTiles -
+ - Fixed crash when using the little paint brush
+ - Added display action messages
+ - Added Overlay Gui
+ - Added support for vanilla structure block rotation and mirror
+ - Changed LittleChunkDispatcher hook to be inside the vanilla class
+ - Reworked ingredient system
+ - Reorganized some packages
+ - Removed structure class restriction
+ - Fixed child doors ending too late (causing connection issues)
+ - Fixed not updating sliding door preview in gui when changing duration
+ - Fixed not using correct structure to transfer children to animation
+ - Fixed client receiving door update when child goes from subworld to realworld
+ - Fixed minor method mismatch which caused very funky problems related to child doors
+ - Fixed displaying wrong error message when activating door
+ - Fixed not updating animation bounding box properly
+ - Fixed making the first tick too early
+ - Fixed child doors not being approved
+ - Fixed door activator structure being a child door in gui
+ - Fixed not displaying message correctly when using undo & redo
+ - Fixed potential issue in survival when destroying tiles
+ - Fixed incorrect ingredient calculations
+ - Fixed not displaying last line
+ - Fixed exporting low resolution model
+ - Fixed flickering when door is opened by someone else
+ - Fixed crash when door leaves vanilla boundary when cubic chunks is installed
+ - Fixed renderchunk issue not being able to handle tileentity changes properly
+ - Fixed several issues related to the rewrite of the ingredient system
+ - Fixed moving child door too far in rare cases
+ - Fixed doors waiting to be placed not getting notified
+ - Fixed tileentities vanishing on client side randomly
+ - Fixed door asking itself whether it can be placed (causing an endless loop)
+ - Fixed crash with coloringredient
+ - Fixed unlikely crash with saw
+ - Fixed crash at the end of animations
+ - Fixed taking parent of subworld for rendering and not the real world
+ - Fixed replacing mode from glove causing sync issues
+ - Fixed animations missing on client side when changing dimension
+ - Fixed child animation moving around if parent stops
+ - Fixed error when sending block updates
+ - Fixed missing LittleBag tooltip for sub-block quantities
+ - Fixed open command opens one door multiple times
+ - Redesigned activation of doors to fix a couple of synchronization issues
+ - Fixed client not receiving animation data
+
+OnlinePictureFrame - 
+ - Updated to newest LittleTiles version
+ - Added display error message to gui
+ - Added log of position when download fails
+
+Ore Excavation - 
+ - Fixed must hold mode not saving undo history when excavations end early
+ - Added new command to allow undo to replace blocks like liquids
+ - Added new admin command to force undo other player's excavations
+
+UniDict - 
+ - Complete Removal of Mekanism Integration. due to changes on their code, it would require a complete rewrite of the integration.
+ - ForgeCraft Integration: removed support for Bloomery and Casting. due to changes on their code, it would be too much work to fix it.
+
+The Betweenlands - 
+ - The upcoming content update is taking a bit longer than planned, so we decided to already give you the Volarkite to play with in the meanwhile.
+ - Changes:
+ - Added Volarkite
+ - Added shader compat option for e.g. LadyLib/Dissolution (see Shader Priority in config)
+ - Fixes:
+ - Fixed Weedwood Bow not properly detecting infinite arrows
+ - Fixed Ring of Power working even when fully depleted
+
+Ice and Fire - 
+ - Made dragons much more aggressive
+ - Lectern has a new look and new gui, now easier to use
+ - Ice and Fire is now loads a coremod(if you don’t know what that is, don’t worry about it)
+ - Podium now renders items other than dragon and myrmex eggs
+ - New dragon pathfinding code that replaces the failed A* algorithm
+ - New myrmex pathfinding code that replaces the failed A* algorithm
+ - Added wander option to cockatrice
+ - Added config for dragon breath damage strength
+ - Added config to fix a very specific GL error
+ - Added config for world gen distance limit
+ - Added a configurable block breaking cooldown to dragons
+ - Decreased lag caused by dragon and sea serpent models
+ - Manuscripts and silver will now spawn in dungeon chests
+ - Fixed dragon breath not dealing damage
+ - Fixed servers constantly spewing “moved too fast” and “moved wrongly” when on riding a hippogryph or dragon
+ - Fixed dragons constantly walking in circles
+ - Fixed dragon horn texture changing when blinking
+ - Fixed mod particles not obeying settings
+ - Fixed pixie particle lag
+ - Fixed dragons not making fire particles while breathing at Dragon Forges
+ - Fixed Dragon Forge Aperture related lag
+ - Fixed dragons moving while sitting
+ - Fixed dragons not breaking blocks
+ - Fixed mod axes not being considered axes
+ - Fixed cockatrices not teleporting to owner
+ - Fixed dragons moving on chunk reload
+ - Fixed dragon escorts not flying when far away enough
+ - Fixed Tide Trident glitching out in the world
+ - Fixed male dragon skeletons showing wing patterns
+ - Fixed entity without data cap crash
+ - Fixed shoulder - riding baby dragons dismounting when rider dismounts
+ - Fixed not being allowed to have 2 or 3 baby dragons on shoulder
+ - Fixed sea serpents opening their jaws too far
+ - Fixed flame and frost lillies randomly breaking
+ - Fixed crash when punching troll
+ - Fixed amphithere babies having random colors
+ - Fixed tamed pixies blocking dragon attack
+ - Fixed flying myrmex royals not attacking
+ - Fixed dragon strike and hippogryph strike hurting tamed mobs
+ - Fixed myrmex swarm crash
+ - Fixed pixie jars crashing on servers
+ - Fixed flying mobs falling into the void and not flying
+ - Fixed dragons ascending at a 90 degree angle
+ - Fixed ice dragons constantly flying upwards
+ - Fixed dragons falling at a 90 degree angle
+ - Fixed floating ice dragon skeletons
+ - Fixed trolls spawning and suffocating instantly
+ - Fixed death worm packet crash
+ - Fixed myrmex swarmers not attacking
+ - Fixed stone statues and trolls turning invisible when broken
+ - Fixed dragonsteel leggings being stronger than dragonsteel chestplate
+ - Fixed hippogryphs not laying eggs on server
+ - Fixed dragonbone arrows in Tinkers Construct not splitting into 3 different arrows
+ - Fixed Tinkers Blizzard and Inferno modifiers not being exclusive
+ - Fixed crash when Tinkers Construct smeltery is disabled
+ - Fixed dragon flight limit being locked at 1024
+ - Fixed death worm health crash
+ - Fixed universal bucket console spam
+ - Fixed pixies and amphitheres not working with Respawning Pets mod
+ - Fixed some bestiary grammar mistakes
+ - Fixed numerous other small bugs
+ - Expanded Thaumcraft Aspects for all mod items
+ - Updated chinese translation
+
+Immersive Engineering - 
+ - Requires Forge version 14.23.5.2820 or higher (BluSunrize)
+ - Added Steel Armor, crafted from steel plates! (BluSunrize)
+ - Added a second MultiblockFormEvent to the API, to fire *after* the structure has been checked (BluSunrize)
+ - Fixed client only translation reference crashing on servers (BluSunrize)
+ - Fixed client only references in Chutes (BluSunrize)
+ - Fixed Coresamples without coordinates resulting in a client crash (BluSunrize)
+ - Fixed transformers on posts not accepting wires properly (BluSunrize)
+
+WanionLib - 
+ - No changelog provided.
+ 
+===================================== 
+ 
+ 
+[Full Modlist:] 
+ 
+ 
+ 
+[Full Modlist:] 
+ 
+|   ActuallyAdditions-1.12.2-r150.jar
+|   ActuallyBaubles-1.12-1.1.jar
+|   AdChimneys-1.12.2-3.5.6.0-build.0412.jar
+|   ae2stuff-0.7.0.4-mc1.12.2.jar
+|   aerialaffinity-1.2.jar
+|   AgriCraft-2.12.0-1.12.0-a6.jar
+|   AIImprovements-1.12-0.0.1b3.jar
+|   AkashicTome-1.2-12.jar
+|   AmbientSounds_v3.0.9_mc1.12.2.jar
+|   animania-1.12.2-1.7.2.jar
+|   AppleCore-mc1.12.2-3.2.0.jar
+|   AppleSkin-mc1.12-1.0.9.jar
+|   appliedenergistics2-rv6-stable-7.jar
+|   arcanearchives-0.2.0.9.jar
+|   armoryexpansion-1.4.0.jar
+|   Aroma1997Core-1.12.2-2.0.0.2.b165.jar
+|   Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.b89.jar
+|   astralsorcery-1.12.2-1.10.20.jar
+|   AttributeFix-1.12.2-1.0.9.jar
+|   AutoRegLib-1.3-32.jar
+|   base-1.12.2-3.13.0.jar
+|   Baubles-1.12-1.5.2.jar
+|   baubley-heart-canisters-1.12.2-2.0.3.jar
+|   bdlib-1.14.3.12-mc1.12.2.jar
+|   betteranimalsplus-1.12.2-7.1.1.jar
+|   BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar
+|   BetterFoliage-MC1.12-2.2.0.jar
+|   BetterFps-1.4.8.jar
+|   BiblioCraft[v2.4.5][MC1.12.2].jar
+|   BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar
+|   blockcraftery-1.12.2-1.3.1.jar
+|   bonsaitrees-1.1.3-b156.jar
+|   Bookshelf-1.12.2-2.3.585.jar
+|   bookworm-1.12.2-2.3.0.jar
+|   Botania r1.10-362.jar
+|   Bountiful-2.2.0.jar
+|   brokenwings-2.0.0.jar
+|   BuildingGadgets-2.7.3.jar
+|   Ceramics-1.12-1.3.7.jar
+|   Chameleon-1.12-4.1.3.jar
+|   chickens-6.1.0.jar
+|   Chisel-MC1.12.2-0.2.1.35.jar
+|   chiselsandbits-14.33.jar
+|   classicbar-0.4.1.jar
+|   ClientTweaks_1.12.2-3.1.11.jar
+|   Clumps-3.1.2.jar
+|   CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+|   CoFHCore-1.12.2-4.6.3.27-universal.jar
+|   CoFHWorld-1.12.2-1.3.1.7-universal.jar
+|   CommonCapabilities-1.12.2-2.4.4.jar
+|   compactmachines3-1.12.2-3.0.18-b278.jar
+|   conarm-1.12.2-1.2.4.jar
+|   ContentTweaker-1.12.2-4.9.1.jar
+|   Controlling-3.0.7.jar
+|   CookingForBlockheads_1.12.2-6.4.71.jar
+|   CosmeticArmorReworked-1.12.2-v4a.jar
+|   CraftingTweaks_1.12.2-8.1.9.jar
+|   CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar
+|   CraftTweaker2-1.12-4.1.19.jar
+|   CreativeCore_v1.9.67_mc1.12.2.jar
+|   CTM-MC1.12.2-0.3.3.22.jar
+|   Currency-1.12.0-1.3.11.jar
+|   CustomMainMenu-MC1.12.2-2.0.9.jar
+|   Cyclic-1.12.2-1.19.17.jar
+|   CyclopsCore-1.12.2-1.5.0.jar
+|   dankstorage-1.12.2-1.4-pre11.jar
+|   DarkUtils-1.12.2-1.8.226.jar
+|   Decocraft-2.6.3_1.12.2.jar
+|   deepmoblearning-1.12.2-2.5.2-universal.jar
+|   DefaultOptions_1.12.2-9.2.8.jar
+|   DocumentYourModMod-1.2.0.jar
+|   DynamicSurroundings-1.12.2-3.5.4.3.jar
+|   EnchantmentDescriptions-1.12.2-1.1.15.jar
+|   EnderCompass-1.12.2-1.0.jar
+|   EnderCore-1.12.2-0.5.68.jar
+|   EnderIO-1.12.2-5.0.46.jar
+|   EnderStorage-1.12.2-2.4.6.137-universal.jar
+|   engineers_doors-1.12.2-0.8.0.jar
+|   ExtraBotany-r1.1-55-fixed.jar
+|   extrautils2-1.12-1.9.9.jar
+|   FarmingForBlockheads_1.12.2-3.1.28.jar
+|   FastFurnace-1.12.2-1.3.1.jar
+|   FastWorkbench-1.12.2-1.7.2.jar
+|   fencejumper-1.12-1.0.5.jar
+|   Fishs_Undead_Rising-1.0.8.jar
+|   foamfix-0.10.5-1.12.2.jar
+|   ForgeEndertech-1.12.2-4.4.22.2-build.0405.jar
+|   Forgelin-1.8.4.jar
+|   fossilsarcheology-8.0.3.jar
+|   FTBLib-5.4.3.138.jar
+|   FTBQuests-1.7.2.218.jar
+|   FTBUtilities-5.4.0.106.jar
+|   FTBUtilitiesBackups-1.0.0.5.jar
+|   furniture-6.3.1-1.12.2.jar
+|   GottschCore-mc1.12.2-f14.23.5.2768-v1.8.0.jar
+|   GravelMiner_1.12.1-6.1.2.jar
+|   Harvest-1.12-1.2.7-20.jar
+|   iceandfire-1.8.2.jar
+|   ImmersiveEngineering-0.12-92.jar
+|   immersivepetroleum-1.12.2-1.1.9.jar
+|   ImprovedBackpacks-1.12.2-1.4.0.0.jar
+|   industrialforegoing-1.12.2-1.12.13-237.jar
+|   infinitylib-1.12.0.jar
+|   instantunify-1.12.2-1.1.2.jar
+|   IntegratedDynamics-1.12.2-1.1.0.jar
+|   IntegrationForegoing-1.12.2-1.9.jar
+|   InventoryTweaks-1.64+dev.146.jar
+|   ItemFilters-1.0.3.12.jar
+|   itemzoom_1.12.2-1.11.jar
+|   jehc-1.12.2-1.6.4.jar
+|   jei_1.12.2-4.15.0.289.jar
+|   journeymap-1.12.2-5.5.5.jar
+|   JustEnoughIDs-1.0.3-44.jar
+|   JustEnoughResources-1.12.2-0.9.2.60.jar
+|   LagGoggles-THIN-1.12.2-4.8.jar
+|   LibraryEx-1.12.2-1.0.11.jar
+|   littleopener-1.0.1.jar
+|   LittleTiles_v1.5.0-pre167_mc1.12.2.jar
+|   llibrary-1.7.19-1.12.2.jar
+|   longfallboots-1.2.1b.jar
+|   LootTweaker-1.12.2-0.0.10.jar
+|   Mantle-1.12-1.3.3.55.jar
+|   mcjtylib-1.12-3.5.4.jar
+|   MCMultiPart-2.5.3.jar
+|   MineMenu-1.12.2-1.6.11-universal.jar
+|   MmmMmmMmmMmm-1.12-1.14.jar
+|   MoarSigns-1.12.2-6.0.0.11.jar
+|   MobControlWands_1.12.2-1.0.4.jar
+|   modnametooltip_1.12.2-1.10.1.jar
+|   morechickens-1.12.2-3.1.0.jar
+|   moreoverlays-1.15.1-mc1.12.2.jar
+|   MouseTweaks-2.10-mc1.12.2.jar
+|   mowziesmobs-1.5.4.jar
+|   mysticallib-1.12.2-1.3.7.jar
+|   MysticWorld-1.12.2-1.4.4.jar
+|   natura-1.12.2-4.3.2.69.jar
+|   NaturesCompass-1.12.2-1.5.1.jar
+|   NetherEx-1.12.2-2.0.15.jar
+|   NoMobSpawningOnTrees-1.2.2-mc1.12.2.jar
+|   NoMoreRecipeConflict-0.13(1.12.2).jar
+|   Nutrition-1.12.2-4.4.0.jar
+|   OnlinePicFrame_v1.4.28_mc1.12.2.jar
+|   OpenBlocks-1.12.2-1.8.1.jar
+|   OpenModsLib-1.12.2-0.12.2.jar
+|   OreExcavation-1.4.143.jar
+|   OreLib-1.12.2-3.5.2.2.jar
+|   Pam's HarvestCraft 1.12.2zf.jar
+|   pamsimpleharvest-2.0.0.jar
+|   Patchouli-1.0-20.jar
+|   Pewter-1.4.3.jar
+|   phosphor-1.12.2-0.2.6+build50-universal.jar
+|   Placebo-1.12.2-1.6.0.jar
+|   platforms-1.12.0-1.4.6.jar
+|   plustic-7.1.6.1.jar
+|   ProjectVibrantJourneys-1.12.2-1.6.4.jar
+|   PTRLib-1.0.4.jar
+|   Quark-r1.6-177.jar
+|   quickconsume-1.12.2.1.0.1.0.jar
+|   QuickLeafDecay-MC1.12.1-1.2.4.jar
+|   randompatches-1.12.2-1.18.2.1.jar
+|   RandomThings-MC1.12.2-4.2.7.3.jar
+|   randomtweaks-1.12.2-2.7.1.0.jar
+|   rangedpumps-0.5.jar
+|   reauth-3.6.0.jar
+|   RedstoneFlux-1.12-2.1.0.6-universal.jar
+|   Reliquary-1.12.2-1.3.4.796.jar
+|   ResourceLoader-MC1.12.1-1.5.3.jar
+|   Rex's-Additional-Structures-1.12.2-(v.2.2.3).jar
+|   roost-1.12.2-2.0.10.jar
+|   Roots-1.12.2-3.0.13.jar
+|   rustic-1.1.1.jar
+|   shetiphiancore-1.12.0-3.5.9.jar
+|   SoundFilters-0.11_for_1.12.jar
+|   stg-1.12.2-1.2.3.jar
+|   StorageDrawers-1.12.2-5.4.0.jar
+|   subterraneanwaters-1.12.2-1.7.9.jar
+|   supersoundmuffler-1.12.2-1.0.2.10.jar
+|   TConstruct-1.12.2-2.12.0.157.jar
+|   tesla-core-lib-1.12.2-1.0.15.jar
+|   TheBetweenlands-3.4.12-universal.jar
+|   theoneprobe-1.12-1.4.28.jar
+|   ThermalCultivation-1.12.2-0.3.3.12-universal.jar
+|   ThermalDynamics-1.12.2-2.5.5.21-universal.jar
+|   ThermalExpansion-1.12.2-5.5.4.43-universal.jar
+|   ThermalFoundation-1.12.2-2.6.3.27-universal.jar
+|   ThermalInnovation-1.12.2-0.3.3.12-universal.jar
+|   tinkersjei-1.2.jar
+|   TinkerToolLeveling-1.12.2-1.1.0.jar
+|   Toast Control-1.12.2-1.8.1.jar
+|   tombstone-3.5.8-1.12.2.jar
+|   topaddons-1.12.2-1.11.0.jar
+|   torchmaster_1.12.2-1.8.0.79.jar
+|   Treasure2-mc1.12.2-f14.23.5.2768-v1.5.1.jar
+|   twilightforest-1.12.2-3.9.984-universal.jar
+|   UniDict-1.12.2-2.9.3.jar
+|   UnlimitedChiselWorks-0.2.4.jar
+|   unloader-1.2.0.jar
+|   VanillaFix-1.0.10-99.jar
+|   WanionLib-1.12.2-2.3.jar
+|   Waystones_1.12.2-4.0.72.jar
+|   wings-1.1.5-1.12.2.jar
+|   WitherSkeletonTweaks-1.12.2-2.6.3.jar
+|   worleycaves-1.5.1.jar
+|   zawa-1.12.2-1.7.0.jar
+|   [1.12]MoVillages-1.5.4.jar
