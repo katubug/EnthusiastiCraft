@@ -1,0 +1,148 @@
+Additional Structures - 
+ - fixed a bounding bug
+ -  towers now rarer
+ - towers now spawn 2 blocks higher
+
+Advanced Chimneys - 
+ - added: support for Combustion and Stirling engines from Buildcraft (thanks to seba0456pl)
+ - added: support for Engineer's Decor (thanks to chanster115)
+ - fixed: crashing with Pollution of the Realms v1.0.27.0 or above
+ - requires: ForgeEndertech 4.4.24.0 or above
+
+AttributeFix - 
+ - Merge pull request #5 from jriwanek/patch-1 - Tyler Hancock
+ - Update build.gradle - Jasmine Iwanek
+
+Broken Wings - 
+ - Fix Broken Wings Wings breaking breaking in multiplayer. Thanks to the Wings developer for pointing this out.
+
+Chisel - 
+ - Fix dupe bug
+
+ConnectedTexturesMod - 
+ - Fix possible crash when other mods attempt to retexture our models (specifically UnlimitedChiselWorks)
+
+Construct's Armory - 
+ - Added XP leveling configs, XP Gain Cap and Damage to XP Multiplier [#176]
+ - Fixed NoSuchFieldError with Tinkers' 2.13.0.171 [#178]
+
+Corail Tombstone - 
+ - relook the knowledge guiscreen
+ - fix nightvision not active with True Sight/Ghostly Shape (since 3.5.7)
+ - Scroll of Reach
+
+CreativeCore - 
+ - Added BlockSelectorProperty
+ - Fixed crash when guiScreen is null
+ - Changed GuiStackSelectorAll.BlockSelector to GuiBlockSelector
+ - Fixed incompatibility with old forge version
+
+Cyclops Core - 
+ - Block scrollbar position from becoming negative. Closes CyclopsMC/IntegratedTerminals#45
+
+FoamFix - 
+ - Automatically disables patches (suspected to be) unsafe (and/or expected to be handled by due to other patches) in combination with JustEnoughIDs and SpongeForge.
+
+FTB Library - 
+ - Parse string with quotes properly
+
+FTB Quests - 
+ - Fixed KubeJS versions
+ - Added criterion config in advancement task
+ - KJS completion event now has server
+
+FTB Utilities - 
+ - Added Aurora integration, removed all permissions files, removed command error printing
+ - Changed CurseMaven version to 1.2.+ to fix build issue
+ - Re-added override_commands config
+ - Fixed ranks, added more Aurora integration
+
+Just Enough IDs JEID - 
+ - This is a hot fix for the last version since AdvancedRocketry couldn't be launched in a server environment.
+
+LittleTiles - 
+ - Added support for rotating logs and other pillar blocks (will now be rotated accordingly)
+ - Added structure ingredient for recipes
+ - Removed LittlePreviewHandler
+ - Fixed being able to hammer down slabs
+ - Fixed ingredient rules messing up when using modded log blocks
+ - Fixed random crash caused by dsurround implementation
+ - Fixed not sending reset packet to client when server fails to open door
+ - Fixed incompatibility with old forge version
+ - Fixed a couple of ingredient issues (for example workbench not draining)
+
+OnlinePictureFrame - 
+ - Added creativecore dependency
+ - Updated to newest LittleTiles version
+
+Unlimited Chisel Works - 
+ - Chisel 1.0.0 support.
+
+WanionLib - 
+ - No changelog provided.
+
+Better Builder's Wands - 
+ - Be better behaved so that Thermal Expansion isn't Thermal Duping.
+
+Biomes O Plenty - 
+ - Fixed a crash with shaders, and issues relating to using the Turkish language
+
+Tinker's Construct - 
+ - Features
+ - Slime:
+ -- Instead of mixing slime types or using non-Tinkers slime to craft Tinkers gadgets giving green slime, you get a new pink slime
+ -- Happens when crafting slime boots, slimeslings, congealed slime, and slime channels
+ -- Config option available to make crafting the vanilla slime block also return pink when made with mismatching or non-Tinkers slime types
+ - Slime Blocks
+ -- Instead of crafting Tinkers slime blocks out of congealed slime and 5 slimeballs, they now use the vanilla recipe of 9 slimeballs
+ -- Removed green as it was redundant to the vanilla block
+ - Quark Colored Slme
+ -- If Quark is installed, Tinkers slime blocks will work with the Quark colored slime feature
+ -- Green, blue, purple, magma, and blood slime blocks will not stick to each other
+ -- Pink slime blocks (see above) will stick to all colors
+ -- Green, blue, and blood slime blocks can be used in place of Quark's green, blue and blood slimeblocks to craft the other colors and to stick to secondary colors
+ - Slime naming
+ -- Now are more consisent with vanilla
+ -- Slimeballs are no longer called "Slime ball"
+ -- Most slime items no longer have colors for consistency
+ - Tools
+ -- Split listAllMaterials config into listAllPartMaterials and listAllToolMaterials
+ -- Made hatchet shield breaking more compatible with other mod's shields
+ -- Holding Tinkers weapons in creative now prevent breaking blocks, like vanilla swords
+ -- Longswords now have a slight delay after use, giving a window to activate a shield
+ -- Longswords now have an animation while charging
+ -- Rapiers now allow a shield to be used while jumping back
+ -- Projectiles like shurikens now light the target on fire if the projectile is on fire
+ -- Hellish now boosts damage to mobs that are not immune to fire rather than the weird biome spawn list that missed many nether mobs.
+ - Smelteries
+ -- Full smelteries no longer attempt to alloy or finish melting items
+ -- When out of fuel, the smeltery tooltip now displays "No valid fuel" instead of sometimes displaying "Not enough space"
+ -- Renamed "Smeltery Drain" to "Seared Drain" and "Faucet" to "Seared Faucet" for consistency
+ - Misc
+ -- Slime trees once again have drippers
+ -- Added a new config option to disallow non-leashable mobs from being picked up by piggybackpacks
+ - Fixes:
+ - General
+ -- Fixed wooden hoppers deleting contents when rotated
+ -- Fixed slime recipe fallbacks giving hte wrong color
+ -- Fixed blood being too hot
+ -- Fix replacing the piggybackpack with another chestplate not dropping the entity
+ - Smelteries
+ -- Fixed full smelteries sometimes filling with negative liquids
+ -- Fixed smeltery sending too many packets, breaking some inventories
+ -- Fixed stone tool parts melting too fast
+ -- Fixed smeltery dropping items clientside when breaking under some conditions
+ -- Fix crash when casting channels are filled from an invalid side
+ -- Fixed being able to drain fluids from an invactive smeltery or tinker tank
+ - Tools
+ -- Fixed Tinkers weapons not applying knockback to players
+ -- Fixed no sound effects when attacking with Tinkers weapons
+ -- Fixed no sounds when breaking tools
+ -- Fixed pigiron having wrong nom chance when between 2.5 and 5 chickenwings
+ -- Fixed custom crosshairs breaking other mods that modify crosshairs
+ -- Fixed bows not rendering in the offhand when drawing
+ -- Fixed infinite blocking when a battle sign breaks while in use
+ -- Fixed embossment allowing invalid traits to be applied
+ -- Fixed crash from reflecting thorns damage
+ -- Fixed crash from dealing damage multiple times in the same frame
+ -- Fixed projectiles dealing less damage based when the players attack cooldown is low
