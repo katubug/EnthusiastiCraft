@@ -3,8 +3,10 @@ EnthusiastiCraft is a modpack that aims to deliver a fun, immersive experience f
 builders, gardeners, and more! It's main focus keywords are: quality of life, aesthetic, exploration,
 reward, and performance.
 
-The modpack can be found here: https://www.curseforge.com/minecraft/modpacks/enthusiasticraft
+You can find more information on [the website](http://enthusiasticraft.cf/).
 
-# This GitHub
-I am still working on integrating the actual modpack files such as configs etc with github. As of now,
-this is primarily to provide a place for bug reports and other feedback.
+# Download
+The modpack can be found [here on CurseForge](https://www.curseforge.com/minecraft/modpacks/enthusiasticraft). Not that I think anyone would bother rehosting this, but just in case: don't download this pack from anywhere other than CF as I cannot vouch for its authenticity.
+
+# Roadmap
+The future of this modpack is roughly plotted out [here on my Trello](https://trello.com/invite/b/giCOx95W/230ad0de7b82010cd130cb4253026edf/enthusiasticraft).
