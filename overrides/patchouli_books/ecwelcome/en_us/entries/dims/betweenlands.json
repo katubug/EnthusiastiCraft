@@ -1,0 +1,48 @@
+{
+    "name": "The Betweenlands",
+    "icon": "thebetweenlands:sapling_weedwood",
+    "category": "dims",
+    "pages": [
+		{
+			"type": "text",
+			"text": "Once a land of majesty, the abandoned $(place)Betweenlands$() is now little more than an infested swamp, where the very air is against you. This world is not for the faint of heart, as even the best combat gear, weapons, tools, and rations will $(thing)provide little benefit$() upon entering the portal - they should be left behind.$(br2)Accessing this land is no meager task, either."
+		},
+		{
+			"type": "image",
+			"images": ["ec:book/bldruid.png"],
+			"title": "Dark Druids",
+			"border": true,
+			"text": "One must first find the altar around which the $(entity)Dark Druids$() spawn."
+		},
+		{
+			"type": "text",
+			"text": "These malevolent entities will attempt to end you by casting you high into the air and letting you fall on brittle bones. My fight with them was nearly fatal!$(br2)They must be defeated, one after the other, until all four pieces of their $(item)ritual talisman$() have been recovered. Then, one can safely $(action)dig beneath the altar$() and remove the Druids’ link to the overworld by breaking it."
+		
+		},
+		{
+			"type": "spotlight",
+			"item": "thebetweenlands:swamp_talisman",
+			"text": "Placing the $(item)medallion fragments$() into the $(item)altar$() will begin a process to heal the relic - and once it is finished, the $(bold)$(item)Swamp Talisman$() will be yours.$(br2)This relic has the power to pervert saplings into rotted, hollow portals to the $(place)land of its origin$()."
+		},
+		{
+			"type": "text",
+			"text": "Once a sufficient space has been cleared, one must $(action)plant a $(item)sapling$() of some kind, and then $(action)corrupt it using the $(item)Talisman$(). This will create a tree which leads into the moldering and unfriendly $(place)Betweenlands$().$(br2)I must again insist that anything of value $(bold)be left behind$() - your $(item)tools$(), your $(item)armor$(), even your $(item)food$() will be lost to the swamp upon passing through the portal."
+		
+		},
+		{
+			"type": "image",
+			"images": ["ec:book/bltree.png"],
+			"title": "The Portal Tree",
+			"border": true,
+			"text": "Be sure you are well prepared for the horrors within, lest your journey end abruptly."
+		}
+		,
+		{
+			"type": "image",
+			"images": ["ec:book/betweenlands.png"],
+			"title": "A Denizen",
+			"border": true,
+			"text": "I was lucky enough to capture this before fleeing for my life."
+		}
+	]
+}

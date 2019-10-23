@@ -1,0 +1,18 @@
+{
+    "name": "harvestcraft:tamarind",
+    "mod": "harvestcraft",
+    "sapling": {
+        "name": "harvestcraft:tamarind_sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1,
+    "drops": [
+        {
+            "name": "harvestcraft:tamarinditem",
+            "data": 0,
+			"type": "CUSTOM",
+			"count": 1,
+			"chance": 1
+        }
+	]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "minecraft:acacia",
+    "mod": "minecraft",
+    "sapling": {
+        "name": "minecraft:sapling",
+        "data": 4
+    },
+    "growTimeMultiplier": 1,
+    "drops": [
+        {
+            "name": "quark:bark",
+            "data": 4,
+            "type": "CUSTOM",
+			"count": 1,
+			"chance": .5
+        },
+        {
+            "name": "minecraft:log2",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "minecraft:sapling",
+            "data": 4,
+            "type": "SAPLING"
+        },
+        {
+            "name": "minecraft:leaves2",
+            "data": 0,
+            "type": "LEAVES"
+        }
+    ]
+}

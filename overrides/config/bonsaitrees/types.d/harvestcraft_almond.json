@@ -1,0 +1,18 @@
+{
+    "name": "harvestcraft:almond",
+    "mod": "harvestcraft",
+    "sapling": {
+        "name": "harvestcraft:almond_sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1,
+    "drops": [
+        {
+            "name": "harvestcraft:almonditem",
+            "data": 0,
+			"type": "CUSTOM",
+			"count": 1,
+			"chance": 1
+        }
+	]
+}

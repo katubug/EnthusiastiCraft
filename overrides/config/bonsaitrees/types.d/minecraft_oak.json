@@ -1,0 +1,38 @@
+{
+    "name": "minecraft:oak",
+    "mod": "minecraft",
+    "sapling": {
+        "name": "minecraft:sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1,
+    "drops": [
+        {
+            "name": "quark:bark",
+            "data": 0,
+            "type": "CUSTOM",
+			"count": 1,
+			"chance": .5
+        },
+        {
+            "name": "minecraft:log",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "minecraft:sapling",
+            "data": 0,
+            "type": "SAPLING"
+        },
+        {
+            "name": "minecraft:leaves",
+            "data": 0,
+            "type": "LEAVES"
+        },
+		{
+            "name": "minecraft:apple",
+            "data": 0,
+            "type": "FRUIT"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "harvestcraft:dragonfruit",
+    "mod": "harvestcraft",
+    "sapling": {
+        "name": "harvestcraft:dragonfruit_sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1,
+    "drops": [
+        {
+            "name": "harvestcraft:dragonfruititem",
+            "data": 0,
+			"type": "CUSTOM",
+			"count": 1,
+			"chance": 1
+        }
+	]
+}

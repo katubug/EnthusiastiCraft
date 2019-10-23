@@ -1,0 +1,41 @@
+{
+	"populate": {
+		"ethereal_tree": {
+			"distribution": "decoration",
+			"generator": {
+				"type": "small-tree",
+				"leaves": {
+				"name": "biomesoplenty:leaves_1",
+				"properties": {
+						"variant": "ethereal"
+						}
+				},
+				"minHeight": 10, 
+				"heightVariance": 5,
+				"block": {
+					"name": "biomesoplenty:log_1"
+					"properties": {
+						"axis": "y"
+						}
+					},
+			},
+			"cluster-count": 1,
+			"chunkChance": 2,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "MAGICAL"
+					}
+				]
+			},
+			"dimensionRestriction": "blacklist",
+			"dimensions": [
+				-1,
+				1
+			]
+		}
+	}
+}

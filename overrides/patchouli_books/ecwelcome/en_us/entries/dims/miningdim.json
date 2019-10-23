@@ -1,0 +1,55 @@
+{
+    "name": "Mining Dimension",
+    "icon": "aroma1997sdimension:miningmultitool",
+    "category": "dims",
+    "pages": [
+		{
+			"type": "text",
+			"text": "During my travels I discovered a way to a land, mostly barren on the surface, but $(thing)rich with minerals and gems$() beneath the surface.$(br2)Despite the oddly flat terrain, this realm was settled! The inhabitants called it only 'home' and so I have dubbed it $(place)Lorthan$().$(br2)...Unfortunately, all my colleagues insist on calling it"
+		},
+		{
+			"type": "text",
+			"text": "$(place)'The Mining Dimension'$(), and to my chagrin, the name has stuck.$(br2)In any case, this dimension is free of most hostile creatures, save for the greedy fire dragons that have come seeking riches.$(br2)It is a land of eternal summer, where crops thrive and snow never falls. And yet, despite this, $(green)gems that can normally only be found in varied biomes$(), such as $(item)Tanzanite$() and $(item)Amber$(), can be found here!"
+		},
+		{
+			"type": "text",
+			"text": "In addition, it seems that $(item)great meteorites$() have marred the surface of this land. I have been told that some of the locals have found $(thing)treasures in the cores$() of these fallen stars.$(br2)Additionally, though I never found one personally, the locals told me that $(entity)mighty Astral Sorcerers$() once used the impeccably clear sky to work their magic - and that $(thing)their temples$() could still be found! I would have liked to see one for myself."
+		},
+		{
+			"type": "text",
+			"text": "Getting to the $(place)Mining Dimension$() - oh great, now $(italic)I'm$() doing it. Ugh. Getting to $(italic)$(place)Lorthan$() is relatively easy, and similar to $(l:dims/nether)accessing the Nether$().$(br2)On the following pages, I have included the recipes for both the $(item)portal frame$() and the $(item)catalyst$(), as well as a layout for how to shape the frame.$(br2)It should be noted that the portal requires one to crouch to enter. Presumably this is to avoid hitting one's head during transport."
+		},
+		{
+            "type": "crafting",
+			"title": "Mining Multi Tool",
+            "recipe": "aroma1997sdimension:mining_multitool",
+			"recipe2": "aroma1997sdimension:portal_frame"
+		},
+		{
+			"type": "multiblock",
+			"multiblock": {
+				"pattern": [
+				[" OO "],
+				["O  O"],
+				["O  O"],
+				["O  O"],
+				[" 0O "]
+				],
+				"mapping": {
+				"O": "aroma1997sdimension:portalframe",
+				"0": "aroma1997sdimension:portalframe"
+				},
+				"symmetrical": false
+			},
+			"text": "To create the pathway, one must build a portal of these $(item)frame blocks$(), and activate it with a $(item)Mining Multitool$()."
+		},
+		{
+			"type": "image",
+			"images": ["ec:book/meteor.png"],
+			"title": "Sky Stone Meteor",
+			"border": true,
+			"text": "An image of one of the odd meteors. What riches could be under its crust?"
+		}
+
+	]
+}

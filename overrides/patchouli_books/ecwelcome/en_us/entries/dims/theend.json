@@ -1,0 +1,24 @@
+{
+    "name": "The End",
+    "icon": "minecraft:ender_eye",
+    "category": "dims",
+    "pages": [
+		{
+			"type": "text",
+			"text": "This unforgiving void is interrupted with strange pockmarked platforms, staring $(entity)Endermen$(), and a tyrannical Dragon. Unlike the beasts I encountered in other dimensions, the $(entity)Ender Dragon$() has some strange mechanism tying it to the $(item)obsidian pillars$() that dot its home - perhaps $(action)damaging those strange crystals$() could have an effect on it."
+		},
+		{
+			"type": "text",
+			"text": "However, despite these preternatural threats, this land contains hidden treasures that make its treacherous terrain worth traversing. To enter the $(place)dragon’s demesne$(), one must search the world for an $(thing)ancient, buried stronghold$() with a defunct $(item)portal$(). After repairing this gateway with $(item)Ender Eyes$(), traversal between worlds is made possible.$(br2)Normally, finding such a Stronghold would be quite difficult. However, I have found"
+		},
+		{
+			"type": "text",
+			"text": "a revolutionary new way to locate one! An invention of my own making*, I call it $(item)The Ender Compass$()! I simply infused a regular compass with the magical energies I derived from slain Endermen (with a little Infernal help).$(br2)Once it is complete, it will $(action)point you to the nearest Stronghold$()!$(br2)* Well, okay. I was heavily inspired by $(l:qol/compasses)These Ancient Writings$(). But they're not around to claim the honor."
+		},
+		{
+            "type": "crafting",
+			"recipe": "endercompass:ender_compass",
+			"text": "And besides, I did have to reconstruct the recipes from only notes, and gather all the materials myself. So, I think I've earned this.$(br2)Stop judging me and go kill that $(entity)Dragon$()!"
+		}
+	]
+}

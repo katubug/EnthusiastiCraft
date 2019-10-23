@@ -1,0 +1,40 @@
+{
+    "name": "The Twilight Forest",
+    "icon": "twilightforest:miniature_structure",
+    "category": "dims",
+    "pages": [
+		{
+			"type": "text",
+			"text": "While this dimension may seem peaceful at first, its serenity is disrupted by a $(thing)cold undertone of danger$(). Fearsome creatures dwell in these woods, from the unruly $(entity)Naga$() to the rotting $(entity)Lich$(). Underground there is peril as well, because slumbering beneath in their charred nests are ancient $(entity)Dragons$(). Only the foolish or very well-equipped adventurer would seek out their riches - or even their precious $(item)eggs$()."
+		},
+		{
+			"type": "image",
+			"images": ["ec:book/twilightforest.png"],
+			"title": "The Dark Forest",
+			"border": true,
+			"text": "In this land of perpetual dimness, strange wonders can be found."
+		},
+		{
+			"type": "text",
+			"text": "To get to the $(place)Twilight Forest$(), one need only $(action)create a pool$() of four $(item)water source blocks$(), surrounded by $(item)flowers$(), and $(action)throw a $(item)diamond$() into the center.$(br2)It may seem daunting - but stepping into the pool is not particularly painful. Merely a bit $(thing)tingly$(). In my experience, traveling to this land was significantly less uncomfortable than to many of the others!"
+		},
+		{
+			"type": "multiblock",
+			"multiblock": {
+				"pattern": [
+				["FFFF", "F  F", "F0 F", "FFFF"],
+				["GGGG", "GWWG", "GWWG", "GGGG"],
+				["DDDD", "DDDD", "DDDD", "DDDD"]
+				],
+				"mapping": {
+				"G": "minecraft:grass",
+				"W": "minecraft:water",
+				"D": "minecraft:dirt",
+				"F": "minecraft:red_flower"
+				},
+				"symmetrical": false
+			}
+		}
+		
+	]
+}

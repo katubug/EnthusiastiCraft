@@ -1,0 +1,16 @@
+{
+  "name": "roots:elemental_soil",
+  "mod": "roots",
+  "soil": {
+    "name": "roots:elemental_soil",
+    "data": 0,
+    "ignoreMeta": false
+  },
+
+  "modifiers": {
+    "growTime": 1.0,
+    "dropChance": 0.9
+  },
+
+  "providedTags": [ "dirt", "mystic" ]
+}

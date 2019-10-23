@@ -1,0 +1,15 @@
+{
+    "name": "Keybindings",
+    "icon": "minecraft:book",
+    "category": "qol",
+    "pages": [
+		{
+			"type": "text",
+			"text": "You may find that some of the modded keybinds you are used have been rebound, or unbound entirely, to conserve space. It is recommended that you have a look at the $(place)Controls menu$() and decide how you would like to customize your hotkeys. $(italic)Controlling$() makes this easier by adding the $(thing)ability to search for a specific keybind$(), and to show which ones may be conflicting, as well as which keys are currently free."
+		},
+		{
+			"type": "text",
+			"text": "However, be aware that some conflicts may be false alarms due to context, such as the same key $(thing)performing different functions depending on the screen/GUI one is accessing$(). Additionally, the mod will consider $(item)'H'$() and $(item)'Shift+H'$() as a conflict, although the keybindings are technically different."
+		}
+	]
+}

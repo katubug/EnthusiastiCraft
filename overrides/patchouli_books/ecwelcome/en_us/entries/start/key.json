@@ -1,0 +1,16 @@
+{
+    "name": "1. Guide to the Guide",
+    "icon": "bibliocraft:biblioclipboard",
+    "category": "start",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I have done my best to make these texts easy to read by associating certain colors with different things.$(br2)It should be decently self-explanatory, but here is a key to understand what color means what.$(br2)"
+        },
+		{
+            "type": "text",
+			"title": "Key",
+            "text": "$(li)$(item)This color represents an item of some kind.$()$(br2)$(li)$(place)This color represents a place or location.$()$(br2)$(li)$(action)This color represents an action.$()$(br2)$(li)$(thing)This color represents a thing or concept.$()$(br2)$(li)$(entity)This color represents a creature of some kind.$()"
+        }
+    ]
+}

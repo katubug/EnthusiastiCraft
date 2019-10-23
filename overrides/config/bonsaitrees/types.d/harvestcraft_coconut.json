@@ -1,0 +1,18 @@
+{
+    "name": "harvestcraft:coconut",
+    "mod": "harvestcraft",
+    "sapling": {
+        "name": "harvestcraft:coconut_sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1,
+    "drops": [
+        {
+            "name": "harvestcraft:coconutitem",
+            "data": 0,
+			"type": "CUSTOM",
+			"count": 1,
+			"chance": 1
+        }
+	]
+}

@@ -1,0 +1,36 @@
+{
+    "name": "Lair of Anu",
+    "icon": "fossil:scarab_gem",
+    "category": "dims",
+    "pages": [
+		{
+			"type": "text",
+			"text": "I am under oath not to reveal who gave me the information that led me to this discovery, and I was warned not to share the method of accessing this dark place. However, I believe this knowledge must be recorded lest it be lost. What you, the reader, do with it is up to your judgment.$(br2)One must begin by seeking out artifacts. Four $(item)figurines$(), to be precise."
+		},
+		{
+			"type": "spotlight",
+			"item": "fossil:figurine:2",
+			"text": "This is an example of one such relic, although $(thing)any will work.$() They can be found in ancient Temples, but may also be discovered by $(action)analyzing $(item)Relic Scraps$().$(br2)Once one has acquired four artifacts in any condition, one must $(action)go to hell$(). Literally: you must $(l:dims/nether)travel to the Nether.$()"
+		},
+		{
+			"type": "image",
+			"images": ["ec:book/hellboat.png"],
+			"title": "A Hell Boat",
+			"border": true,
+			"text": "Once in the $(place)Nether$(), one must scour the lava lakes for these ominous boats."
+		},
+		{
+			"type": "text",
+			"text": "Onboard the $(thing)Hell Boat$() shall be a statue of $(entity)Anu$(). To supplicate him, one must $(action)place $(item)redstone dust $(action)in a square at his feet$(), and then $(action)remove the four corners and replace them with your artifacts$().$(br2)$(bold)But beware!$() If you have done this correctly, the statue will become possessed, and unstable - it will likely explode! Hide until you are certain the danger is passed. Once it is safe, you may access the portal that $(entity)Anu$() has left for you."
+		},
+		{
+			"type": "text",
+			"text": "I cannot tell you much about the land that lies beyond, to my shame. My cowardice overcame my curiosity shortly after entering the portal. I was left with only an impression of terror and grandeur.$(br2)My guide, who had refused to accompany me into $(place)Anu's Lair$() at all, shook their head, but seemed relieved that I'd come to my senses.$(br2)Still, I can't help but wonder about this odd gem..."
+		},
+		{
+			"type": "spotlight",
+			"item": "fossil:scarab_gem",
+			"text": "It is obviously connected with this ancient deity somehow. But in what way?$(br2)Perhaps if you find a $(item)gem$() like this, you will have the bravery to take it into the $(place)Lair$() and unravel its mystery."
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Stamina in Combat",
+    "icon": "minecraft:diamond_sword",
+    "category": "qol",
+    "pages": [
+		{
+			"type": "text",
+			"text": "It is not necessary to $(action)wait for your stamina bar to refill$() in order to attack an enemy.$(br2)While the cooldown element will still show beneath your crosshair, you $(bold)do not$() need to wait for it to refill in order to do the $(thing)full amount of damage$()."
+		},
+		{
+			"type": "text",
+			"text": "$(italic)Author's Note: This entry particularly baffles me because it seems to be written in plain language - in many ways, I understand it. And yet, I cannot fathom its meaning.$()"
+		}
+	]
+}

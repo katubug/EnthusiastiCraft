@@ -1,0 +1,17 @@
+{
+    "name": "Death and Dying",
+    "icon": "tombstone:decorative_grave_simple",
+    "category": "qol",
+    "pages": [
+		{
+			"type": "text",
+			"text": "Death is no longer the end. For your items, anyway. Each time you die, your items are collected by the fey that live between worlds, who will $(action)bury it and place a headstone$() to mark the occasion of your death. They will also grant you $(item)a key$(), which will restore your inventory to you if presented to your headstone."
+		},
+		{
+            "type": "crafting",
+			"title": "Enchanted Grave Key",
+            "recipe": "tombstone:enchanted_grave_key",
+			"text": "Was your bed far from where you were exploring? No matter, simply $(action)enchant the key with an Ender Pearl$(), and it will return you to $(place)your grave$(). However, be wary for the beast that slew you, as it may still be nearby."
+		}
+	]
+}

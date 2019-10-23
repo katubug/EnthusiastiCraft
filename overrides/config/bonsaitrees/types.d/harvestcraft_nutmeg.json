@@ -1,0 +1,18 @@
+{
+    "name": "harvestcraft:nutmeg",
+    "mod": "harvestcraft",
+    "sapling": {
+        "name": "harvestcraft:nutmeg_sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1,
+    "drops": [
+        {
+            "name": "harvestcraft:nutmegitem",
+            "data": 0,
+			"type": "CUSTOM",
+			"count": 1,
+			"chance": 1
+        }
+	]
+}

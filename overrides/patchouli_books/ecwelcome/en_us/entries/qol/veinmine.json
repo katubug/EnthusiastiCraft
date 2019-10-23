@@ -1,0 +1,18 @@
+{
+    "name": "Efficient Gathering",
+    "icon": "minecraft:diamond_pickaxe",
+    "category": "qol",
+    "pages": [
+		{
+			"type": "text",
+			"text": "Often referred to as “veinminer,” this mod allows you to $(thing)automatically break all contiguous blocks of the same type$() as the one you’re targeting. It works with all tools and even your empty hand! You simply need to $(action)hold down the $(k:oreexcavation.key.excavate) key while you mine$() in order to use this power."
+		},
+		{
+			"type": "image",
+			"images": ["ec:book/gravekey.jpg"],
+			"title": "The GRAVE Key",
+			"border": true,
+			"text": "$(italic)Author's Note: What could this bizarre glyph represent?$()"
+		}
+	]
+}

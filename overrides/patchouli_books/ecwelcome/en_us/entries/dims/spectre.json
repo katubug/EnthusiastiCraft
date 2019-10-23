@@ -1,0 +1,25 @@
+{
+    "name": "Spectre Dimension",
+    "icon": "randomthings:spectrekey",
+    "category": "dims",
+    "pages": [
+		{
+			"type": "text",
+			"text": "Can you slay that which is already dead? Sometimes, when a living thing dies, its $(entity)Spirit$() is momentarily left behind, small and blue, trailing magic behind it. Its grasp on the world is tenuous, however, and it soon disappears. However, if one were to $(action)find a way to slay$() even that amorphous cloud, it might drop some $(item)ectoplasm$().$(br2)I have seen writings that suggest one can use this to"
+		},
+		{
+			"type": "text",
+			"text": "make a bizarre ethereal metal - the $(item)Spectral Ingot$(). The documents I found mention that it makes $(item)a strong weapon$(), is $(thing)capable of transferring energy or beacon effects$() from one place to another via the spirit world, and may even $(action)grant access$() to some small part of the place from which it hails.$(br2)I don't doubt that having access to a small pocket of the $(place)Spectre dimension$() would be a secure place to hide one's inventory, machinery, or even one's self."
+		},
+		{
+			"type": "spotlight",
+			"item": "randomthings:ingredient:2",
+			"text": "It also seemed, from the texts, that further $(item)Ectoplasm$() could be used to increase one's access to the dimension, if $(thing)an appropriate receptacle$() could be found.$(br2)I perhaps should also mention that the key must be $(action)held and activated$() for some time before transporting, so patience should be used."
+		},
+		{
+            "type": "crafting",
+            "recipe": "randomthings:ingredient_spectreingot",
+			"recipe2": "randomthings:spectrekey"
+		}
+	]
+}

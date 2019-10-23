@@ -1,0 +1,15 @@
+tile.dankstorage:dank_1.name=Tiny Nullification Cube
+tile.dankstorage:dank_2.name=Small Nullification Cube
+tile.dankstorage:dank_3.name=Average Nullification Cube
+tile.dankstorage:dank_4.name=Fine Nullification Cube
+tile.dankstorage:dank_5.name=Great Nullification Cube
+tile.dankstorage:dank_6.name=Exemplary Nullification Cube
+tile.dankstorage:dank_7.name=Unbelievable Nullification Cube
+
+container.dankstorage:dank_1=Tiny Nullification Cube
+container.dankstorage:dank_2=Small Nullification Cube
+container.dankstorage:dank_3=Average Nullification Cube
+container.dankstorage:dank_4=Fine Nullification Cube
+container.dankstorage:dank_5=Great Nullification Cube
+container.dankstorage:dank_6=Exemplary Nullification Cube
+container.dankstorage:dank_7=Unbelievable Nullification Cube

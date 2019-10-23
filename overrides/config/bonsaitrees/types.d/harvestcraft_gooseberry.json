@@ -1,0 +1,18 @@
+{
+    "name": "harvestcraft:gooseberry",
+    "mod": "harvestcraft",
+    "sapling": {
+        "name": "harvestcraft:gooseberry_sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1,
+    "drops": [
+        {
+            "name": "harvestcraft:gooseberryitem",
+            "data": 0,
+			"type": "CUSTOM",
+			"count": 1,
+			"chance": 1
+        }
+	]
+}

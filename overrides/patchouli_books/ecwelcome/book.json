@@ -1,0 +1,20 @@
+{
+	"name": "Enthusiastic Guidebook",
+	"landing_text": "$(bold)Welcome, weary traveler.$() I have recorded in this book knowledge that will help you on your journey.$(br)Once you are done with your initial readings, you may take advantage of a little magic I learned - this book may be placed in a $(thing)crafting table$() with a handful of $(item)soil$(). $(l:start/akashic)More information can be found on this page.$(/l)",
+	"subtitle": "Written by Utak Aluna",
+	"version": 2,
+	"book_texture": "patchouli:textures/gui/book_cyan.png",
+	"filler_texture": "ec:book/blank.png",
+	"model": "patchouli:book_cyan",
+	"show_progress": false,
+	"nameplate_color": "72b147",
+	"link_color": "076d07",
+	"link_hover_color": "84ff84",
+	"macros": {
+		"$(place)": "$(#0078ff)",
+		"$(item)": "$(#de00ff)",
+		"$(thing)": "$(#03d812)",
+		"$(action)": "$(#eea302)",
+		"$(entity)": "$(#da5353)"
+	}
+}

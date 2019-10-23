@@ -1,0 +1,16 @@
+{
+    "name": "Speed Eating",
+    "icon": "harvestcraft:thankfuldinneritem",
+    "category": "qol",
+    "pages": [
+		{
+			"type": "text",
+			"text": "To the $(place)right of your hotbar$(), you’ll notice a separate slot. Food can be placed in this slot by $(action)holding it in your hand$(), and $(action)crouching + right clicking$(). Then, the food in this slot can be $(thing)instantly eaten$() by $(action)pressing the $(k:quickconsume) key$(), saving you precious time, even in combat! However, note that food eaten this way does not grant Nutrition boosts. $(item)Potions$() can also be placed in this slot via use of the $(item)potion pouch$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "quickconsume:potion_bag:801",
+			"text": "$(italic)Author's Note: This appears to be a standard potion pouch, but what is a 'hot bar'? How can food fail to be nutritive? Truly the world was a strange place back then.$()"
+		}
+	]
+}

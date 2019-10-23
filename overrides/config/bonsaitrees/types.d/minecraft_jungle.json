@@ -1,0 +1,38 @@
+{
+    "name": "minecraft:jungle",
+    "mod": "minecraft",
+    "sapling": {
+        "name": "minecraft:sapling",
+        "data": 3
+    },
+    "growTimeMultiplier": 1,
+    "drops": [
+        {
+            "name": "quark:bark",
+            "data": 3,
+            "type": "CUSTOM",
+			"count": 1,
+			"chance": .5
+        },
+        {
+            "name": "minecraft:log",
+            "data": 3,
+            "type": "WOOD"
+        },
+        {
+            "name": "minecraft:sapling",
+            "data": 3,
+            "type": "SAPLING"
+        },
+        {
+            "name": "minecraft:leaves",
+            "data": 3,
+            "type": "LEAVES"
+        },
+		{
+            "name": "minecraft:dye",
+            "data": 3,
+            "type": "FRUIT"
+        }
+    ]
+}

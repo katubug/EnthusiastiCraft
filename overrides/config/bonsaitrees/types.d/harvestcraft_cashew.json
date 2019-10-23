@@ -1,0 +1,18 @@
+{
+    "name": "harvestcraft:cashew",
+    "mod": "harvestcraft",
+    "sapling": {
+        "name": "harvestcraft:cashew_sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1,
+    "drops": [
+        {
+            "name": "harvestcraft:cashewitem",
+            "data": 0,
+			"type": "CUSTOM",
+			"count": 1,
+			"chance": 1
+        }
+	]
+}

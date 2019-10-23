@@ -1,0 +1,68 @@
+{
+  "type": "quark:blossoming_spruce",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "quark:variant_leaves",
+      "meta": 13
+    },
+    "b": {
+      "name": "quark:variant_leaves",
+      "meta": 5
+    },
+    "c": {
+      "name": "minecraft:log",
+      "meta": 1
+    }
+  },
+  "shape": [
+    [
+      "      ",
+      "      ",
+      "  bbb ",
+      "  bbb ",
+      "      ",
+      "      "
+    ],
+    [
+      "      ",
+      " bbb  ",
+      " bbbbb",
+      " bbbbb",
+      "   b  ",
+      "      "
+    ],
+    [
+      "  b   ",
+      "baaab ",
+      "baaabb",
+      " aaabb",
+      "  aab ",
+      "      "
+    ],
+    [
+      " bbb  ",
+      "baaab ",
+      "bacabb",
+      " acabb",
+      "  ca  ",
+      "  c   "
+    ],
+    [
+      "  b   ",
+      "baaab ",
+      "baaab ",
+      "  aab ",
+      "      ",
+      "      "
+    ],
+    [
+      "      ",
+      " bbb  ",
+      " bbb  ",
+      "      ",
+      "      ",
+      "      "
+    ]
+  ]
+}

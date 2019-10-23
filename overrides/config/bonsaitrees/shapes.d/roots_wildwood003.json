@@ -1,0 +1,196 @@
+{
+  "type": "roots:wildwood",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "roots:wildwood_leaves",
+      "meta": 0
+    },
+    "b": {
+      "name": "roots:wildwood_leaves",
+      "meta": 8
+    },
+    "c": {
+      "name": "roots:wildwood_log",
+      "meta": 4
+    },
+    "d": {
+      "name": "roots:wildwood_log",
+      "meta": 0
+    },
+    "e": {
+      "name": "roots:wildwood_log",
+      "meta": 8
+    }
+  },
+  "shape": [
+    [
+      "          ",
+      "          ",
+      "          ",
+      "   aaa    ",
+      "   aaa    ",
+      "          ",
+      "          ",
+      "          ",
+      "          ",
+      "          ",
+      "          ",
+      "          "
+    ],
+    [
+      "          ",
+      "          ",
+      "    a     ",
+      "  aaaaa   ",
+      "  ababa   ",
+      "    b     ",
+      "          ",
+      "          ",
+      "          ",
+      "          ",
+      "          ",
+      "          "
+    ],
+    [
+      "          ",
+      "          ",
+      "   aaa    ",
+      "  aaaaa   ",
+      "  abbba   ",
+      "   bcb    ",
+      "          ",
+      "          ",
+      "          ",
+      "          ",
+      "          ",
+      "          "
+    ],
+    [
+      "          ",
+      "  aaa     ",
+      "  aaa     ",
+      "  aaaaa   ",
+      "  aabba   ",
+      "    b     ",
+      "    c     ",
+      "          ",
+      "          ",
+      "          ",
+      "          ",
+      "          "
+    ],
+    [
+      "   a      ",
+      " aaaaa    ",
+      " abbba    ",
+      "   bba    ",
+      "   bbaaaa ",
+      "   bbaaaa ",
+      "   cbb    ",
+      "          ",
+      "          ",
+      "          ",
+      "          ",
+      "          "
+    ],
+    [
+      "  aaa     ",
+      " aaaaa    ",
+      " abbba    ",
+      " aadb  a  ",
+      "  bdbaaaaa",
+      "  bdbbbbba",
+      "  bdbbbb  ",
+      "  bdee    ",
+      "   d      ",
+      "   d      ",
+      "   d      ",
+      "   d      "
+    ],
+    [
+      "   a      ",
+      " aaaaa    ",
+      "aabbba    ",
+      "abbbbaaaa ",
+      " bbcbaaaaa",
+      "  bcbbbbba",
+      " bbccbeeb ",
+      " bbbcab   ",
+      "   bb     ",
+      "          ",
+      "          ",
+      "          "
+    ],
+    [
+      "          ",
+      " aaaa     ",
+      "aaaaa     ",
+      "abbbb  a  ",
+      "abcbbaaaaa",
+      "  bcabbbba",
+      " bcbbbbb  ",
+      " bbbbbb   ",
+      "  abab    ",
+      "          ",
+      "          ",
+      "          "
+    ],
+    [
+      "          ",
+      "  a       ",
+      "aaaaa     ",
+      "abbba     ",
+      "abcbbaaaa ",
+      " bcbbaaaa ",
+      " bbbbaaa  ",
+      " bbbaaa   ",
+      "   aa     ",
+      "          ",
+      "          ",
+      "          "
+    ],
+    [
+      "          ",
+      " aaa      ",
+      "aaaaa     ",
+      "abbba     ",
+      "abcaa     ",
+      "  b aaa   ",
+      "  bbaaa   ",
+      "  aaaa    ",
+      "          ",
+      "          ",
+      "          ",
+      "          "
+    ],
+    [
+      "          ",
+      "  a       ",
+      "aaaaa     ",
+      "abbba     ",
+      " bbb      ",
+      "          ",
+      "          ",
+      "          ",
+      "          ",
+      "          ",
+      "          ",
+      "          "
+    ],
+    [
+      "          ",
+      "          ",
+      " aaa      ",
+      " aaa      ",
+      "          ",
+      "          ",
+      "          ",
+      "          ",
+      "          ",
+      "          ",
+      "          ",
+      "          "
+    ]
+  ]
+}

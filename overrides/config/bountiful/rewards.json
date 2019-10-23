@@ -1,0 +1,39 @@
+[
+  {
+    "content": "minecraft:diamond",
+    "unitWorth": 1600,
+    "weight": 10
+  },
+  {
+    "content": "minecraft:emerald",
+    "unitWorth": 1000,
+    "weight": 10
+  },
+  {
+    "content": "modcurrency:coin:4",
+    "unitWorth": 35,
+    "weight": 150,
+	"amount": {
+      "min": 5,
+      "max": 500
+    }
+  },
+	{
+    "content": "modcurrency:banknote:2",
+    "unitWorth": 800,
+    "weight": 150,
+	"amount": {
+      "min": 1,
+      "max": 10
+    }
+  },
+  {
+    "content": "modcurrency:banknote:3",
+    "unitWorth": 1600,
+    "weight": 150,
+	"amount": {
+      "min": 1,
+      "max": 5
+    }
+  },
+]

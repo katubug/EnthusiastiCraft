@@ -1,0 +1,33 @@
+{
+    "name": "minecraft:spruce",
+    "mod": "minecraft",
+    "sapling": {
+        "name": "minecraft:sapling",
+        "data": 1
+    },
+    "growTimeMultiplier": 1,
+    "drops": [
+        {
+            "name": "quark:bark",
+            "data": 5,
+            "type": "CUSTOM",
+			"count": 1,
+			"chance": 0.5
+        },
+        {
+            "name": "minecraft:log",
+            "data": 1,
+            "type": "WOOD"
+        },
+        {
+            "name": "minecraft:sapling",
+            "data": 1,
+            "type": "SAPLING"
+        },
+        {
+            "name": "minecraft:leaves",
+            "data": 1,
+            "type": "LEAVES"
+        }
+    ]
+}

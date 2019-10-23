@@ -1,0 +1,15 @@
+{
+    "name": "Cartography",
+    "icon": "minecraft:filled_map",
+    "category": "qol",
+    "pages": [
+		{
+			"type": "text",
+			"text": "This modpack utilizes JourneyMap to help players find their bearings. It provides a toggleable and $(thing)customizable minimap$(), as well as a $(thing)full-screen zoomable map$(). $(item)Waypoints$() may be placed at your location (or any location you know the coordinates of) by pressing $(k:journeymap.create_waypoint) (while in the game) or $(k:journeymap.fullscreen_create_waypoint) (while in the JourneyMap menu)."
+		},
+		{
+			"type": "text",
+			"text": "You can $(action)toggle the in-world visibility of your waypoints$() with $(k:journeymap.toggle_waypoints), and manage your waypoint menu with $(k:journeymap.fullscreen_waypoints).$(br2)Waypoints are per-world and per-dimension. If you are opped or have cheats enabled, then you can use JourneyMap to teleport. If neither of these is the case, you can use $(item)Waystones$() to travel."
+		}
+	]
+}

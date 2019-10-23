@@ -1,0 +1,41 @@
+{
+    "name": "natura:redwood",
+    "mod": "natura",
+    "sapling": {
+        "name": "natura:redwood_sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "natura:redwood_logs",
+            "data": 0,
+            "type": "WOOD"
+        },
+		{
+            "name": "natura:redwood_logs",
+            "data": 2,
+            "type": "WOOD"
+        },
+		{
+            "name": "natura:overworld_planks",
+            "data": 8,
+            "type": "WOOD"
+        },
+        {
+            "name": "natura:redwood_sapling",
+            "data": 0,
+            "type": "SAPLING"
+        },
+        {
+            "name": "natura:redwood_leaves",
+            "data": 0,
+            "type": "LEAVES"
+        }
+    ]
+}

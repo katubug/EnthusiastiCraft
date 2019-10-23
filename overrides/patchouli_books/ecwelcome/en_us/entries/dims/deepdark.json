@@ -1,0 +1,16 @@
+{
+    "name": "The DeepDark",
+    "icon": "extrautils2:teleporter:1",
+    "category": "dims",
+    "pages": [
+		{
+			"type": "text",
+			"text": "Not much is known about this deep and disturbing cave."
+		},
+		{
+			"type": "crafting",
+			"recipe": "extrautils2:compressed_cobblestone",
+            "recipe2": "extrautils2:teleporter"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "2. Akashic Tome",
+    "icon": "akashictome:tome",
+    "category": "start",
+    "pages": [
+        {
+            "type": "text",
+            "text": "In this book you can find a compendium of all the knowledge I, and others, have amassed on many subjects. From almanacks to bestiaries to mechanical handbooks, this magnificent piece of literature should help you access $(thing)in-depth guides$() to many different specializations.$(br2)To obtain one, take $(item)this very guidebook$() and craft it with some $(item)dirt$()."
+        },
+		{
+            "type": "crafting",
+			"title": "Filled Akashic Tome",
+            "recipe": "contenttweaker:ec_fullakashicdirt",
+			"text": "Don't ask me why rubbing $(item)dirt$() onto a $(item)book$() turns it into $(item)another book$(). There are some things that humankind is not meant to know."
+		},
+		{
+			"type": "text",
+			"text": "To use the $(item)Tome$(), one need only $(action)right-click$() while holding it to access its many chapters. $(action)Left clicking on a chapter$() will bring it to the forefront to be read, and it will remain active until one $(action)crouches and left-clicks$() the air.$(br2)Should one wish to remove a selected chapter from the Tome, one should $(action)crouch and throw$() the item, which will dislodge the desired book. To place a book within its pages, simply $(action)craft$() that book together with the $(item)Tome."
+		},
+		{
+            "type": "crafting",
+			"title": "Filled Akashic Tome",
+            "recipe": "contenttweaker:ec_fullakashicself",
+			"text": "Should one ever misplace one of the books from their tome, it can be reset to its original glory at any time by simply placing it in a crafting table $(thing)by itself.$()"
+		}
+    ]
+}

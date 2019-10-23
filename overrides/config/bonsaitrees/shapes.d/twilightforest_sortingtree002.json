@@ -1,0 +1,41 @@
+{
+  "type": "twilightforest:sorting_tree",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "twilightforest:magic_leaves",
+      "meta": 11
+    },
+    "b": {
+      "name": "twilightforest:magic_log",
+      "meta": 3
+    },
+    "c": {
+      "name": "twilightforest:magic_log_core",
+      "meta": 3
+    }
+  },
+  "shape": [
+    [
+      " a ",
+      "aaa",
+      "aaa",
+      " a ",
+      "   "
+    ],
+    [
+      "aaa",
+      "aba",
+      "aba",
+      "aca",
+      " b "
+    ],
+    [
+      " a ",
+      "aaa",
+      "aaa",
+      " a ",
+      "   "
+    ]
+  ]
+}

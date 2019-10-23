@@ -1,0 +1,29 @@
+{
+    "name": "roots:wildwood",
+    "mod": "roots",
+    "sapling": {
+        "name": "roots:wildwood_sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 2,
+    "drops": [
+		{
+            "name": "roots:wildwood_log",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "roots:wildwood_leaves",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "roots:wildroot",
+            "data": 0,
+            "type": "CUSTOM",
+			"count": 1,
+			"chance": .001
+        }
+    ],
+	"compatibleSoilTags": [ "mystic" ]
+}

@@ -1,0 +1,409 @@
+{
+  "Inventories": {
+    "0": {
+      "title": "Cyclic: Extended Inventory",
+      "icon": {
+        "name": "cyclicmagic:inventory_food",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.keyExtraInvo",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "Actually Additions: Traveller\u0027s Sack",
+      "icon": {
+        "name": "actuallyadditions:item_bag",
+        "damage": 0
+      },
+      "action": {
+        "item": {
+          "name": "actuallyadditions:item_bag",
+          "damage": 0
+        }
+      }
+    },
+    "2": {
+      "title": "Betweenlands: Lurker Skin Pouch (Inventory Only)",
+      "icon": {
+        "name": "thebetweenlands:lurker_skin_pouch",
+        "damage": 0
+      },
+      "action": {
+        "item": {
+          "name": "thebetweenlands:lurker_skin_pouch",
+          "damage": 0
+        }
+      }
+    },
+    "3": {
+      "title": "Roots: Component Pouch",
+      "icon": {
+        "name": "roots:component_pouch",
+        "damage": 0
+      },
+      "action": {
+        "item": {
+          "name": "roots:component_pouch",
+          "damage": 0
+        }
+      }
+    },
+    "4": {
+      "title": "Roots: Apothecary Pouch",
+      "icon": {
+        "name": "roots:apothecary_pouch",
+        "damage": 0
+      },
+      "action": {
+        "item": {
+          "name": "roots:apothecary_pouch",
+          "damage": 0
+        }
+      }
+    },
+    "5": {
+      "title": "Devouring Charm",
+      "icon": {
+        "name": "arcanearchives:devouring_charm",
+        "damage": 0
+      },
+      "action": {
+        "item": {
+          "name": "arcanearchives:devouring_charm",
+          "damage": 0
+        }
+      }
+    },
+    "6": {
+      "title": "Construct\u0027s Armory: Chestplate",
+      "icon": {
+        "name": "conarm:travel_sack",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.conarm.toggle_chest.desc",
+          "toggle": true
+        }
+      }
+    },
+    "7": {
+      "title": "EnderIO: Dark Armor Inventory",
+      "icon": {
+        "name": "enderio:item_dark_steel_chestplate",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "enderio.keybind.inventory",
+          "toggle": true
+        }
+      }
+    },
+    "8": {
+      "title": "Improved Backpacks: Open Backpack (Equipped Only)",
+      "icon": {
+        "name": "improvedbackpacks:backpack",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "Open Backpack",
+          "toggle": false
+        }
+      }
+    },
+    "9": {
+      "title": "FTB Mods: Trash Can",
+      "icon": {
+        "name": "extrautils2:trashcan",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.ftbutilities.trash",
+          "toggle": false
+        }
+      }
+    }
+  },
+  "Character": {
+    "0": {
+      "title": "Advancements",
+      "icon": {
+        "name": "actuallyadditions:item_drill_upgrade_fortune_ii",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.advancements",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "Inventory",
+      "icon": {
+        "name": "minecraft:log",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.inventory",
+          "toggle": false
+        }
+      }
+    },
+    "2": {
+      "title": "Knowledge of Death",
+      "icon": {
+        "name": "tombstone:decorative_grave_simple",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "tombstone.message.knowledge_of_death",
+          "toggle": false
+        }
+      }
+    },
+    "3": {
+      "title": "Quest Book",
+      "icon": {
+        "name": "ftbquests:book",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.ftbquests.quests",
+          "toggle": false
+        }
+      }
+    }
+  },
+  "Equipment": {},
+  "Equipment Menus": {
+    "0": {
+      "title": "Baubles Inventory",
+      "icon": {
+        "name": "extrautils2:angelring",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "keybind.baublesinventory",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "Cosmetic Armor Inventory",
+      "icon": {
+        "name": "iceandfire:myrmex_jungle_chestplate",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "cos.key.opencosarmorinventory",
+          "toggle": true
+        }
+      }
+    },
+    "2": {
+      "title": "Betweenlands: Open Equipment Menu",
+      "icon": {
+        "name": "thebetweenlands:bark_amulet",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.radial_menu",
+          "toggle": true
+        }
+      }
+    },
+    "3": {
+      "title": "Tools: Yeta Wrench Mode",
+      "icon": {
+        "name": "enderio:item_yeta_wrench",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "enderio.keybind.yetawrenchmode",
+          "toggle": true
+        }
+      }
+    },
+    "4": {
+      "title": "Tools: Toggle Electromagnet",
+      "icon": {
+        "name": "enderio:item_magnet",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "enderio.keybind.magnet",
+          "toggle": false
+        }
+      }
+    },
+    "5": {
+      "title": "Reliquary: Toggle Coin of Fortune",
+      "icon": {
+        "name": "xreliquary:fortune_coin",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "xreliquary.keybind.fortune_coin",
+          "toggle": false
+        }
+      }
+    },
+    "6": {
+      "title": "Betweenlands: Use Ring",
+      "icon": {
+        "name": "thebetweenlands:ring_of_recruitment",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.use_ring",
+          "toggle": true
+        }
+      }
+    },
+    "7": {
+      "title": "PlusTiC: Change Tool Mode",
+      "icon": {
+        "name": "plustic:laser_gun",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.plustic_toggle_tool.desc",
+          "toggle": false
+        }
+      }
+    },
+    "8": {
+      "title": "CofH: Cycle Item Mode",
+      "icon": {
+        "name": "betterbuilderswands:wanddiamond",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "bbw.key.mode",
+          "toggle": false
+        }
+      }
+    },
+    "9": {
+      "title": "Roots: Wildwood Quiver",
+      "icon": {
+        "name": "roots:wildwood_quiver",
+        "damage": 0
+      },
+      "action": {
+        "item": {
+          "name": "roots:wildwood_quiver",
+          "damage": 0
+        }
+      }
+    }
+  },
+  "Building-Related": {},
+  "main": {
+    "0": {
+      "title": "Extra Inventories",
+      "icon": {
+        "name": "quickconsume:potion_bag",
+        "damage": 801
+      },
+      "action": {
+        "category": "Inventories"
+      }
+    },
+    "1": {
+      "title": "Equipment Menus",
+      "icon": {
+        "name": "minecraft:chainmail_chestplate",
+        "damage": 0
+      },
+      "action": {
+        "category": "Equipment Menus"
+      }
+    },
+    "2": {
+      "title": "Quests",
+      "icon": {
+        "name": "ftbquests:book",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.ftbquests.quests",
+          "toggle": false
+        }
+      }
+    },
+    "6": {
+      "title": "Knowledge of Death",
+      "icon": {
+        "name": "tombstone:decorative_grave_simple",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "tombstone.message.knowledge_of_death",
+          "toggle": false
+        }
+      }
+    },
+    "7": {
+      "title": "Toggle Darkness Overlay",
+      "icon": {
+        "name": "minecraft:skull",
+        "damage": 2
+      },
+      "action": {
+        "key": {
+          "key": "key.moreoverlays.lightoverlay.desc",
+          "toggle": false
+        }
+      }
+    },
+    "8": {
+      "title": "Toggle Chunk Boundaries",
+      "icon": {
+        "name": "minecraft:grass",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.moreoverlays.chunkbounds.desc",
+          "toggle": false
+        }
+      }
+    },
+    "9": {
+      "title": "Advancements",
+      "icon": {
+        "name": "botania:cosmetic",
+        "damage": 31
+      },
+      "action": {
+        "key": {
+          "key": "key.advancements",
+          "toggle": false
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Radial Menu",
+    "icon": "minecraft:redstone",
+    "category": "qol",
+    "pages": [
+		{
+			"type": "text",
+			"text": "Many of the mods in this pack have $(thing)keybinds$(), for which the average keyboard does not have enough room. To remedy this, you may access $(item)a radial menu$() via the $(k:open_menu) key. By default, the radial is a toggle, which can be changed. The empty radial slots can be customized, but be aware that $(thing)some updates may overwrite these changes$(), so $(bold)always read the changelog notes before upgrading a save$()."
+		},
+		{
+			"type": "text",
+			"text": "$(italic)Author's Note: This entry is so tantalizingly obscure. To what pack are they referring? Wolves? People? And what sort of food is on a 'radial menu'?$(br2)The civilization that produced these documents has obsessed me. I must discover more about them!$()"
+		}
+	]
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+  <recipe name="Spawner, Betweenlands" required="false">
+    <spawning>
+      <entity name="thebetweenlands:gecko" disabled="true"/>
+    </spawning>
+  </recipe>
+  
+  <recipe name="Spawner, Ice and Fire" required="false">
+    <spawning>
+	  <entity name="iceandfire:firedragon" disabled="true"/>
+	  <entity name="iceandfire:icedragon" disabled="true"/>
+	  <entity name="iceandfire:gorgon" disabled="true"/>
+    <entity name="iceandfire:dragonegg" disabled="true" soulvial="false"/>
+    <entity name="iceandfire:myrmex_egg" disabled="true" soulvial="false"/>
+    </spawning>
+  </recipe>
+  
+  <recipe name="Spawner, ZAWA" required="false">
+    <spawning>
+      <entity name="zawa:AnimalTransportVehicle" disabled="true" soulvial="false"/>
+	  <entity name="zawa:OffRoadVehicle" disabled="true" soulvial="false"/>
+    </spawning>
+  </recipe>
+  
+    <recipe name="Tweak: Stick from Wood" required="false" disabled="true">
+    <crafting>
+      <grid size="1x2">
+        <item name="logWood"/>
+        <item name="logWood"/>
+      </grid>
+      <output name="minecraft:stick, stickWood" amount="16" />
+    </crafting>
+  </recipe>
+  
+    <recipe name="Tweak: Chest from Wood" required="false" disabled="true">
+    <crafting>
+      <grid>
+        <item name="logWood"/><item name="logWood"/><item name="logWood"/>
+        <item name="logWood"/><item/><item name="logWood"/>
+        <item name="logWood"/><item name="logWood"/><item name="logWood"/>
+      </grid>
+      <output name="minecraft:chest, chestWood" amount="4" />
+    </crafting>
+  </recipe>
+  
+    <recipe name="Compatibility: Glass Pane" required="false" disabled="false">
+    <crafting>
+      <grid size="3x2">
+        <item name="blockGlassColorless"/><item name="blockGlassColorless"/><item name="blockGlassColorless"/>
+        <item name="blockGlassColorless"/><item name="blockGlassColorless"/><item name="blockGlassColorless"/>
+      </grid>
+      <output name="minecraft:glass_pane" amount="16"/>
+    </crafting>
+  </recipe>
+
+</enderio:recipes>

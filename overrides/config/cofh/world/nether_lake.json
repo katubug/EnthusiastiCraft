@@ -1,0 +1,35 @@
+{
+	"dependencies": {
+			"thermalfoundation",
+			"twilightforest"
+			},
+	"populate": {
+		"nether_lake": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "lake",
+				"block": "thermalfoundation:fluid_pyrotheum",
+				"material": "minecraft:netherrack",
+				"use-material": true,
+				"solid-outline": true,
+				"outline-block": [
+					"minecraft:magma",
+					"twilightforest:thorns",
+				]
+			},
+			"cluster-count": 10,
+			"chunk-chance": 1,
+			"min-height": 10,
+			"max-height": 120,
+			"follow-terrain": true,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		}
+	}
+}

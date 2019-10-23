@@ -1,0 +1,69 @@
+{
+  "type": "harvestcraft:rambutan",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "harvestcraft:pamrambutan",
+      "meta": 0
+    },
+    "b": {
+      "name": "minecraft:log",
+      "meta": 3
+    },
+    "c": {
+      "name": "minecraft:leaves",
+      "meta": 3
+    },
+    "d": {
+      "name": "minecraft:leaves",
+      "meta": 11
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      " ccc ",
+      " cccc",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "  d  ",
+      " ddd ",
+      "cdddc",
+      "cdddc",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      " ddd ",
+      " dbd ",
+      "cdbdc",
+      "cdbdc",
+      "  b  ",
+      "  b  ",
+      "  b  "
+    ],
+    [
+      "  d  ",
+      " dd  ",
+      "cdddc",
+      "cdddc",
+      "aaa  ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      " ccc ",
+      "ccccc",
+      "a    ",
+      "     ",
+      "     "
+    ]
+  ]
+}

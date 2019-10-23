@@ -1,0 +1,16 @@
+{
+    "name": "New Types of Compasses",
+    "icon": "naturescompass:naturescompass",
+    "category": "qol",
+    "pages": [
+		{
+			"type": "text",
+			"text": "Navigating to specific things is now much easier with these two tools. The $(item)Nature’s Compass$() will allow you to search for specific $(thing)biomes$(). If the biome is within roughly 10,000 blocks, it will provide you with the coordinates. The $(item)Stronghold Compass$() does what the name suggests - if you are within 1,000 blocks of a $(thing)Stronghold$(), it will point you in its direction. Getting to $(place)The End$() has never been easier."
+		},
+		{
+			"type": "crafting",
+			"recipe": "naturescompass:natures_compass",
+			"recipe2": "endercompass:ender_compass"
+		}
+	]
+}

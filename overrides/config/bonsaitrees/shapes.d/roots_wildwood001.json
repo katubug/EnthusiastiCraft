@@ -1,0 +1,182 @@
+{
+  "type": "roots:wildwood",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "roots:wildwood_leaves",
+      "meta": 0
+    },
+    "b": {
+      "name": "roots:wildwood_leaves",
+      "meta": 8
+    },
+    "c": {
+      "name": "roots:wildwood_log",
+      "meta": 0
+    },
+    "d": {
+      "name": "roots:wildwood_log",
+      "meta": 8
+    },
+    "e": {
+      "name": "roots:wildwood_log",
+      "meta": 4
+    }
+  },
+  "shape": [
+    [
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      " aaa     ",
+      " aaa     ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "         ",
+      "         ",
+      "   aaa   ",
+      "   aaa   ",
+      "   aaa   ",
+      "  aaaa   ",
+      "aaaaa    ",
+      "aaaaa    ",
+      "  a      ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "         ",
+      "    a    ",
+      "  aaaaa  ",
+      "  abbaa  ",
+      "  ababa  ",
+      " aabbbaa ",
+      "aaabbbaa ",
+      "aaabb    ",
+      " aaa     ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "         ",
+      "   aaa   ",
+      "  aaaaa  ",
+      "  abbba  ",
+      "  abebaa ",
+      "aaabbabaa",
+      "aabbebaba",
+      "abbba b  ",
+      "  b      ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "    a    ",
+      "  aaaaa  ",
+      "  abbaaa ",
+      " aababba ",
+      " abbebba ",
+      "aaabbabaa",
+      "aaabeeaba",
+      " bde eda ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "   aaa   ",
+      "  aaaaa  ",
+      "  aabaaaa",
+      "aaabcbbba",
+      "abbbcdba ",
+      "abbdcbbba",
+      "abbbcbbba",
+      "  abcba  ",
+      "    c    ",
+      "    c    ",
+      "    c    ",
+      "    c    "
+    ],
+    [
+      "    a    ",
+      "  aaaaaa ",
+      " aaabbaaa",
+      "aaabbbbba",
+      "aabbbadb ",
+      " adbbbba ",
+      " bbbbeba ",
+      "  abbbb  ",
+      "    b    ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "         ",
+      "   aaaa  ",
+      "  aaaaaaa",
+      "aaaaababa",
+      "abbbabbba",
+      "  bbbba  ",
+      "  babeb  ",
+      "  aabbb  ",
+      "   aaa   ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "         ",
+      "         ",
+      "     aaa ",
+      " aaaaaaaa",
+      " aaaababa",
+      "    bbea ",
+      "  aabbb  ",
+      "  aabbb  ",
+      "    a    ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "         ",
+      "         ",
+      "      a  ",
+      "    aaaaa",
+      "    abbba",
+      "      a  ",
+      "   aab   ",
+      "   aaa   ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "         ",
+      "         ",
+      "         ",
+      "     aaa ",
+      "     aaa ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ]
+  ]
+}

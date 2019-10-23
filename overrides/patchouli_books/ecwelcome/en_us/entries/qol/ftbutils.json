@@ -1,0 +1,19 @@
+{
+    "name": "Chunk Loading",
+    "icon": "chisel:technical:14",
+    "category": "qol",
+    "pages": [
+		{
+			"type": "text",
+			"text": "For chunk loading, this pack uses FTB Utilities. Chunk loading can be beneficial, as it $(thing)allows an area of the world that you’re not currently in to remain active and loaded$(). This will allow things to continue to work without you being close to them. This is particularly useful for items such as the $(item)Angel Ring$(), which requires power to function - you will no longer be tied to the area with your generator."
+		},
+		{
+			"type": "text",
+			"text": "In order to load a chunk, you must first claim it. This can be done by opening your inventory ($(k:inventory)) and clicking on the map in the upper left. You may then claim chunks by $(action)left clicking on the map$(). Holding $(action)shift while you click$() will both claim and load the chunk. In order to unclaim a chunk, you must $(action)right-click$() it. Be aware that on servers, the amount of chunks you can claim and load may be limited, as $(bold)the amount of loaded chunks affects performance$()."
+		},
+		{
+			"type": "text",
+			"text": "FTB Utilities also has a number of other features, such as $(thing)Teams$() (a way to $(action)ally with other players on a server$() - in singleplayer you are automatically added to a team containing yourself), leaderboards, and more. You can find the options for these in the $(place)upper left of your inventory screen$() nearby where the chunk claiming tool is located."
+		}
+	]
+}

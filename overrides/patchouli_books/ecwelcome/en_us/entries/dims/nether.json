@@ -1,0 +1,39 @@
+{
+    "name": "The Nether",
+    "icon": "minecraft:netherrack",
+    "category": "dims",
+    "pages": [
+		{
+			"type": "text",
+			"text": "To visit this horrifying hellscape, $(action)create a portal$() with $(item)Obsidian$() and activate it with a $(item)Flint & Steel$(). This is nothing new - but what you find on the other side might be. $(place)The Nether$() here is no monotonous netherrack cavern swamped by lava - in its depths you can now find new trees and plant life, frozen wastelands, infectious $(entity)Creepers$() and reigning $(entity)Ghast Queens$(), pools of $(item)Flaming Pyrotheum$()"
+		},
+		{
+			"type": "image",
+			"images": ["ec:book/nether.png"],
+			"title": "The Nether",
+			"border": true,
+			"text": "and even a few devilish $(entity)Chickens$()."
+		},
+		{
+			"type": "text",
+			"text": "At least 10 $(item)Obsidian$() are required to build a proper portal. The corner blocks are not integral to the functionality of the portal, however it is recommended to place something there for stability purposes.$(br2)Once the frame is in place, it can be activated with a $(item)Flint & Steel$(). Then, one must step inside, but slowly, for interdimensional travel tends to be dizzying, and one wishes to arrive in a single piece."
+		},
+		{
+			"type": "multiblock",
+			"multiblock": {
+				"pattern": [
+				[" OO "],
+				["O  O"],
+				["O  O"],
+				["O  O"],
+				[" 0O "]
+				],
+				"mapping": {
+				"O": "minecraft:obsidian",
+				"0": "minecraft:obsidian"
+				},
+				"symmetrical": false
+			}
+		}
+	]
+}

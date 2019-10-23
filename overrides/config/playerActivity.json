@@ -1,0 +1,97 @@
+{
+ "commandBlockSupport": false,
+ "PerformanceMode": true,
+ "effects": [
+  {
+   "ID": "Promotion-Novice",
+   "Command": [
+    "/ranks set @s novice",
+    "/me just ranked up! They're now a Novice!",
+    "/tellraw @s [\"\",{\"text\":\"You can now set 3 /home, claim 10 chunks and chunkload 5 of them.\",\"color\":\"gold\"}]"
+   ],
+   "TimeUnit": "hour",
+   "Time": 5,
+   "Saved": true,
+   "Online": true,
+   "Repeat": false,
+   "AsPlayer": true
+  },
+  {
+   "ID": "Promotion-Apprentice",
+   "Command": [
+    "/ranks set @s apprentice",
+    "/me just ranked up! They're now an Apprentice!",
+    "/tellraw @s [\"\",{\"text\":\"You can now set 5 /home, claim 15 chunks and chunkload 7 of them.\",\"color\":\"gold\"}]",
+    "/tellraw @s [\"\",{\"text\":\"Congratulations on your promotion! Your reward is 1 Red Heart Canister.\",\"color\":\"gold\"}]",
+    "/give @s bhc:red_heart_canister 1"
+   ],
+   "TimeUnit": "hour",
+   "Time": 10,
+   "Saved": true,
+   "Online": true,
+   "Repeat": false,
+   "AsPlayer": true
+  },
+  {
+   "ID": "Promotion-Journeyman",
+   "Command": [
+    "/ranks set @s journeyman",
+    "/me just ranked up! They're now a Journeyman!",
+    "/tellraw @s [\"\",{\"text\":\"You can now claim 20 chunks.\",\"color\":\"gold\"}]",
+    "/tellraw @s [\"\",{\"text\":\"Congratulations on your promotion! Your reward is 1 Yellow Heart Canister.\",\"color\":\"gold\"}]",
+    "/give @s bhc:yellow_heart_canister 1"
+   ],
+   "TimeUnit": "hour",
+   "Time": 30,
+   "Saved": true,
+   "Online": true,
+   "Repeat": false,
+   "AsPlayer": true
+  },
+  {
+   "ID": "Promotion-Expert",
+   "Command": [
+    "/ranks set @s expert",
+    "/me just ranked up! They're now an Expert!",
+    "/tellraw @s [\"\",{\"text\":\"You can now claim 25 chunks.\",\"color\":\"gold\"}]",
+    "/tellraw @s [\"\",{\"text\":\"Congratulations on your promotion! Your reward is 1 Green Heart Canister.\",\"color\":\"gold\"}]",
+    "/give @s bhc:green_heart_canister 1"
+   ],
+   "TimeUnit": "day",
+   "Time": 2,
+   "Saved": true,
+   "Online": true,
+   "Repeat": false,
+   "AsPlayer": true
+  },
+  {
+   "ID": "Promotion-Adept",
+   "Command": [
+    "/ranks set @s adept",
+    "/me just ranked up! They're now an Adept!",
+    "/tellraw @s [\"\",{\"text\":\"You can now claim 30 chunks.\",\"color\":\"gold\"}]",
+    "/tellraw @s [\"\",{\"text\":\"Congratulations, you've reached max rank! Your reward is 1 Blue Heart Canister.\",\"color\":\"gold\"}]",
+    "/give @s bhc:blue_heart_canister 1"
+   ],
+   "TimeUnit": "day",
+   "Time": 6,
+   "Saved": true,
+   "Online": true,
+   "Repeat": false,
+   "AsPlayer": true
+  }
+ ],
+ "tags": [
+  {
+   "Tag": "donator",
+   "ID": [
+    "Promotion-Novice",
+    "Promotion-Apprentice",
+    "Promotion-Journeyman",
+    "Promotion-Expert",
+    "Promotion-Adept"
+   ],
+   "Default": false
+  }
+ ]
+}

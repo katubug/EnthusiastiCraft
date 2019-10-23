@@ -1,0 +1,97 @@
+{
+  "type": "natura:redwood",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "natura:redwood_logs",
+      "meta": 0
+    },
+    "b": {
+      "name": "natura:redwood_leaves",
+      "meta": 4
+    },
+    "c": {
+      "name": "natura:redwood_logs",
+      "meta": 2
+    }
+  },
+  "shape": [
+    [
+      "       ",
+      "       ",
+      "       ",
+      "       ",
+      "   b   ",
+      "       ",
+      "       ",
+      "       ",
+      "       "
+    ],
+    [
+      "       ",
+      "       ",
+      "       ",
+      "   b   ",
+      " bbab  ",
+      "       ",
+      "       ",
+      "       ",
+      "   c   "
+    ],
+    [
+      "       ",
+      "  bb   ",
+      "  bbb  ",
+      " bbbbb ",
+      " baaab ",
+      "   a   ",
+      "   a   ",
+      "   a   ",
+      "   a   "
+    ],
+    [
+      "   b   ",
+      "  bbb  ",
+      " bbbb  ",
+      " bbbbb ",
+      "baaaaab",
+      "  aaa  ",
+      "  aaa  ",
+      "  aaa  ",
+      " caaac "
+    ],
+    [
+      "       ",
+      "  bb   ",
+      "   bb  ",
+      " bbbb  ",
+      "bbaaab ",
+      "  ba   ",
+      "   a   ",
+      "   a   ",
+      "   a   "
+    ],
+    [
+      "       ",
+      "       ",
+      "       ",
+      "  bbb  ",
+      "  bab  ",
+      "   b   ",
+      "       ",
+      "       ",
+      "   c   "
+    ],
+    [
+      "       ",
+      "       ",
+      "       ",
+      "       ",
+      "   b   ",
+      "       ",
+      "       ",
+      "       ",
+      "       "
+    ]
+  ]
+}
