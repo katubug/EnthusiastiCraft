@@ -16,9 +16,6 @@ AttributeFix -
 Broken Wings - 
  - Fix Broken Wings Wings breaking breaking in multiplayer. Thanks to the Wings developer for pointing this out.
 
-Chisel - 
- - Fix dupe bug
-
 ConnectedTexturesMod - 
  - Fix possible crash when other mods attempt to retexture our models (specifically UnlimitedChiselWorks)
 
@@ -45,17 +42,21 @@ FoamFix -
 
 FTB Library - 
  - Parse string with quotes properly
+ - Added hollow_rectangle:color icon, removed color param from draw()
+ - Added properties to icons
 
 FTB Quests - 
  - Fixed KubeJS versions
  - Added criterion config in advancement task
  - KJS completion event now has server
+ - Added Themes
 
 FTB Utilities - 
  - Added Aurora integration, removed all permissions files, removed command error printing
  - Changed CurseMaven version to 1.2.+ to fix build issue
  - Re-added override_commands config
  - Fixed ranks, added more Aurora integration
+ - Added hollow_rectangle:color icon, removed color param from draw()
 
 Just Enough IDs JEID - 
  - This is a hot fix for the last version since AdvancedRocketry couldn't be launched in a server environment.
@@ -74,6 +75,7 @@ LittleTiles -
 OnlinePictureFrame - 
  - Added creativecore dependency
  - Updated to newest LittleTiles version
+ - Fixed not supporting older forge versions
 
 Unlimited Chisel Works - 
  - Chisel 1.0.0 support.
@@ -86,6 +88,7 @@ Better Builder's Wands -
 
 Biomes O Plenty - 
  - Fixed a crash with shaders, and issues relating to using the Turkish language
+ - Fixes an issue with a missing build number causing dependency problems
 
 Tinker's Construct - 
  - Features
@@ -146,3 +149,23 @@ Tinker's Construct -
  -- Fixed crash from reflecting thorns damage
  -- Fixed crash from dealing damage multiple times in the same frame
  -- Fixed projectiles dealing less damage based when the players attack cooldown is low
+
+The Betweenlands - 
+ - Improved Volarkite up/downdrafts by making them last longer
+ - Fixed shader sky and Shallowbreath textures not rendering
+ - Fixed Lurker Skin Pouch being repairable, causing it to lose slots when repaired
+
+Animania - 
+ - Erroring invisiblocks no longer crash the server (credits: Neeve01, vintrove) Thanks Neeve01 for the PR!
+ - Animania should no longer try to classload TOP even if it's not available (credit: asanetargoss, thanks for the PR!) 
+ - All sheep colors now spawn again (credit: several people on discord)
+ - Animals no longer spawn at 0,0,0 (credits: draeath, Nightcorelsla, katubug)
+ - Fixed a rendering issue with the trough (credit: Sunconure11)
+ - Animals no longer starve to death in their sleep (credit: katubug)
+ - Updated Japanese translation (credit: falsecross)
+
+Chisel - 
+ - Fix dupe bug
+ - #794 Make chisel ice compatible with blocks that disable ice melting
+ - #796 Re-add accidentally removed configs for features
+
