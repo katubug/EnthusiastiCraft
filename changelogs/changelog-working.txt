@@ -1,68 +1,11 @@
-[1.7.5] 
+[1.7.6] 
  
 Mod Additions/Removals/Updates: 
-- Added Ambient Environment.
-- Added InvisibLights.
-- Added Better Advancements.
-- Added Gambling Style.
-- Added Villager Names.
-- Added The Erebus.
-- Added Random Tool Kit.
-- Updated Additional Structures to 2.3.1.
-- Updated Advanced Chimneys to 3.5.7.0-build0424.
-- Updated AttributeFix to 1.0.10.
-- Updated Broken Wings to 2.1.1.
-- Updated Chisel to 1.0.1.44.
-- Updated ConnectedTexturesMod to 1.0.0.29.
-- Updated Construct's Armory to 1.2.5.
-- Updated Corail Tombstone to 3.6.0.
-- Updated CreativeCore to 1.9.69.
-- Updated Cyclops Core to 1.5.1.
-- Updated FoamFix to 0.10.8.
-- Updated FTB Library to 5.4.3.143.
-- Updated FTB Quests to 1.7.2.222.
-- Updated FTB Utilities to 5.4.0.109.
-- Updated Just Enough IDs JEID to 1.0.3-48.
-- Updated LittleTiles to 1.5.0-pre169.
-- Updated OnlinePictureFrame to 1.4.30.
-- Updated Unlimited Chisel Works to 0.3.0.
-- Updated WanionLib to 2.4.
-- Updated Better Builder's Wands to 0.13.2.
-- Updated Biomes O Plenty to 7.0.1.2443.
-- Updated Tinker's Construct to 2.13.0.171.
-- Updated The Betweenlands to 3.4.13.
-- Updated Animania to 1.7.3.
  
 Configs/Quests/Compatibility: 
-[10/20/19]
-- JEI has been configured to show liquids. This may be disabled if desired.
-- Fixed an issue where the guidebook was broken.
-- Adjusted ZAWA spawning biomes for the following creatures: Gaur, Anaconda, Gharial, Pangolin, Giant Salamander, Koala, Meerkat, Hippopotamus, Okapi, Pufferfish, Walrus, Kangaroo, Red Panda, Giraffe, Salmon, Toucan, Tree Frogs, Sea Turtles, Fish. This should represent the whole roster - if any animals spawn outside of expected biome types, please report.
-[10/12/19]
-- The Nature's Compass config has been changed to use biome names instead of numerical IDs. Additionally, biomes from The Erebus dimension are blacklisted.
-- Rotten Wood from the Erebus will no longer be rounded via BetterFoliage.
-- Crops from Erebus (and other recently-added mods) should now be harvestable with right-click.
-- Random Tool Kit's Fourier Transformer and Barometer have been disabled.
-- Sirens now fascinate targets for a shorter period of time, with a longer cooldown. This is to prevent people getting stuck on terrain while attacked.
-- The Drawer Controller can now reach up to 20 drawers in any direction instead of only 12.
-- Drawers will now show their stored quantity by default.
-- Crops from Mystical World and Roots are now compatible with AgriCraft crop sticks.
--- Aubergines may be grown on most types of (nonmagical) soil.
--- Wildroot, Wildewheet, Spirit Herbs, and Pereskia may only be grown on Roots' magical soils.
--- Infernal Bulbs, Dewgonia, Cloud Berries, and Stalicripe may only be grown on their respective elemental soil type.
--- Be aware that the bonuses usually granted by the different soils do not apply to crops grown on Crop Sticks.
--- Bone meal can be used on Aubergines, but all the crops from Roots cannot be bonemealed.
-- Ender Compasses must now be in one's inventory in order to work.
-- With the removal of TexFix, FoamFix's "dynamicItemModels" has been reenabled.
-- JEI/JER should now have more accurate information about where ores and such can be found.
-- Natura's Saguaro Cactuses should now spawn more frequently.
-[10/22/19]
-- Fixed an issue where Undead Rising's Lava Cows weren't spawning.
+- Flight is now disabled in The Erebus, unless the Tear of Icarus is held.
  
 Server Changelog: 
-- Reverted JVM arguments to completely default, as previous ones may not have been significantly helping.
-- Portal hub at spawn is now in working order!
-- Rank promotions are now automatic again thanks to the PlayerActivity mod. They may behave weirdly until I get everyone's data re-entered, however.
  
 Mod Changelog: 
  
