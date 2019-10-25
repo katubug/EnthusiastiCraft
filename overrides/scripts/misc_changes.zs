@@ -206,20 +206,98 @@ cropRice.add(<biomesoplenty:plant_1:3>);
 //Adds Biomes O Plenty's Berry to OreDict
 listAllberry.add(<biomesoplenty:berries>);
 
-//Adds Biomes O Plenty's Portobella to OreDict
-val cropWhitemushroom = <ore:cropWhitemushroom>;
-val listAllmushroom = <ore:listAllmushroom>;
-cropWhitemushroom.add(<biomesoplenty:mushroom:1>);
-listAllmushroom.add(<biomesoplenty:mushroom:1>);
-listAllveggie.add(<biomesoplenty:mushroom:1>);
+//Adds Erebus Cabbage to OreDict
+listAllveggie.add(<erebus:erebus_food:15>);
+listAllgreenveggie.add(<erebus:erebus_food:15>);
+<ore:cropCabbage>.add(<erebus:erebus_food:15>);
 
-//Adds Biomes O Plenty's Milk Caps to OreDict
-listAllmushroom.add(<biomesoplenty:mushroom:2>);
-listAllveggie.add(<biomesoplenty:mushroom:2>);
+//Adds Erebus Turnips to OreDict
+listAllveggie.add(<erebus:turnip>);
+listAllgreenveggie.add(<erebus:turnip>);
+<ore:cropTurnip>.add(<erebus:turnip>);
 
-//Adds Biomes O Plenty's Flat Mushrooms to OreDict
-listAllmushroom.add(<biomesoplenty:mushroom:4>);
-listAllveggie.add(<biomesoplenty:mushroom:4>);
+//Adds Cactus Fruit to OreDict
+var cactusFruit = [
+<erebus:erebus_food:17>,
+<erebus:erebus_food:18>,
+<natura:saguaro_fruit_item>
+] as IItemStack[];
+
+for fruit in cactusFruit {
+    <ore:cropCactusfruit>.add(fruit);
+    listAllfruit.add(fruit);
+}
+
+//Adds a bunch of frog foods to OreDict (why are there so many)
+val froggies = [
+<animania:raw_frog_legs>,
+<quark:frog_leg>,
+<thebetweenlands:frog_legs_raw>,
+<harvestcraft:frograwitem>,
+<zawa:raw_frog_leg>,
+<animania:cooked_frog_legs>,
+<harvestcraft:frogcookeditem>,
+<quark:cooked_frog_leg>,
+<zawa:cooked_frog_leg>,
+<thebetweenlands:frog_legs_cooked>
+] as IItemStack[];
+
+for froggy in froggies {
+    <ore:listAllfrog>.add(froggy);
+}
+
+var rawFrog =[
+<animania:raw_frog_legs>,
+<quark:frog_leg>,
+<thebetweenlands:frog_legs_raw>,
+<harvestcraft:frograwitem>,
+<zawa:raw_frog_leg>
+] as IItemStack[];
+
+for frog in rawFrog {
+    <ore:foodFrograw>.add(frog);
+}
+
+var cookedFrog = [
+<animania:cooked_frog_legs>,
+<harvestcraft:frogcookeditem>,
+<quark:cooked_frog_leg>,
+<zawa:cooked_frog_leg>,
+<thebetweenlands:frog_legs_cooked>
+] as IItemStack[];
+
+for freg in cookedFrog {
+    <ore:foodFrogcooked>.add(freg);
+}
+
+//Adds a bunch of mushrooms to OreDict
+var mushrooms = [
+    <minecraft:brown_mushroom>,
+    <minecraft:red_mushroom>,
+    <biomesoplenty:mushroom:1>,
+    <biomesoplenty:mushroom:2>,
+    <biomesoplenty:mushroom:4>,
+    <erebus:sarcastic_czech_mushroom>,
+    <erebus:dutch_cap_mushroom>,
+    <erebus:grandmas_shoes_mushroom>,
+    <pvj:orange_mushroom>,
+    <thebetweenlands:flat_head_mushroom_item>,
+    <thebetweenlands:black_hat_mushroom_item>,
+    <thebetweenlands:bulb_capped_mushroom_item>,
+    <erebus:kaizers_fingers_mushroom>,
+    <erebus:dark_capped_mushroom>,
+    <harvestcraft:whitemushroomitem>,
+    <rustic:mooncap_mushroom>
+] as IItemStack[];
+
+for mushroom in mushrooms {
+    <ore:listAllmushroom>.add(mushroom);
+    <ore:foodMushroom>.add(mushroom);
+}
+
+//Adds Biomes O Plenty's Portobella and Rustic's Mooncap to OreDict
+<ore:cropWhitemushroom>.add(<biomesoplenty:mushroom:1>);
+<ore:cropWhitemushroom>.add(<rustic:mooncap_mushroom>);
 
 //Adds Biomes O Plenty's Sea Oats (I googled it, they're edible) to OreDict
 val listAllgrain = <ore:listAllgrain>;

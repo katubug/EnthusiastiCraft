@@ -8,6 +8,17 @@ import crafttweaker.oredict.IOreDictEntry;
 recipes.addShapeless("EC_Bottleenchantingchix", <minecraft:experience_bottle> * 3, [<morechickens:solidxp>, <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]);
 recipes.addShapeless("EC_Bottleenchantingaa", <minecraft:experience_bottle>, [<actuallyadditions:item_solidified_experience>,<minecraft:glass_bottle>]);
 
+//===Titan Stew Recipe===
+recipes.remove(<erebus:materials:62>);
+recipes.addShapeless(<erebus:materials:62>, [<erebus:materials:61>,<ore:cropCabbage>,<ore:cropTurnip>,<erebus:erebus_food:13>,<erebus:erebus_food:13>,<erebus:mandrake_root>,<ore:listAllmushroom>,<ore:listAllmushroom>,<ore:listAllspice>]);
+
+//===Frog Leg Stirfry===
+recipes.remove(<harvestcraft:froglegstirfryitem>);
+recipes.addShapeless(<harvestcraft:froglegstirfryitem>, [<harvestcraft:skilletitem>,<ore:listAllfrog>,<ore:cropRice>,<harvestcraft:broccoliitem>,<minecraft:carrot>,<harvestcraft:bellpepperitem>]);
+
+//===Mystic Gumbo recipe (Erebus flight)===
+recipes.addShapeless(<contenttweaker:mysticgumbo>, [<erebus:erebus_food:16>,<erebus:antlion_egg>,<erebus:tarantula_egg>,<erebus:stag_heart_raw>,<erebus:wand_of_animation>.giveBack()]);
+
 //===Flight item recipe===
 recipes.addShapedMirrored("EC_TearsofIcarus", <contenttweaker:tearsicarus>, [[null, <contenttweaker:preciousdoll>, null],[<minecraft:dragon_breath>, <ore:blockDiamond>, <contenttweaker:swampviscera>], [null, <minecraft:nether_star>, null]]);
 

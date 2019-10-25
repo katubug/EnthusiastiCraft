@@ -3,7 +3,13 @@
 Mod Additions/Removals/Updates: 
  
 Configs/Quests/Compatibility: 
-- Flight is now disabled in The Erebus, unless the Tear of Icarus is held.
+- Flight is now disabled in The Erebus, save for when the correct items are in one's inventory.
+- Mystic Gumbo has been added. This item allows one to fly in the Erebus, providing it's within the player's inventory. It is crafted by placing an Antlion Egg, a Tarantula Egg, and a Heart of the Stag into a steaming pot of Titan's Stew, and stirring it with a Wand of Animation. The Wand is returned upon crafting.
+- Titan Stew has had its recipe changed slightly for taste. It now accepts any turnips, any cabbages, and any mushrooms.
+- Most mushrooms now have correct ore dictionary tags.
+- Frog-related foods have been made ore dictionary compatible.
+- Erebus Cabbage and Turnips are now ore dictionary compatible.
+- All cactus fruit items are now ore dictionary compatible.
  
 Server Changelog: 
  
