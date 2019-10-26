@@ -213,7 +213,7 @@ listAllgreenveggie.add(<erebus:erebus_food:15>);
 
 //Adds Erebus Turnips to OreDict
 listAllveggie.add(<erebus:turnip>);
-listAllgreenveggie.add(<erebus:turnip>);
+<ore:listAllrootveggie>.add(<erebus:turnip>);
 <ore:cropTurnip>.add(<erebus:turnip>);
 
 //Adds Cactus Fruit to OreDict
@@ -705,9 +705,24 @@ mods.bonsaitrees.SoilCompatibility.removeCompatibleTagFromTree("biomesoplenty:he
 <contenttweaker:swampviscera>.addTooltip(format.aqua("This vile glob seems to embody the heart of the swamp."));
 <contenttweaker:swampviscera>.addTooltip(format.gold("Allows flight in The Betweenlands. Ingredient used to make the Tear of Icarus."));
 
+//Adds Tooltip to Mystic Gumbo
+<contenttweaker:mysticgumbo>.addTooltip(format.aqua("This stew smells absolutely delicious but can never be eaten."));
+<contenttweaker:mysticgumbo>.addTooltip(format.gold("Allows flight in The Betweenlands. Ingredient used to make the Tear of Icarus."));
+
 //Adds Tooltip to the Tears of Icarus
 <contenttweaker:tearsicarus>.addTooltip(format.aqua("A strange watery gem that seems to beckon you up into the sky."));
 <contenttweaker:tearsicarus>.addTooltip(format.gold("Allows flight in all dimensions."));
+
+//Adds OreDict tags to flight items
+var flight = [
+    <contenttweaker:mysticgumbo>,
+    <contenttweaker:swampviscera>,
+    <contenttweaker:preciousdoll>
+] as IItemStack[];
+
+for item in flight {
+    <ore:flight>.add(item);
+}
 
 //===Adds Tooltips to high-level foods from other mods===
 //Animania Super Omelette, Prime Roasted Beef/Pork

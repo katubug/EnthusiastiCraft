@@ -20,7 +20,7 @@ recipes.addShapeless(<harvestcraft:froglegstirfryitem>, [<harvestcraft:skilletit
 recipes.addShapeless(<contenttweaker:mysticgumbo>, [<erebus:erebus_food:16>,<erebus:antlion_egg>,<erebus:tarantula_egg>,<erebus:stag_heart_raw>,<erebus:wand_of_animation>.giveBack()]);
 
 //===Flight item recipe===
-recipes.addShapedMirrored("EC_TearsofIcarus", <contenttweaker:tearsicarus>, [[null, <contenttweaker:preciousdoll>, null],[<minecraft:dragon_breath>, <ore:blockDiamond>, <contenttweaker:swampviscera>], [null, <minecraft:nether_star>, null]]);
+recipes.addShapedMirrored("EC_TearsofIcarus", <contenttweaker:tearsicarus>, [[null, <ore:flight>, null],[<minecraft:dragon_breath>, <ore:blockDiamond>, <ore:flight>], [null, <minecraft:nether_star>, null]]);
 
 //===Quark Bark converts to Roots Bark===
 //Add knives to OreDict
