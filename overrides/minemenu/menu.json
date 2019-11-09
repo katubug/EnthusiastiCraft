@@ -92,7 +92,7 @@
       }
     },
     "7": {
-      "title": "EnderIO: Dark Armor Inventory",
+      "title": "EnderIO Armor Inventory",
       "icon": {
         "name": "enderio:item_dark_steel_chestplate",
         "damage": 0
@@ -100,7 +100,7 @@
       "action": {
         "key": {
           "key": "enderio.keybind.inventory",
-          "toggle": true
+          "toggle": false
         }
       }
     },
@@ -227,28 +227,28 @@
       }
     },
     "3": {
-      "title": "Tools: Yeta Wrench Mode",
+      "title": "EnderIO Armor Inventory",
       "icon": {
-        "name": "enderio:item_yeta_wrench",
+        "name": "enderio:item_end_steel_chestplate",
         "damage": 0
       },
       "action": {
         "key": {
-          "key": "enderio.keybind.yetawrenchmode",
-          "toggle": true
+          "key": "enderio.keybind.inventory",
+          "toggle": false
         }
       }
     },
     "4": {
-      "title": "Tools: Toggle Electromagnet",
+      "title": "EnderIO Dark Steel Armor Upgrades",
       "icon": {
-        "name": "enderio:item_magnet",
+        "name": "enderio:item_dark_steel_chestplate",
         "damage": 0
       },
       "action": {
         "key": {
-          "key": "enderio.keybind.magnet",
-          "toggle": false
+          "key": "enderio.keybind.dsu",
+          "toggle": true
         }
       }
     },

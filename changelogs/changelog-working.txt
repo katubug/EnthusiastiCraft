@@ -1,6 +1,34 @@
 [1.7.6] 
+
+This update changes Forge version from 2838 to 2847. This should not cause incompatibilities in existing worlds but make sure to backup before you update, just in case. If there are any issues with overspawning, please report them to me for testing.
  
 Mod Additions/Removals/Updates: 
+- Updated Forge to 14.23.5.2847.
+- Updated The Betweenlands to 3.5.1.
+- Updated Armory Expansion to 1.4.1.
+- Updated Construct's Armory to 1.2.5.3.
+- Updated Corail Tombstone to 3.6.2.
+- Updated CreativeCore to 1.9.71.
+- Updated Cyclic to 1.19.18.
+- Updated Dynamic Surroundings to 3.5.5.0.
+- Updated Building Gadgets to 2.7.4.
+- Updated EnderIO to 5.1.52.
+- Updated EnderCore to 0.5.73.
+- Updated ExtraBotany to 1.1-56.
+- Updated Fish's Undead Rising to 1.0.10.
+- Updated FTB Library to 5.4.4.4.
+- Updated FTB Quests to 1.8.0.236.
+- Updated FTB Utilities to 5.4.0.120.
+- Updated JEI to 4.15.0.292.
+- Updated LittleTiles to 1.5.0-pre177.
+- Updated Mystical World to 1.5.0.
+- Updated MysticalLib to 1.4.0.
+- Updated Nature's Compass to 1.6.0.
+- Updated OnlinePictureFrame to 1.4.31.
+- Updated OreLib to 3.6.0.1.
+- Updated Roots to 3.0.20.
+- Updated Twilight Forest to 3.10.1013.
+- Updated TOP Addons to 1.12.0.
  
 Configs/Quests/Compatibility: 
 - Flight is now disabled in The Erebus, save for when the correct items are in one's inventory.
@@ -17,9 +45,537 @@ Configs/Quests/Compatibility:
 - Coolmar Spiders, Tarantulas, and Jumping Spiders now count for the Spider Deep Mob Learning Model.
 - Pristine Spider Matter can now be used to generate Tarantula Legs.
 - Fixed an issue where Spawn Eggs were hidden from JEI and Creative Inventory.
+- Erebus's death management system has been disabled to avoid conflicts with Corail Tombstone.
  
 Server Changelog: 
+- Updated DiscordIntegration.
  
 Mod Changelog: 
+The Betweenlands - 
+ - Changes:
+ - Gallery Frame pictures are now only loaded into memory when necessary
+ - Fixes:
+ - Fixed two crashes with the Gallery Frame
+ - Fixed empty Aspect Vial causing crash in Censer
+ - Fixed Predator Bow not doing enough damage
+ - Fixed incompatibility of Shallowbreath with ToroHealth
+ - Fixed Ring of Recruitment beam rendering incorrectly on Sludge and Smol Sludge
+ - Fixed Loot items no longer turning into Loot Scraps in Mortar after having corroded once
+ - Fixed Broken Mud Tiles not creating Stagnant Water when broken
+ - Additions:
+ - Added the Sludgeon Tower, which spawns in a special Sludge Plains Clearing sub-biome. Solve a unique puzzle in the surface tower to enter the Labyrinthine Vaults of horrific traps and enemies. Unlock doors to progress and reach the Pit of Decay for a challenging encounter! (not a boss...right?)
+ - Added decorative Mud Brick blocks; Worm Pillar, Worm Pillar Cap, Mud Tiles, Cracked Mud Tiles, Carved Mud Bricks and Carved Mud Bricks Edge, all of which also spawn in the Sludgeon
+ - Added Compacted Mud and associated; slab and slope
+ - Added Rotten Planks and associated; slab, stairs, fences, fence gates
+ - Added Mud Brick Shingle stairs and walls
+ - Added Sludgy variants of Mud Bricks (including slabs and stairs), Worm Pillar, Worm Pillar Cap, Mud Tiles, Carved Mud Bricks and Carved Mud Bricks Edge. Each has several levels of dirtiness and generates in correspondingly deeper levels of the Sludgeon vaults
+ - Added various Sludgeon-exclusive blocks; Decayed, Decayed Cracked and Broken Mud Tiles, Puffshrooms, Beam Origins, Lenses, Lens Supports and Passages, Dungeon Doors, Dungeon Door Codes, Runged Mud Bricks, Dungeon Alcoves, Urns of Chance, Wall Candles, Rotten Support Beams, Carved Rotten Bark, Sludgeon Energy Barriers, Mud Brick and Mud Tiles Spike Traps, Compacted Mud Mirages and Braziers
+ - Added Sludgeon plants; Edge Shrooms, Edge Moss, Edge Leaves, Tall Sludgecreep, Cryptweed, String Roots, Pale Grass, and Rotbulbs
+ - Added Dead Moss and Dead Lichen, which do not spread
+ - Added the Censer, which creates an area of effect at the cost of an effect source and fuel. The effect depends on the source used, including creating fog that allows exclusive plants to be grown or applies weakened Infusion effects
+ - Added Weedwood and Syrmorite Barrels, which can store up to eight buckets of liquid
+ - Added Octine Nuggets, Syrmorite Nuggets and Valonite Splinters
+ - Added Cremains, Undying Embers, Ancient Remnants, Puffshroom Tendrils, Sludge Worm Egg Sacs, Shambler Tongues and Rune Door Keys
+ - Added Plant Items and Ground Items for the new plants. Many of these contain two exclusive new Aspects, Wodren (Soul) and Uduriis (Chaos). These have currently no use yet, but we have already started working on another update which introduces many new things to Herblore...
+ - Added Loot Scraps which can be obtained by grinding down certain loot items in the Pestle & Mortar. These Loot Scraps can be crafted with Amate Paper to create Fabricated Scrolls, which can be animated like Item Scrolls for a chance at different loot
+ - Added Pebbles, which can be animated into Angry Pebbles
+ - Added Bottled Fog, obtained by collecting the ground fog in the Sludgeon vaults with Dentrothyst Vials
+ - Added Sludge Worm Arrows, for launching tiny worms at your enemies
+ - Added the Grappling Hook, a special craftable tool used to latch onto, hang from and swing from blocks. Can be upgraded with additional segments to increase its range
+ - Added the Valonite Greataxe
+ - Added the Ancient Greatsword, Ancient Battle Axe and Predator Bow
+ - Added the Ring of Gathering, which summons lost (but not dead!... except in the case of tarminions) pets and minions back to you
+ - Added the Ring of Dispersion, which allows you to phase through blocks for a limited time at the cost of experience
+ - Added Small, Large and Very Large Gallery Frames, which showcase incredible fan artwork! #BetweenlandsGallery
+ - Added Emberlings, a new mob that is found near Hearthgrove Trees. Can be tamed with Undying Embers!
+ - Added new Sludgeon mobs; Tiny, Small and Large Sludge Worms, Shamblers, Crypt Crawlers, Ash Sprites, Emberling Shamans, and Barrishees
+ - Added some other Sludgeon encounters; Lampreys, Worm Holes, Living Roots, Sludge Jet Turrets, Splodeshrooms, and Moving Walls
+ - Added new Advancements
+ - Added a new music track by Mr. Owltkins for the Pit encounter
+ - Something new can now appear during a Blood Sky...
+ - Added Japanese localization. Thanks pentantan and tento64!
+ - Added new and updated old Russian localization. Thanks Bytegm!
+ - Added new and updated old Chinese localization. Thanks RisingInIris2017!
+ - Changes:
+ - Implented a new shared loot pool system, allowing entire structures to have a set amount of loot, allowing for better consistency of loot
+ - Rebalanced existing Loot Tables massively. Most Ingots are now Nuggets, and each structure has its own loot tables
+ - Added optional item usage tooltips to compostable items, items used in Herblore, etc. to help new players getting started in the mod
+ - Made some more items compostable
+ - Changed Mud Brick Shingle Roof recipe
+ - Spike Traps can now be placed sideways
+ - Aspectrus Plants are now grown by planting them in the range of a Censer applying the corresponding Aspect fog, instead of applying the Aspect directly
+ - Pots of Chance now render as models in the inventory
+ - Charging Shields now only apply knockback when dealing damage and if entity is 45° in front
+ - Reduced Shield charge knockback
+ - Added 8s item use cooldown after Shield charge
+ - Improved Weedwood Rowboat armor compatibility
+ - Angry Pebbles now have an animated texture
+ - Players can now walk while using Volarkites
+ - Changed Elixir of Feasting saturation
+ - Lightweight Draught effect can now be cancelled by sneaking
+ - Significantly improved performance of world mob spawning
+ - Sludges now only create trails when a player is nearby
+ - Sludges now have an attack cooldown like most other mobs
+ - Changed Corrosion modifiers to be consistent with the tooltip/corrosion stage, i.e. during the first stage corrosion does not affect stats at all
+ - Optimized certain block models to use less quads
+ - Fixes:
+ - Fixed some Betweenlands inventories having null display name
+ - Fixed Gecko Cage rotation
+ - Fixed emptied Infusion Bucket not stackable
+ - Fixed Elixir of Starvation causing negative saturation
+ - Fixed Spirit Tree Face Masks in incorrect position after relog
+ - Fixed Bone Wayfinder causing "moved wrongly" server log warning when teleporting
+ - Fixed Tarminion not attacking targets properly
+ - Fixed the Volarkite kicking players for flying in multiplayer
+ - Fixed Weedwood Chest rotation in Cragrock Towers
+ - Fixed the Wight Fortress sometimes generating with triple chests
+ - Fixed underwater and wind ambience not playing during Blood Sky
+ - Fixed Aspects not distributed properly when more than one aspect group is assigned to an item
+ - Fixed a crash with Universal Remote, but certain functionality will still be impacted and/or not working properly
+
+Armory Expansion - 
+ - No changelog provided.
+
+Construct's Armory - 
+ - Changed
+ - Ambitious trait behavior changed to avoid potential exploits, it will now provide extra XP when killing mobs and breaking blocks rather than increasing XP on pickup [#172]
+ - Fixed
+ - Fix Dramatic trait not accounting for protected damage [#177]
+ - Fix ArmorModifications not being exposed to CraftTweaker [#175]
+ - Fix ContentTweaker armor traits not being able to be added to items [#194]
+ - Fix all blocks giving XP [#196]
+
+Corail Tombstone - 
+ - Changes 3.6.2 :
+ - command tbteleporthome (bed location/respawn)
+ - tablet of home (+ ancient version only foundable by fishing)
+ - client config to show the magic circles
+ - new texture for the ghost & background of the guis
+ - fix #98 (related to the changes in 3.6.1 if the player loses knowledge points)
+ - Changes 3.6.1 :
+ - improvements about the knowledge guis & add an alignment bar
+ - Ancient Tablet of Recall foundable by fishing
+ - new enchantment Magic Siphon
+ - improve magic items interaction (about entity/block interaction)
+ - sync the SmokeColumn to players around when using dust of vanishing (so visible on server to others players)
+ - prefix the advancement translations
+ - display a partial cooldown for the ankh when relogging
+ - reduce Ghostly Shape cost
+ - visible area effects when praying or using the ancient tablet
+
+CreativeCore - 
+ - Fixed closeLayer can leave back broken gui behind causing a crash
+ - Fixed compatibility with newer SpongeForge versions
+
+Cyclic - 
+ - Merge pull request #1245 from sandtechnology (Update zh_CN.lang).
+ - Changes to crafting_food and inventory_food: They toggle off when you eat them again; and inventory buttons get hidden correclty now if you eat one then turn it off.
+ - Fluid Extraction cables fix bug with cables resetting filter-type button after reloading world.
+ - S:EnderBookExpCostRatio config now accepts decimals (calculations and mechanics unchanged).
+
+Dynamic Surroundings - 
+ - Changed from having a separate coremod to using the Sponge Mixin framework. (Why didn't I do this sooner?)
+ - Change should be transparent. If you have a problem open an issue in the tracker.
+ - Eliminated AT transforms. 
+ - Change should be transparent. If you have a problem open an issue in the tracker.
+ - Option to turn off the potion icon display to the left of the inventory screen. You will have to enable. Option is under the ASM options in the config. 
+ - Fire Jet effect can be applied to solid blocks. The height of the effect is currently fixed.
+ - Option to disable the lava particle effect when generating rainsplash on netherrack and magma blocks
+ - Fixes
+ - NPE when a mod creates a fake world before mod initialization is complete
+ - Default splash ripple effect on water should be pixelated
+ - Sound Physics updates from djpadbit. Apparently some stuff got lost along the way.
+ - Compatibility changes for Cubic Chunks and Nether to help avoid extreme lag spikes on client.
+ - [OpenEye] Fixed some edge cases in server side network code which caused concurrency issues.
+ - [OpenEye] Several speculative fixes for NPEs when receiving capability data when client not entirely ready.
+ - [OpenEye] Speculative fix for concurrency exception initializing biome registry.
+ - [OpenEye] Speculative fix for Eclipse Open J9 compatibility when processing entity data server side. If anyone uses Open J9 I would appreciate feedback.
+ - Changes
+ - Changed ASM options no longer require world/client restart. Yay Mixins!
+ - Cleaned up Animania badging a bit. As a result badges will not display when the animal is sleeping.
+ - Blocked the following sounds as a default: elephant, gnatt, insectbuzz, hiss, and rattlesnake. These are some of the most disliked sounds in the mod, and most folks aren't aware that they can be blocked in the configuration. If you want these sounds you will need to turn them on.
+ - Gave auroras some TLC:
+ -- Render optimizations both in code and shader - big improvements. 
+ -- Added config option to cap number of bands. The default is max of 3 bands but can be turned down to 1 for potatoes.
+ -- I have a GTX 980 and I can drive a 3 band aurora at 120FPS.
+ - Updates for biome sounds to clean up some high frequency noise (thanks TechnoMysterio!) 
+ -- Savanna Day, Forest, Bog, and Wind 
+ - Adusted footstep volume scaling for non-EntityPlayer mobs so they are not as loud
+
+Building Gadgets - 
+ - Added
+ - Back ported a feature from 1.14 that disabled the Gadgets tooltip for power if the config is set to 0 for max-power
+ - Back ported a feature from 1.14 that allows you to disable absolute coords mode for the Copy and Paste gadget to mask coords.
+ - Changed
+ - Bumped forge version to 14.23.5.2847
+ - Fixed
+ - Disabled other mods from being able to use the gadgets as a battery
+ - Stopped leaves decaying when placed by the the gadgets
+ - Fixed the Surface mode on the Building & Exchanging gadget using the wrong radius
+
+EnderIO - 
+ - Gameplay:
+ - Fixed power conduits not handling multiple connections to the same block
+ - Fixed Infinity Block being Material.CANALWAYSBEBROKENWITHPICKS
+ - Added path making to Spoon Upgrade
+ - Added support for extracting from blocks with multiple tanks
+ - Added support for trip wire to Dark Steel Shears
+ - Added Glowstone Nano-Particles
+ - Added "summon aid" to Love Children
+ - Added 4th tier of Solar Upgrades
+ - Removed Item Conduit right-click simulation as it is obsolete since the off-hand was added
+ - Changed Dark Steel Upgrades to use an upgrade item
+ - These gears are made for turning, and that's just what they'll do
+ - Behind the scenes:
+ - Added error messages for failed Tinkers recipe registrations
+ - Added better document handling for xml parsing
+ - Fixed conduit probe info for item conduit not translating direction
+ - Fixed conduit function upgrades not having individual stack size limits
+ - Added GUI feedback for function upgrades
+ - Fixed de-duping of alloy recipes
+ - Fixed conduit probe data not being translateable
+ - Fixed Stem Farmer unconditionally removing seeds when planting
+ - Fixed an issue with EIO Dense Conduits being better
+ - Fixed Redstone Conduit GUI listing filter base as valid filter
+ - Fixed redstone filters not having a creative tab
+ - Fixed mob classifications
+ - Fixed filter config button visibility setting code running outside of scope
+ - Added Alloy Smelter operating profile configuration
+ - Added shortcut to specify potion in xml recipes
+ - Fixed Wired Charger not showing progress or rendering charging item
+ - Fixed handling of SummonAidEvent for Killer Joe
+ - Mentally prepared for hate from people who don't realize we have config settings for virtually everything
+ - Added missing texture for Thaumcraft Goggles upgrade; fixed IO config overlay texture not being registered; fixed armor inventory item validity check being inverted
+ - Big changes:
+ - Now needs latest Forge!
+ - Completely changed the way Dark Steel Upgrades are applied and managed. They are now items and the Dark Steel item they can applied to have a GUI. Easiest way to access that GUI is using a Dark Steel Anvil.
+ - Other changes:
+ - Added Deep Mob Learning recipes
+ - Fixed teleport inhibition (commit: 63248a8) (details)
+ - Made fuels and coolants into recipes
+ - Made Transceiver buffer ratio configurable
+ - Updated Galacticraft integration
+ - Fixed Big Reactor integration
+ - Added loot condition to reduce fake player drops
+ - Fixed some blocks blocking light when they shouldn't
+ - Added firing the new FluidPlaceBlockEvent
+ - Fixed Dark Steel Anvil being made from black paper
+ - Made EpicSquid spawn in lava as intended
+ - Converted swim speed upgrade to use new swim speed attribute
+ - Now 192470% faster!
+ - Fixed RS conduit item in-/export
+ - Drop this on your friends' heads!
+ - Added shields
+ - Fixed Reinforced Obsidian Model
+ - Fixed saved tasks forgetting about custom energy requirements
+ - Fixed IO overlay mouse bound check overcompensating for shifted display
+
+EnderCore - 
+ - No changelog provided.
+
+ExtraBotany - 
+ - balance the generating efficiency of Bell Flower. more smoothly, but less affected by Y coordinate
+ - decrease the mana storage of Reikar Lily from 100000 to 12000. It will attract thunder by itself less often.
+ - increase the generating efficiency of Bloody Enchantress a little.
+ - the left attack of the Subspace Spear has cooldown now, quicker than sword. Increase the damage of the shooting spear. the right click attack wont have mutiple effect on boss. Modify the damage.
+ - increase the durability and mining speed of hammers.
+ - the controlling time of the Camera to boss is increased from 1.5s to 2s
+ - the Failnaught is now affected by potion effect Strength 20% less.
+ - the lexicon can now do quick search on more items in the inventory, like spirit shards.
+ - change the logic how gaia 3 obtain your skins.
+ - add friendly tips when you summon boss. If there are more people than there were when you summon boss, the boss will disappear.
+ - add NPE check
+ - you can now disable advancement requirement in config now
+ - fix a serious bug
+ - buff Goblin Slayer Armor and Shadow Warrior Armor
+ - if the mana pool in the Nature Orb structure has mana, the charging process will speed up
+ - the recipe of the Challenge Ticket is a little more expensive
+
+Fish's Undead Rising - 
+ - New Contents:
+ -- Entities:
+ --- Ptera: Ptera are airborne hostile mobs that can only found in the jungle with a desert variant.
+ --- Vespa: Vespa are also airborne hostile mobs that are actually the adult form of jungle Parasite.
+ -- Items:
+ --- Ptera Wing / Fried Ptera Wing: Food items dropped from Ptera, can also be used to brew Potion of Leaping.
+ --- Poison Stinger: Raw material items dropped from Vespa, can also be used to craft Arrow of Poison.
+ --- Vespa Carapace: Raw material items dropped from Vespa
+ --- Tooth Dagger: Equivalent to stone sword, but with a faster attack speed
+ --- Bee Sting: Equivalent to iron sword, but with Poisonous II enchantment
+ --- Sausage Roll: Food items made from Parasite & Intestine
+ --- Swine Armor: Swine mask is now a full armor set
+
+ - Changes:
+ -- Misc:
+ --- Now have individual Item tabs
+ --- Players can now modify their config options in-game.
+ --- File name of the .cfg has been changed.
+ --- Add a config option to disable/enable Parasite attaching to its target
+ --- Add a config option to modify the drop rate of Undying Heart
+ --- Add a config option to modify the drop rate of Poisonous Spore
+ -- Entities:
+ --- Ciuperca:
+ ---- Will left poison spores on ground after death when game difficult level is set to hard 
+ --- Undead Swine:
+ ---- Updated loot table with a higher chance to drop Plagued Hide and Plagued Pork chop
+ ---- Default drop rate of Undying Heart 60% → 10%
+ --- Parasite:
+ ---- Now Have a shorter attack range
+ ---- Now will only attach to its target when colliding
+ ---- Jungle varient will now have a chance to morph into Vespa. 
+ --- Mimicrab:
+ ---- Add two variants: White & Tropical
+ ---- Will now only attack player when he/she tries to right-click at Mimicrab.
+ ---- Can't be pushed now when camouflaged
+ ---- Follow range 4 → 16 blocks
+ ---- Now shows messages when set sitting/following
+ ---- Now needs sneak-clicking to open its GUI.
+ ---- Wild Mimicrab will despawn when the difficulty is set to peaceful
+ ---- Ender Crab now have opening sound.
+ --- Raven:
+ ---- Can now be healed with (fermented) spider eye.
+ ---- Now requires stick to command sitting/following
+ ---- Now shows messages when set sitting/following
+ --- Salamander:
+ ---- Updated loot table with a higher chance to drop Molten Meat
+ ---- Default spawning rate 15 → 30
+ ---- Adjust the hitbox of Salamander spawn
+ --- Sludge Lord:
+ ---- Updated loot table with a higher chance to drop Silky Sludge and Mossy Stick 
+ -- Items:
+ --- Poisonous Spore:
+ ---- Is now stackable (up to 64)
+ ---- Glowing effect has been removed
+ --- Undying Heart:
+ ---- Is now stackable (up to 64)
+ ---- Glowing effect has been removed
+ --- Burnt Ovipositor:
+ ---- Is now stackable (up to 64)
+ ---- Glowing effect has been removed
+ --- Molten Heart:
+ ---- Is now stackable (up to 64)
+ --- Swine Mask:
+ ---- is now equal to Iron Helmet
+ ---- onEquip effect is now moved to the entire Swine Armor set. 
+
+ - Fixes:
+ -- Fixed the format error of the Bone Sword
+ -- Fixed an error where Raven will teleport to remote location after dismounting
+ -- Fixed an error where player can't order their Raven to sit.
+ -- Fixed an ID error of Nether Stew (May receive some warning messages) 
+ -- Fixed an error where Parasite remain in place after attaching to player.
+ -- Fixed an error where wearing Swine Mask would cause a crash
+ -- Fixed the position of Swine Mask on the Armor Stand
+ -- Fixed an error where "War" can still fire even there are no fire charges in the inventory
+ -- Fixed an error that prevents Mimicrab from spawning.
+ -- Fixed an error where Mimicrab remain silenced even after tamed.
+ -- Fixed an error where Mimicrab still open its GUI when commanded by a stick
+ -- Fixed an error that causes a crash when server is trying to spawn a Mimicrab.
+
+FTB Library - 
+ - Fixed timer configs not working if string had quotation marks
+ - Fixed some more icon bugs, removed repeat param from PartIcon
+ - Part Icon can now be used in themes with part:image; pos=x,y,w,h; corner=size
+ - Merge pull request #81 from Slowwloriss/master
+ - Update es_es.lang
+ - Fixed es_es.lang issue
+ - Uploaded es_es.lang
+ - Changed scroll in panels to use double instead of int
+ - Fixed double configs ignoring bounds
+ - Added disable_teams config. Not guaranteed to work
+ - Changed rank config API to not use IContext
+ - Fixed textbox not using Math.min
+ - writeIcon and readIcon now use string instead of json
+ - Fixed rare crash
+ - Changed version to fix jenkins build issue
+
+FTB Quests - 
+ - "Fixed" the crash when creating new task in empty chapter again
+ - Dark theme ate light theme
+ - Merge pull request #3 from EngineerXL/master
+ - Merge pull request #356 from Slowwloriss/master
+ - es_es.lang
+ - Update ru_ru.lang
+ - Update ru_ru.lang
+ - Add files via upload
+ - Removed fixed grid - you can move quests around snapped to 0.5x grid. Hold control key to move around freely, hold shift key to snap to original 1x grid
+ - Added text_box theme property
+ - You can now move quests in bulk and between chapters
+ - Renamed quest description to subtitle, quest text to description, chapter description to subtitle. Added per-chapter default quest shape
+ - Fixed zooming in and out resetting screen position
+ - Fixed data detection either crashing or not detecting multiple items on pickup
+ - Added Size config in quest
+ - Fixed coordinate text being under quest buttons
+ - Fixed editing mode crashes
+ - Fixed task button not responding
+ - Fixed CustomNPCs issues, closes #343
+ - Fixed CNPC faction task not reading point mode correctly from file
+ - Fixed couple bugs, added quest_spacing theme property, added better options for adding/removing dependencies
+ - Fixed chapters with sub-chapters not counting progression properly
+ - Changed keys - Shift now lets you free-place quests instead of Ctrl
+ - Closing quest gui now clears selected quests
+ - Progress screen now properly renders different quest sizes
+ - Task screen now only shows tasks that consume resources
+ - Fixed slight offset for non 1.0 size quests
+ - Removed JavaFX code
+ - Added pinnedquestsize property, changed default size to 0.75 from 0.5
+ - Fixed rendering glitch with quests with mouse over them
+ - Updated Wiki URL
+ - Fixed multiple selected quest deletion not de-selecting quests
+ - Fixed repeatable quest progress calculation
+ - Added Convert to Ore Dictionary item option
+ - Added chapter images
+ - Fixed scroll slowly going sideways issue
+ - Don't draw grid if quest is open
+ - Non-clickable images in player mode are now ignored
+ - Fixed images not moving between chapters
+ - Fixed crash when creating new quest in blank chapter
+
+FTB Utilities - 
+ - Fixed usernames not working in rank commands
+ - Fixed usernames not working in rank commands. Again.
+ - Added WIP player UUID ranks. Create [<uuid>] rank to assign it special for-one-player-only permissions
+ - Fixed crash with afk timer
+ - Aurora changes
+ - When SpongeForge is loaded, it no longer tries to override commands and /ranks displays a warning
+ - Changed badge thread to HttpUtil.DOWNLOADER_EXECUTOR
+ - Updated KubeJS version. Rewrote ranks. Now they support multiple parent ranks, discord role style. Added ja_jp.lang
+ - Fixed missing dep in build script
+
+JEI - 
+ - Update changelog plugin
+ - Improve the render ingredient crash report
+ - Minor misc cleanup
+ - Fix #1673 Treat GuiScreen#mc as nullable
+ - Fix #1651 Race condition during crash can cause NPE in InputHandler
+ - Fix #1635 Bookmark button leaks color state on hover
+ - Fix #1621 Enchanted book tooltip compatibility with other mods
+ - Fix #1611 Rare crash when cycling items
+ - Updated Polish translation (#1610)
+ - Fix #1576 Unable to view IE Metal Press recipes
+ - Fix typo in French localization (#1593)
+ - Updated Polish translation (#1587)
+ - Fix #1567 Fix #1575 Improve display of wildcard items with no creative menu subtypes
+ - Add warning log when a mod GUI does not draw the dark background layer
+ - Update French Localization (#1557)
+ - Make defensive copies of gui exclusion areas to prevent a bug when they are mutated
+ - Fix #1549 Add support for Forge IRarity for item tooltip colors
+ - Fix #1518 Add support for Crafttweaker removing brewing recipes
+ - Update sv_se.lang (#1535)
+ - Updated Polish translation (#1533)
+ - Add shortcut key for item edit/hide mode (#1530)
+ - Fix #1524 RecipeCategory tabs are not always sorted properly
+ - Fix #1523 Recipe transfer button texture issues with transparency
+ - Update to latest Forge in dev
+ - Fix #1507 Memory is wasted by UID cache after loading
+
+LittleTiles - 
+ - Fixed not converting c&b blocks to lt ones
+ - Added TileList (partially taken from vinz243)
+ - Updated to new TileEntity structure (special thanks goes to vinz243)
+ - Removed needsFullUpdate field
+ - Removed "cannot be undone" in screwdriver
+ - Fixed storage gui not closing after structure is destroyed
+ - Fixed blocks placing themselve when tile is placed (removed block method implementation)
+ - Fixed being able to use block with tileentities with most tools
+ - Fixed random crash caused by trying to render the tileentity before its loaded
+ - Fixed not caching translucent attribute properly (caused a couple of rendering glitches)
+ - Fix crash when using the hammer (done by TomyLobo)
+ - Fixed rotating log issue (ended up changing types)
+ - Fixed issue when converting a block
+ - Fixed crash when rotating modded logs
+ - Fixed vanilla translucent layer sorting accuracy issue
+ - Fixed shader preview issue
+ - Fixed crash when changing resourcepack/ shaders with Optifine installed
+ - Fixed not updating rendered blocks properly after resourcepack/ shaders have changed
+ - Fixed crash of nested doors on server side
+ - Fixed flickering issue caused by incompatibility with BetterPortals (special thanks to Johni0702)
+ - Update zh_CN.lang (special thanks to EdgewalkerBlue)
+
+Mystical World - 
+ - We've reclaimed the Mystical World name, hooray!
+ - Spindles now only stack up to 1.
+ - Silkworm eggs now only drop from leaves; the hatch chance has been increased, but the drop chance from leaves decreased. 
+ - Silkworm growth time has been increased.
+ - NOTE: You may need to delete or update your own configurations as these changes are not default.
+ - Apples can now be cooked.
+ - Potato crops can be poisoned and poisonous potatoes can be planted.
+ - Squid milking cooldowns should be fixed.
+
+MysticalLib - 
+ - Various updates to reflection
+ - Some more utility functions
+ - Updated the constructor for MultiOreIngredient
+
+Nature's Compass - 
+ - Added a biome name search box to the main compass GUI
+ - Biomes can now be blacklisted in the config by resource location (e.g. minecraft:ocean) as well as name (e.g. Ocean) or ID (e.g. 0)
+ - Fixed a crash that occurred somewhat randomly when selecting biomes from the GUI
+ - Added Chinese translation
+ - Added Russian translation
+ - Add Spanish translation
+ - Updated to Forge #2796
+
+OnlinePictureFrame - 
+ - Updated to newest LittleTiles version
+
+OreLib - 
+ - What's New * Config options to control debug tracing and version update notification in chat during log in.
+ - Fixes * Not able to find version check method on dedicated server
+ - Changes * Removed dead code and brought inline with Dynamic Surroundings/Huds.
+
+Roots - 
+ - Fix issues with recipe overlap
+ - Finally fix herb alerts not showing up for channeled spells
+ - Show all ore-dict ingredients for Rituals in JEI
+ - Fix the output of the elemental soil recipe
+ - Hopefully fix issues with runic shears + entities by wiping the generated list at load complete, and remaking it if it's empty or null
+ - Dimensions can now be blacklisted for terra moss harvesting
+ - Aubergine recipes now look for cropAubergine and cropEggplant instead of being hard-coded to Mystical World aubergine
+ - There is now a recipes export function for CraftTweaker integration
+ - There is now an "open book" button for Rituals in JEI: this will open the Patchouli guide to the relevant page when pressed
+ - Sense Animals/Sense Danger is now a buff applied to the player, and it follows the player around, making it much more usueful
+ - Blockstates and models are now properly generated via a script instead of using baked models
+ - Item models are now properly generated via a script instead of using baked models
+ - You can now cook most meats and vegetables in a Pyre
+ - You can now transmute Melons back into Pumpkins by placing them on Cobblestone during the Transmutation ritual
+ - You can now pump fluids out of unending bowls, and fill containers; likewise you can empty containers (such as bottles of water, buckets of water, etc) 
+ - Likewise you can now pump water into an unending bowl in order to void it.
+ - Imbuing enchanted items with runic dust will clear its enchantments
+ - Runic shears can now be repaired in an imbuer using any type of runestone
+ - Petal shell when cast now gives 3 charges, instead of building up to 3
+ - Recipes using fluid containers no longer spawn invalid items on the client side
+ - The Component Pouch recipe now uses the string oredict
+ - New recipe for gravel -> flint in the mortar
+ - Fix silk cocoon in mortar recipe
+ - Baubles is now a requirement 
+ - Fix crash when CraftTweaker isn't installed.
+
+Twilight Forest - 
+ - ADDED:
+ - The Minoshroom has a brand new ground smashing attack!
+ - Block and Chain Goblins now fling their flails at their enemies
+ - THE FINAL BOSS OHHH MYYYY GOOOOODDDDDDDD!!!1!!
+ -- Note that this is just a placeholder, not the real boss.
+ - SPOOPY FOREST WOAH
+ - More Patchouli additions
+ - CHANGED:
+ - Adjusted some TCon Integration values
+ - Ur-Ghast got some tweaks
+ - ru_ru lang updates
+ - zh_cn lang updates
+ - FIXED:
+ - The Snow Waifu.. I mean QUEEN.. now targets non-players correctly
+ - Improved Dark Forest gen
+ - Fixed leaf placement in tree generators
+ - Improved chunk generation speed
+ - Birbs now actively try to avoid drowning.
+ - Fixed Uberous Soil failing to render correctly without CTM
+ - Improved death checks for Phantom Knights
+ - Fixed Wood Door/Trapdoor recipes
+
+TOP Addons - 
+ - Removed Ice And Fire addon
+ - Merge pull request #69 from DrManganese/fix/#68 Fixes #68 - Reordered dependencies in build.gradle - Sorted out dependencies
  
 ===================================== 

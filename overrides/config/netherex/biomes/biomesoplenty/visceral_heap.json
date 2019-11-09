@@ -43,12 +43,6 @@
 			"maximumGroupCount": 16
 		}, 
 		{
-			"entity": "mod_lavacow:salamander",
-			"spawnWeight": 15,
-			"minimumGroupCount": 4,
-			"maximumGroupCount": 8
-		}, 
-		{
 			"entity": "minecraft:blaze",
 			"spawnWeight": 5,
 			"minimumGroupCount": 1,
@@ -59,6 +53,12 @@
 			"spawnWeight": 10,
 			"minimumGroupCount": 1,
 			"maximumGroupCount": 2
+		}, 
+		{
+			"entity": "mod_lavacow:salamander",
+			"spawnWeight": 15,
+			"minimumGroupCount": 4,
+			"maximumGroupCount": 8
 		}, 
 		{
 			"entity": "mod_lavacow:mimic",

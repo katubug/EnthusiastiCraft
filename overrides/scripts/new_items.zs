@@ -5,6 +5,8 @@ import mods.contenttweaker.Block;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.ResourceLocation;
 
+//Hey Katu, don't put any recipes in here please.
+
 //For simple items, can just do 
 //VanillaFactory.createItem("mixed_blend").register();
 
