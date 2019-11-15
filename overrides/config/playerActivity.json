@@ -5,9 +5,11 @@
   {
    "ID": "Promotion-Novice",
    "Command": [
-    "/ranks set @s novice",
+    "/ranks remove @s neophyte",
+    "/ranks add @s novice",
     "/me just ranked up! They're now a Novice!",
-    "/tellraw @s [\"\",{\"text\":\"You can now set 3 /home, claim 10 chunks and chunkload 5 of them.\",\"color\":\"gold\"}]"
+    "/tellraw @s [\"\",{\"text\":\"You can now set 3 /home, claim 15 chunks and chunkload 5 of them.\",\"color\":\"gold\"}]",
+    "/tellraw @s [\"\",{\"text\":\"You can self-assign your Discord rank in the #roles channel.\",\"color\":\"gold\"}]"
    ],
    "TimeUnit": "hour",
    "Time": 5,
@@ -19,9 +21,11 @@
   {
    "ID": "Promotion-Apprentice",
    "Command": [
-    "/ranks set @s apprentice",
+    "/ranks remove @s novice",
+    "/ranks add @s apprentice",
     "/me just ranked up! They're now an Apprentice!",
-    "/tellraw @s [\"\",{\"text\":\"You can now set 5 /home, claim 15 chunks and chunkload 7 of them.\",\"color\":\"gold\"}]",
+    "/tellraw @s [\"\",{\"text\":\"You can now set 5 /home, claim 30 chunks and chunkload 7 of them.\",\"color\":\"gold\"}]",
+    "/tellraw @s [\"\",{\"text\":\"You can self-assign your Discord rank in the #roles channel.\",\"color\":\"gold\"}]",
     "/tellraw @s [\"\",{\"text\":\"Congratulations on your promotion! Your reward is 1 Red Heart Canister.\",\"color\":\"gold\"}]",
     "/give @s bhc:red_heart_canister 1"
    ],
@@ -35,9 +39,11 @@
   {
    "ID": "Promotion-Journeyman",
    "Command": [
-    "/ranks set @s journeyman",
+    "/ranks remove @s apprentice",
+    "/ranks add @s journeyman",
     "/me just ranked up! They're now a Journeyman!",
-    "/tellraw @s [\"\",{\"text\":\"You can now claim 20 chunks.\",\"color\":\"gold\"}]",
+    "/tellraw @s [\"\",{\"text\":\"You now have 7 /homes and can claim 60 chunks.\",\"color\":\"gold\"}]",
+    "/tellraw @s [\"\",{\"text\":\"You can self-assign your Discord rank in the #roles channel.\",\"color\":\"gold\"}]",
     "/tellraw @s [\"\",{\"text\":\"Congratulations on your promotion! Your reward is 1 Yellow Heart Canister.\",\"color\":\"gold\"}]",
     "/give @s bhc:yellow_heart_canister 1"
    ],
@@ -51,9 +57,11 @@
   {
    "ID": "Promotion-Expert",
    "Command": [
-    "/ranks set @s expert",
+    "/ranks remove @s journeyman",
+    "/ranks add @s expert",
     "/me just ranked up! They're now an Expert!",
-    "/tellraw @s [\"\",{\"text\":\"You can now claim 25 chunks.\",\"color\":\"gold\"}]",
+    "/tellraw @s [\"\",{\"text\":\"You can now set 7 /homes, claim 80 chunks, and chunkload 10 of them.\",\"color\":\"gold\"}]",
+    "/tellraw @s [\"\",{\"text\":\"You can self-assign your Discord rank in the #roles channel.\",\"color\":\"gold\"}]",
     "/tellraw @s [\"\",{\"text\":\"Congratulations on your promotion! Your reward is 1 Green Heart Canister.\",\"color\":\"gold\"}]",
     "/give @s bhc:green_heart_canister 1"
    ],
@@ -67,10 +75,12 @@
   {
    "ID": "Promotion-Adept",
    "Command": [
-    "/ranks set @s adept",
+    "/ranks remove @s expert",
+    "/ranks add @s adept",
     "/me just ranked up! They're now an Adept!",
-    "/tellraw @s [\"\",{\"text\":\"You can now claim 30 chunks.\",\"color\":\"gold\"}]",
-    "/tellraw @s [\"\",{\"text\":\"Congratulations, you've reached max rank! Your reward is 1 Blue Heart Canister.\",\"color\":\"gold\"}]",
+    "/tellraw @s [\"\",{\"text\":\"You can now claim 120 chunks, and load 15 of them.\",\"color\":\"gold\"}]",
+    "/tellraw @s [\"\",{\"text\":\"You can self-assign your Discord rank in the #roles channel.\",\"color\":\"gold\"}]",
+    "/tellraw @s [\"\",{\"text\":\"Congratulations on your promotion! Your reward is 1 Blue Heart Canister.\",\"color\":\"gold\"}]",
     "/give @s bhc:blue_heart_canister 1"
    ],
    "TimeUnit": "day",
@@ -79,19 +89,110 @@
    "Online": true,
    "Repeat": false,
    "AsPlayer": true
+  },
+  {
+   "ID": "Promotion-Master",
+   "Command": [
+    "/ranks remove @s adept",
+    "/ranks add @s master",
+    "/me just ranked up! They're now a Master!",
+    "/tellraw @s [\"\",{\"text\":\"You can now claim 200 chunks.\",\"color\":\"gold\"}]",
+    "/tellraw @s [\"\",{\"text\":\"You can self-assign your Discord rank in the #roles channel.\",\"color\":\"gold\"}]"
+   ],
+   "TimeUnit": "day",
+   "Time": 30,
+   "Saved": true,
+   "Online": true,
+   "Repeat": false,
+   "AsPlayer": true
+  },
+  {
+   "ID": "Promotion-Grandmaster",
+   "Command": [
+    "/ranks remove @s master",
+    "/ranks add @s grandmaster",
+    "/me just ranked up! They're now a Grandmaster!",
+    "/tellraw @s [\"\",{\"text\":\"Congratulations on max rank! You can now claim 400 chunks.\",\"color\":\"gold\"}]",
+    "/tellraw @s [\"\",{\"text\":\"You can self-assign your Discord rank in the #roles channel.\",\"color\":\"gold\"}]"
+   ],
+   "TimeUnit": "day",
+   "Time": 60,
+   "Saved": true,
+   "Online": true,
+   "Repeat": false,
+   "AsPlayer": true
   }
  ],
  "tags": [
   {
-   "Tag": "donator",
+   "Tag": "adept",
+   "Default": false,
    "ID": [
     "Promotion-Novice",
     "Promotion-Apprentice",
     "Promotion-Journeyman",
     "Promotion-Expert",
     "Promotion-Adept"
-   ],
-   "Default": false
+   ]
+  },
+  {
+   "Tag": "expert",
+   "Default": false,
+   "ID": [
+    "Promotion-Novice",
+    "Promotion-Apprentice",
+    "Promotion-Journeyman",
+    "Promotion-Expert"
+   ]
+  },
+  {
+   "Tag": "journeyman",
+   "Default": false,
+   "ID": [
+    "Promotion-Novice",
+    "Promotion-Apprentice",
+    "Promotion-Journeyman"
+   ]
+  },
+  {
+   "Tag": "apprentice",
+   "Default": false,
+   "ID": [
+    "Promotion-Novice",
+    "Promotion-Apprentice"
+   ]
+  },
+  {
+   "Tag": "novice",
+   "Default": false,
+   "ID": [
+    "Promotion-Novice"
+   ]
+  },
+  {
+   "Tag": "master",
+   "Default": false,
+   "ID": [
+    "Promotion-Novice",
+    "Promotion-Apprentice",
+    "Promotion-Journeyman",
+    "Promotion-Expert",
+    "Promotion-Adept",
+    "Promotion-Master"
+   ]
+  },
+  {
+   "Tag": "grandmaster",
+   "Default": false,
+   "ID": [
+    "Promotion-Novice",
+    "Promotion-Apprentice",
+    "Promotion-Journeyman",
+    "Promotion-Expert",
+    "Promotion-Adept",
+    "Promotion-Master",
+    "Promotion-Grandmaster"
+   ]
   }
  ]
 }
