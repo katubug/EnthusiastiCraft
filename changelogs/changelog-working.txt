@@ -1,6 +1,40 @@
 [1.7.7] 
  
 Mod Additions/Removals/Updates: 
+- Added Bewitchment (woo!)
+- Updated The Betweenlands to 
+- Updated Actually Additions to 
+- Updated Advanced Chimneys to 
+- Updated AE2 Wireless Terminal Library to 
+- Updated Better Animals Plus to 
+- Updated Bountiful to 
+- Updated Classic Bars to 
+- Updated Common Capabilities to 
+- Updated ConnectedTexturesMod to 
+- Updated CreativeCore to 
+- Updated Cyclops Core to 1.6.0.
+- Updated Dark Utilities to 
+- Updated Dynamic Surroundings to 
+- Updated Fish's Undead Rising to 
+- Updated FoamFix to 
+- Updated ForgeEndertech to 
+- Updated FTB Library to 
+- Updated FTB Quests to 
+- Updated FTB Utilities to 
+- Updated Integrated Dynamics to 
+- Updated Just Enough HarvestCraft (JEHC) to 
+- Updated LittleTiles to 
+- Updated LootTweaker to 
+- Updated p455w0rd's Library to 
+- Updated RandomPatches to 
+- Updated Roots to 
+- Updated Erebus to 
+- Updated Torchmaster to 
+- Updated Treasure 2 to 
+- Updated Unlimited Chisel Works to 
+- Updated Wings to 
+- Updated Wireless Crafting Terminal to 
+
  
 Configs/Quests/Compatibility: 
  

@@ -1,0 +1,8 @@
+Cyclops Core - 
+ - Additions:
+ - Add cached recipe lookup helper method
+ - Add setItemAtIndex helper method
+ - Fixes:
+ - Fix important users lookup running in the main thread, Closes #139
+
+ 
