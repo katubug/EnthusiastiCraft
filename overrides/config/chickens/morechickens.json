@@ -717,5 +717,55 @@
     "Spawn Type": "NONE",
     "Parent 1": "morechickens:magicalwoodchicken",
     "Parent 2": "morechickens:moonstonechicken"
+  },
+  "morechickens:garnetchicken": {
+    "Name": "garnetchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "bewitchment:garnet",
+    "Drop Item": "bewitchment:garnet",
+    "Spawn Type": "NONE",
+    "Parent 1": "morechickens:sapphirechicken",
+    "Parent 2": "morechickens:rubychicken"
+  },
+  "morechickens:draconiumchicken": {
+    "Name": "draconiumChicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "draconicevolution:draconium_ingot",
+    "Drop Item": "draconicevolution:draconium_ingot",
+    "Spawn Type": "NONE",
+    "Parent 1": "morechickens:pigironchicken",
+    "Parent 2": "chickens:enderchicken"
+  },
+  "morechickens:draconiumawakenedchicken": {
+    "Name": "draconiumAwakenedChicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "draconicevolution:nugget:1",
+    "Drop Item": "draconicevolution:nugget:1",
+    "Spawn Type": "NONE",
+    "Parent 1": "morechickens:draconiumchicken",
+    "Parent 2": "chickens:enderchicken"
+  },
+  "morechickens:osmiumchicken": {
+    "Name": "osmiumChicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "mekanism:ingot:1",
+    "Drop Item": "mekanism:ingot:1",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:ironchicken",
+    "Parent 2": "chickens:quartzchicken"
+  },
+  "morechickens:titaniumchicken": {
+    "Name": "titaniumchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "libvulpes:productingot:7",
+    "Drop Item": "libvulpes:productingot:7",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:ironchicken",
+    "Parent 2": "morechickens:aluminumchicken"
   }
 }

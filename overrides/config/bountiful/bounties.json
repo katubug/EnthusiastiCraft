@@ -152,24 +152,6 @@
     "unitWorth": 390,
     "weight": 75
   },
-   {
-    "content": "iceandfire:fire_dragon_heart",
-    "amount": {
-      "min": 1,
-      "max": 1
-    },
-    "unitWorth": 3500,
-    "weight": 5
-  },
-   {
-    "content": "iceandfire:ice_dragon_heart",
-    "amount": {
-      "min": 1,
-      "max": 1
-    },
-    "unitWorth": 3500,
-    "weight": 5
-  },
   {
     "content": "harvestcraft:bentoboxitem",
     "amount": {
@@ -252,24 +234,6 @@
     "weight": 50
   },
   {
-    "content": "cyclicmagic:sprout_seed",
-    "amount": {
-      "min": 1,
-      "max": 3
-    },
-    "unitWorth": 500,
-    "weight": 50
-  },
-  {
-    "content": "cyclicmagic:apple_emerald",
-    "amount": {
-      "min": 1,
-      "max": 1
-    },
-    "unitWorth": 1600,
-    "weight": 25
-  },
-  {
     "content": "appliedenergistics2:material",
     "amount": {
       "min": 1,
@@ -286,15 +250,6 @@
     },
     "unitWorth": 80,
     "weight": 150
-  },
-  {
-    "content": "iceandfire:dragonbone",
-    "amount": {
-      "min": 1,
-      "max": 16
-    },
-    "unitWorth": 200,
-    "weight": 100
   },
   {
     "content": "harvestcraft:carrotcakeitem",
@@ -429,42 +384,6 @@
       "max": 1
     },
     "unitWorth": 800,
-    "weight": 50
-  },
-  {
-    "content": "iceandfire:fire_dragon_flesh",
-    "amount": {
-      "min": 1,
-      "max": 5
-    },
-    "unitWorth": 300,
-    "weight": 50
-  },
-  {
-    "content": "iceandfire:dragonscales_bronze",
-    "amount": {
-      "min": 1,
-      "max": 10
-    },
-    "unitWorth": 300,
-    "weight": 50
-  },
-  {
-    "content": "iceandfire:dragonscales_red",
-    "amount": {
-      "min": 1,
-      "max": 10
-    },
-    "unitWorth": 300,
-    "weight": 50
-  },
-  {
-    "content": "iceandfire:dragonscales_green",
-    "amount": {
-      "min": 1,
-      "max": 10
-    },
-    "unitWorth": 300,
     "weight": 50
   },
   {
