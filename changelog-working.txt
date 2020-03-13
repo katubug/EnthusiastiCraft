@@ -55,8 +55,6 @@
 - Removed Aerial Affinity.
 - Removed AgriCraft.
 - Removed AromaBackup (replaced).
-- Removed Aroma's Dimensional World.
-- Removed AromaCore.
 - Removed Broken Wings.
 - Removed Building Gadgets.
 - Removed Dank Storage (replaced).
@@ -74,6 +72,9 @@
 - Removed Thermal Cultivation.
 - Removed Worley's Caves (replaced).
 - Removed Corail Tombstone (replaced).
+- Removed Roots.
+- Removed Mystical Lib.
+- Removed Mystical World.
 
 - Updated Actually Additions to 151-2.
 - Updated Advanced Chimneys to 3.5.7.0-build.0424.
