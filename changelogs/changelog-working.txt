@@ -1,45 +1,277 @@
-[1.7.7] 
+[2.0.0] 
  
-Mod Additions/Removals/Updates: 
-- Added Bewitchment (woo!)
-- Updated The Betweenlands to 
-- Updated Actually Additions to 
-- Updated Advanced Chimneys to 
-- Updated AE2 Wireless Terminal Library to 
-- Updated Better Animals Plus to 
-- Updated Bountiful to 
-- Updated Classic Bars to 
-- Updated Common Capabilities to 
-- Updated ConnectedTexturesMod to 
-- Updated CreativeCore to 
-- Updated Cyclops Core to 1.6.0.
-- Updated Dark Utilities to 
-- Updated Dynamic Surroundings to 
-- Updated Fish's Undead Rising to 
-- Updated FoamFix to 
-- Updated ForgeEndertech to 
-- Updated FTB Library to 
-- Updated FTB Quests to 
-- Updated FTB Utilities to 
-- Updated Integrated Dynamics to 
-- Updated Just Enough HarvestCraft (JEHC) to 
-- Updated LittleTiles to 
-- Updated LootTweaker to 
-- Updated p455w0rd's Library to 
-- Updated RandomPatches to 
-- Updated Roots to 
-- Updated Erebus to 
-- Updated Torchmaster to 
-- Updated Treasure 2 to 
-- Updated Unlimited Chisel Works to 
-- Updated Wings to 
-- Updated Wireless Crafting Terminal to 
+===Mod Additions/Removals/Updates===
+- Added /dank/null.
+- Added Advanced Rocketry.
+- Added Aether Continuation.
+- Added Aether Legacy.
+- Added ArchitectureCraft.
+- Added Automatic Doors.
+- Added Avaritia.
+- Added Beasts.
+- Added Bewitchment.
+- Added Binnies Mods.
+- Added Cathedral.
+- Added Dawn of Time: Builder Addition.
+- Added Doggy Talents.
+- Added Draconic Evolution.
+- Added Dungeons 2.
+- Added EDX Multipart.
+- Added Extra Moas.
+- Added FTB Backups.
+- Added Fairy Lights.
+- Added Ferdinand's Flowers.
+- Added Floricraft.
+- Added Forestry.
+- Added Just Enough Brewcraft.
+- Added LibVulpes.
+- Added Lost Aether Content.
+- Added Macaw's Bridges.
+- Added Macaw's Roofs.
+- Added Maple Syrup.
+- Added Mekanism.
+- Added More Avaritia.
+- Added MultiBeds.
+- Added Mystical Wildlife.
+- Added Not Enough Pets.
+- Added Pam's Brewcraft.
+- Added Pet Names.
+- Added Rats.
+- Added Respawnable Pets.
+- Added SBM Merpig.
+- Added Save My Stronghold!
+- Added Simple Ambients.
+- Added The Aurorian.
+- Added Tiny Mob Farm.
+- Added Tomb Many Graves API.
+- Added Tomb Many Graves.
+- Added Tomb Many Plugins: Cosmetic Armor Reworked, The Betweenlands, Wearable Backpacks.
+- Added Totemic.
+- Added Wearable Backpacks.
+- Added Wild Lands.
+- Added Wishing for Sunshine.
+- Added Yung's Better Caves.
+
+- Removed Aerial Affinity.
+- Removed AgriCraft.
+- Removed AromaBackup (replaced).
+- Removed Broken Wings.
+- Removed Building Gadgets.
+- Removed Dank Storage (replaced).
+- Removed Deep Mob Learning (replaced).
+- Removed FTB Quests.
+- Removed Ice and Fire.
+- Removed Improved Backpacks (replaced).
+- Removed Integrated Dynamics.
+- Removed ItemFilters.
+- Removed Long Fall Boots.
+- Removed Natura.
+- Removed Platforms.
+- Removed Reliquary.
+- Removed Random Tool Kit.
+- Removed Thermal Cultivation.
+- Removed Worley's Caves (replaced).
+- Removed Corail Tombstone (replaced).
+- Removed Roots.
+- Removed Mystical Lib.
+- Removed Mystical World.
+
+- Updated Actually Additions to 151-2.
+- Updated Advanced Chimneys to 3.5.7.0-build.0424.
+- Updated AE2 Wireless Terminal Library to 1.0.34.
+- Updated Ambient Sounds to 3.0.10.
+- Updated Astral Sorcery to 1.10.22.
+- Updated Better Animals Plus to 8.2.0.
+- Updated Better Foliage to 2.3.1.
+- Updated Biomes O Plenty to 7.0.1.2444.
+- Updated Bonsai Trees to 1.1.4-b170.
+- Updated Bookshelf to 2.3.590.
+- Updated Botania to 1.10-363.
+- Updated Bountiful to 2.2.1.
+- Updated Classic Bars to 0.5.4.
+- Updated Common Capabilities to 2.4.5.
+- Updated Construct's Armory to 1.2.5.4.
+- Updated ConnectedTexturesMod to 1.0.1.30.
+- Updated Cooking for Blockheads to 6.4.71.
+- Updated Cosmetic Armor Reworked to 1.12.2-v4b.
+- Updated CraftTweaker to 4.1.20.
+- Updated CreativeCore to 1.10.3.
+- Updated Custom Main Menu to 2.0.9.1.
+- Updated Cyclic to 1.19.21.
+- Updated Cyclops Core to 1.6.1.
+- Updated Dark Utilities to 1.8.230.
+- Updated Document Your Mod Mod to 2.0.0.
+- Updated Dynamic Surroundings to 3.6.0.2.
+- Updated EnderIO to 5.1.55.
+- Updated ExtraBotany to 1.1-58r.
+- Updated FastWorkbench to 1.7.3.
+- Updated Fish's Undead Rising to 1.0.13.
+- Updated FoamFix to 1.10.10.
+- Updated ForgeEndertech to 4.5.0.0-build.0435.
+- Updated FTB Library to 5.4.7.0.
+- Updated FTB Utilities to 5.4.0.124.
+- Updated GottchCore to f14.23.5.2768-v1.12.1.
+- Updated InventoryTweaks to 1.64+dev.150.
+- Updated Just Enough HarvestCraft (JEHC) to 1.7.0.
+- Updated Just Enough Items (JEI) to 4.15.0.293.
+- Updated JourneyMap to 5.7.0.
+- Updated LagGoggles to THIN 4.9.
+- Updated LibraryEx to 1.1.0.
+- Updated LittleTiles to 1.5.0-pre199_15.
+- Updated LootTweaker to 0.1.5.
+- Updated MysticalLib to 1.6.0.
+- Updated Mystical World to 1.7.1.
+- Updated Nature's Compass to 1.8.5.
+- Updated NetherEx to 2.1.0.
+- Updated Online Picture Frame to 1.4.35.
+- Updated Ore Excavation to 1.4.150.
+- Updated p455w0rd's Library to 2.3.161.
+- Updated Quark to 1.6-178.
+- Updated RandomPatches to 1.21.0.0.
+- Updated Roots to 3.0.25.
+- Updated Rustic to 1.1.2.
+- Updated Sound Filters to 0.12.
+- Updated Storage Drawers to 5.4.1.
+- Updated Tinker's Construct to 2.13.0.179.
+- Updated Tesla Core Lib to 1.0.17.
+- Updated The Betweenlands to 3.5.7.
+- Updated Corail Tombstone to 3.6.9.
+- Updated The Erebus to 1.0.31.
+- Updated ToP Addons to 1.13.0.
+- Updated Torchmaster to 1.8.1.81.
+- Updated Treasure 2 to f14.23.5.2768-v1.10.0.
+- Updated UniDict to 2.9.6.
+- Updated Unlimited Chisel Works to 0.3.4.
+- Updated Waystones to 4.1.0.
+- Updated Wings to 1.1.6.
+- Updated Wireless Crafting Terminal to 3.12.97.
 
  
-Configs/Quests/Compatibility: 
+===Configs/Quests/Compatibility===
+Extra Moas - 
+    - Tamed Moas will trigger death messages.
+
+Applied Energistics 2 - 
+    - Items in AE2 systems which would cause crashes will instead be deleted.
+    - TinyTNT has been disabled.
+    - Channels have again been disabled.
+
+Bountiful - 
+    - Items from removed mods can (obviously) no longer be requested as bounties or granted as awards.
+
+Dungeons 2 - 
+    - Logs will now only generate at WARN and above.
+    - Version checker has been disabled.
+
+Merpig - 
+    - Spawn rate has been reduced from 10 to 5.
+
+Simply Cats - 
+    - Dogs cannot be adopted via this mod.
+    - Breeding limit has been changed from 20 to 5.
+    - Wandering areas have been reduced from 400 to 60.
+
+Treasure 2 - 
+    - Grave fog (both types) has been reenabled.
+    - Logs now generate at level WARN or above.
+    - Extra files will be again placed in /mods/ instead of /config/
+
+UniDict - 
+    - Bewitchment's Salt should no longer transform into that of any other mod.
+
+Aether - 
+    - Pink Aerclouds are now allowed to generate.
+    - Tallgrass is enabled.
+    - Loading screen tips are disabled.
+    - Aerclouds will use more saturated colors.
+    - Ambrosia must be eaten in order to work.
+
+Atum - 
+    - Oases will spawn at a chance of 1/25 instead of 1/30.
+    - 60% of Oases will be lush instead of 50%.
+
+Automatic Doors - 
+    - Iron doors will not be automatically opened.
+
+Bewitchment - 
+    - It is now Wednesday, my dudes.
+
+Doggy Talents - 
+    - Dogs no longer have genders.
+    - Dogs will now receive visual upgrades when leveled up with Guard Dog and Pillow Paw.
+
+Ferdinand's Flowers - 
+    - Flower chests can hold flowers and seeds from other mods.
+    - Desert flowers will not damage players.
+
+Pam's HarvestCraft - 
+    - Maple Trees will no longer generate.
+    - The final bee from an apiary is no longer guaranteed to be a Queen.
+
+Maple Syrup -
+    - There is now a 30% chance to generate a small vanilla-type maple tree.
+
+Mystical Wildlife - 
+    - All Cicapteras have had their spawn chances slightly reduced.
+    - Dusk Lurkers have had their spawn chances slightly reduced.
+
+Rats - 
+    - Custom Main Menu has been disabled.
+    - Plague can no longer be spread by other infected mobs.
+    - Fart noises have been disabled.
+    - Rat spawn rate has been decreased from 80 to 50.
+    - Pied Pipers are disabled.
+
+FTB Utilities - 
+    - Players will no longer suffocate in walls.
+    - Players should be able to toggle PVP in their team status.
+    - Max RTP distance has been reduced from 100,000 to 10,000.
+    - Min RTP distance has been reduced from 1,000 to 800.
+    - Explosions and PVP are disabled in the spawn area.
+    - Erroring chunks will be automatically unloaded.
+    - Player starting items have been changed to the following: 3 Chicken Sandwiches, 1 Thief's Lockpick, 1 Forestry Mailbox, 1 Doggy Charm, 1 Enthusiastic Guidebook.
+
+Tinker Tool Leveling -
+    - Max level has been raised from 10 to 15.
+
+Tomb Many Graves -
+    - Graves will attempt to place themselves outside of liquid.
+    - Graves will be accessible to people aside from the original owner.
+
+Totemic -
+    - Skeletons may not attack Buffalo.
+
+Wearable Backpacks - 
+    - Backpacks no longer have durability.
+    - Backpack size is increased from 9x4 to 9x6.
+    - Backpacks may not be opened by other players while worn.
+    - Players can open their backpacks with a hotkey.
+    - Backpacks are not considered chest armor.
+
+Wishing for Sunshine -
+    - To wish for Midnight, one needs an Aquamarine.
+    - Wishing wells spawn in villages at a 100% rate.
+
+World Primer - 
+    - Removed the portion that targeted Ice and Fire Stymphalian Feathers.
+
+Forestry - 
+    - Modules: Disabled food and mail modules.
+    - Common:
+        - Preferred difficulty has been set to HARD to match the server.
+        - Vanilla trees must be analyzed before they can be pollinated.
+        - Capsules can now directly pick up liquids from in-world.
+        - Capsules are now reusable.
+        - Players no longer spawn with the Forestry Guidebook.
+
+JEI -
+    - Hid extra Doggy Bed variants.
+
+Nature's Compass - 
+    - Blacklisted all non-overworld biomes to prevent clutter.
  
-Server Changelog: 
+===Server Changelog===
+- Biome size has been changed to Large.
+- PVP has been disabled.
  
-Mod Changelog: 
- 
-===================================== 
+=====================================
