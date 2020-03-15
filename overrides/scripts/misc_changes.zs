@@ -41,15 +41,9 @@ stoneMarble.add(<pvj:marble_brick>);
 val listAllwater = <ore:listAllwater>;
 listAllwater.add(<chickens:liquid_egg>);
 
-//Add Bat Wings to OreDict
-val batWing = <ore:batWing>;
-batWing.add(<xreliquary:mob_ingredient:5>);
-batWing.add(<actuallyadditions:item_misc:15>);
-
 //Adds Pixie Dusts to OreDict
 val pixieDust = <ore:pixieDust>;
 pixieDust.add(<botania:manaresource:8>);
-pixieDust.add(<iceandfire:pixie_dust>);
 pixieDust.add(<wings:fairy_dust>);
 
 //Adds Chickens' Henhouses to OreDict
@@ -79,12 +73,8 @@ dirt.add(<biomesoplenty:dirt:10>);
 
 //Add Quark's Tallow to "wax" OreDict so it'll work in Rustic recipes
 val wax = <ore:wax>;
-wax.add(<quark:tallow>);
-
-//Adds ZAWA's Blubber to "wax" and "tallow" OreDict so it'll work with Rustic
 val tallow = <ore:tallow>;
-wax.add(<zawa:blubber>);
-tallow.add(<zawa:blubber>);
+wax.add(<quark:tallow>);
 
 //Add's HC's Beeswax to "wax" and "tallow" OreDict
 wax.add(<harvestcraft:beeswaxitem>);
@@ -142,25 +132,6 @@ listAllMeatCooked.add(<fossil:dodo_cooked>);
 listAllchickenraw.add(<fossil:dodo_meat>);
 listAllchickencooked.add(<fossil:dodo_cooked>);
 
-//Adds ZAWA's Meats to OreDict
-listAllMeatRaw.add(<zawa:carnivore_meat_raw>);
-listAllMeatCooked.add(<zawa:carnivore_meat_cooked>);
-listAllMeatRaw.add(<zawa:large_meat_raw>);
-listAllMeatCooked.add(<zawa:large_meat_cooked>);
-listAllMeatRaw.add(<zawa:bush_meat_raw>);
-listAllMeatCooked.add(<zawa:bush_meat_cooked>);
-listAllMeatRaw.add(<zawa:reptile_meat_raw>);
-listAllMeatCooked.add(<zawa:reptile_meat_cooked>);
-
-listAllchickenraw.add(<zawa:bird_meat>);
-listAllchickencooked.add(<zawa:bird_meat_cooked>);
-
-<ore:listAllfishraw>.add(<zawa:cetacean_meat_raw>);
-<ore:listallfishcooked>.add(<zawa:cetacean_meat_cooked>);
-
-<ore:foodFrogRaw>.add(<zawa:raw_frog_leg>);
-<ore:foodFrogCooked>.add(<zawa:cooked_frog_leg>);
-
 //Adds Betweenlands Frog Legs to OreDict
 <ore:foodFrogRaw>.add(<thebetweenlands:frog_legs_raw>);
 <ore:foodFrogCooked>.add(<thebetweenlands:frog_legs_cooked>);
@@ -187,9 +158,6 @@ listAllfruit.add(<pvj:juniper_berries>);
 //Adds MrCrayfish's Toast to OreDict
 val foodToast = <ore:foodToast>;
 foodToast.add(<cfm:item_toast>);
-
-//Adds ActuallyAdditions' Chocolate to OreDict
-//<ore:foodChocolatebar>.add(<actuallyadditions:item_food:9>);
 
 //Adds Biomes O Plenty's Kelp to OreDict
 val listAllveggie = <ore:listAllveggie>;
@@ -219,8 +187,7 @@ listAllveggie.add(<erebus:turnip>);
 //Adds Cactus Fruit to OreDict
 var cactusFruit = [
 <erebus:erebus_food:17>,
-<erebus:erebus_food:18>,
-<natura:saguaro_fruit_item>
+<erebus:erebus_food:18>
 ] as IItemStack[];
 
 for fruit in cactusFruit {
@@ -234,11 +201,9 @@ val froggies = [
 <quark:frog_leg>,
 <thebetweenlands:frog_legs_raw>,
 <harvestcraft:frograwitem>,
-<zawa:raw_frog_leg>,
 <animania:cooked_frog_legs>,
 <harvestcraft:frogcookeditem>,
 <quark:cooked_frog_leg>,
-<zawa:cooked_frog_leg>,
 <thebetweenlands:frog_legs_cooked>
 ] as IItemStack[];
 
@@ -250,8 +215,7 @@ var rawFrog =[
 <animania:raw_frog_legs>,
 <quark:frog_leg>,
 <thebetweenlands:frog_legs_raw>,
-<harvestcraft:frograwitem>,
-<zawa:raw_frog_leg>
+<harvestcraft:frograwitem>
 ] as IItemStack[];
 
 for frog in rawFrog {
@@ -262,7 +226,6 @@ var cookedFrog = [
 <animania:cooked_frog_legs>,
 <harvestcraft:frogcookeditem>,
 <quark:cooked_frog_leg>,
-<zawa:cooked_frog_leg>,
 <thebetweenlands:frog_legs_cooked>
 ] as IItemStack[];
 
@@ -318,7 +281,6 @@ cropEdibleRoot.add(<biomesoplenty:plant_1:9>);
 <ore:plankTreatedWood>.add(<unlimitedchiselworks:chisel_planks_oak_immersiveengineering_treated_wood_0:*>);
 
 val plankWood = <ore:plankWood>;
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_integrateddynamics_menril_planks_0:*>);
 plankWood.add(<unlimitedchiselworks:chisel_planks_oak_immersiveengineering_treated_wood_0:*>);
 plankWood.add(<unlimitedchiselworks:chisel_planks_oak_rustic_planks_1:*>);
 plankWood.add(<unlimitedchiselworks:chisel_planks_oak_rustic_planks_0:*>);
@@ -421,33 +383,6 @@ plankWood.add(<unlimitedchiselworks:chisel_planks_oak_pvj_planks_cherry_blossom_
 plankWood.add(<unlimitedchiselworks:chisel_planks_oak_pvj_planks_jacaranda_0:*>);
 plankWood.add(<unlimitedchiselworks:chisel_planks_oak_pvj_planks_pine_0:*>);
 
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_overworld_planks_8:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_overworld_planks_7:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_overworld_planks_6:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_overworld_planks_5:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_overworld_planks_4:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_overworld_planks_3:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_overworld_planks_2:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_overworld_planks_1:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_overworld_planks_0:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_overworld_planks_8:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_overworld_planks_7:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_overworld_planks_6:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_overworld_planks_5:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_overworld_planks_4:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_overworld_planks_3:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_overworld_planks_2:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_overworld_planks_1:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_overworld_planks_0:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_nether_planks_1:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_nether_planks_3:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_nether_planks_2:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_nether_planks_0:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_nether_planks_1:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_nether_planks_3:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_nether_planks_2:*>);
-plankWood.add(<unlimitedchiselworks:chisel_planks_oak_natura_nether_planks_0:*>);
-
 
 val metaStone = <ore:metamorphicStone>;
 val livingrock = <ore:livingrock>;
@@ -501,12 +436,6 @@ skyStone.add(<unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_sto
 skyStone.add(<unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0:*>);
 skyStone.add(<unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:*>);
 
-val runeStone = <ore:runeStone>;
-runeStone.add(<unlimitedchiselworks:chisel_stonebrick_roots_runestone_brick_0:*>);
-runeStone.add(<unlimitedchiselworks:chisel_stonebrick1_roots_runestone_brick_0:*>);
-runeStone.add(<unlimitedchiselworks:chisel_stonebrick2_roots_runestone_brick_0:*>);
-<ore:wildWood>.add(<unlimitedchiselworks:chisel_planks_oak_roots_wildwood_planks_0:*>);
-
 stoneMarble.add(<unlimitedchiselworks:chisel_stonebrick_astralsorcery_blockblackmarble_1:*>);
 stoneMarble.add(<unlimitedchiselworks:chisel_stonebrick1_astralsorcery_blockblackmarble_1:*>);
 stoneMarble.add(<unlimitedchiselworks:chisel_stonebrick2_astralsorcery_blockblackmarble_1:*>);
@@ -514,39 +443,22 @@ stoneMarble.add(<unlimitedchiselworks:chisel_stonebrick2_astralsorcery_blockblac
 
 //===================JEI & Recipe Removal===================
 
-//Removes Random Tool Kit's Fourier Transformer and Barometer
-mods.jei.JEI.removeAndHide(<rtk:fouriertransformer>);
-mods.jei.JEI.removeAndHide(<rtk:barometer>);
-
-//Hides Random Tool Kit's Void Strider until the added dimensions work properly.
-mods.jei.JEI.hide(<rtk:voidstrider>);
-
-//Removes ZAWA's Tranquilizer Gun and Darts
-mods.jei.JEI.removeAndHide(<zawa:tranquilizer_gun>);
-mods.jei.JEI.removeAndHide(<zawa:tranquilizer_dart>);
-mods.jei.JEI.removeAndHide(<zawa:tranquilizer_dart_strong>);
-
 //Removes Nether Star recipe
 recipes.remove(<minecraft:nether_star>);
-
-//Remove Ralphiki's Field Guide
-mods.jei.JEI.removeAndHide(<zawa:ralphiki_book>);
 
 //Removes Pam's Market
 mods.jei.JEI.removeAndHide(<harvestcraft:market>);
 
 //Removes cable washing recipes for disabled AE2 cables
-//recipes.remove(<appliedenergistics2:part:516>);
-//recipes.remove(<appliedenergistics2:part:56>);
-//recipes.remove(<appliedenergistics2:part:76>);
+recipes.remove(<appliedenergistics2:part:516>);
+recipes.remove(<appliedenergistics2:part:56>);
+recipes.remove(<appliedenergistics2:part:76>);
 
 //Removes other Venison from JEI
 mods.jei.JEI.removeAndHide(<twilightforest:raw_venison>);
 mods.jei.JEI.removeAndHide(<twilightforest:cooked_venison>);
 mods.jei.JEI.removeAndHide(<betteranimalsplus:venisonraw>);
 mods.jei.JEI.removeAndHide(<betteranimalsplus:venisoncooked>);
-mods.jei.JEI.removeAndHide(<mysticalworld:venison>);
-mods.jei.JEI.removeAndHide(<mysticalworld:cooked_venison>);
 
 //Removes MrCrayfish Sausage.
 furnace.remove(<cfm:item_sausage_cooked>);
@@ -558,9 +470,6 @@ mods.jei.JEI.removeAndHide(<actuallyadditions:block_fishing_net>);
 
 //Removes BetterAnimalsPlus' Goat Cheese
 mods.jei.JEI.removeAndHide(<betteranimalsplus:goatcheese>);
-
-//Remove Reliquary's Glowing Bread
-mods.jei.JEI.removeAndHide(<xreliquary:glowing_bread>);
 
 //Remove Industrial Foregoing's Meat Feeder
 mods.jei.JEI.removeAndHide(<industrialforegoing:meat_feeder>);
@@ -643,10 +552,6 @@ mods.jei.JEI.removeAndHide(<actuallyadditions:item_food:12>);
 //Doughnut
 mods.jei.JEI.removeAndHide(<actuallyadditions:item_food:18>);
 
-//Remove AgriCraft's Computer Controlled Seed Analyzer because we don't have computers. Also disable Water Tanks.
-mods.jei.JEI.removeAndHide(<agricraft:peripheral>);
-mods.jei.JEI.removeAndHide(<agricraft:water_tank>);
-
 //===================Various Changes===================
 
 //Bonsai Trees Hellbark grows on Netherrack only
@@ -657,9 +562,6 @@ mods.bonsaitrees.SoilCompatibility.removeCompatibleTagFromTree("biomesoplenty:he
 //===Stack Sizes===
 //Cake
 <minecraft:cake>.maxStackSize = 16;
-
-//Dragon Bones
-<iceandfire:dragonbone>.maxStackSize = 32;
 
 //EFLNs
 <tconstruct:throwball:1>.maxStackSize = 32;
@@ -676,53 +578,14 @@ mods.bonsaitrees.SoilCompatibility.removeCompatibleTagFromTree("biomesoplenty:he
 //Lingering Potions
 <minecraft:lingering_potion>.maxStackSize = 16;
 
-//Reliquary Potions
-<xreliquary:potion>.maxStackSize = 32;
-
 //Chickens
 <roost:chicken>.maxStackSize = 8;
 
 //===================Tooltips===================
 
-//Adds Tooltip regarding renaming of "Danks" to "Nullification Cubes".
-<dankstorage:dank_1>.addTooltip(format.aqua("Formerly known as 'danks.'"));
-<dankstorage:dank_2>.addTooltip(format.aqua("Formerly known as 'danks.'"));
-<dankstorage:dank_3>.addTooltip(format.aqua("Formerly known as 'danks.'"));
-<dankstorage:dank_4>.addTooltip(format.aqua("Formerly known as 'danks.'"));
-<dankstorage:dank_5>.addTooltip(format.aqua("Formerly known as 'danks.'"));
-<dankstorage:dank_6>.addTooltip(format.aqua("Formerly known as 'danks.'"));
-<dankstorage:dank_7>.addTooltip(format.aqua("Formerly known as 'danks.'"));
-
 //Hopefully makes "Crescent Hammer" searchable with "wrench" ffs
 <thermalfoundation:wrench>.addTooltip(format.aqua("Calls itself a hammer, but it's really a wrench."));
 <ore:toolWrench>.add(<thermalfoundation:wrench>);
-
-//Adds Tooltip to Precious Doll
-<contenttweaker:preciousdoll>.addTooltip(format.aqua("A worn toy. It seems someone loved this doll very much."));
-<contenttweaker:preciousdoll>.addTooltip(format.gold("Allows flight in the Twilight Forest. Ingredient used to make the Tear of Icarus."));
-
-//Adds Tooltip to Swamp Viscera
-<contenttweaker:swampviscera>.addTooltip(format.aqua("This vile glob seems to embody the heart of the swamp."));
-<contenttweaker:swampviscera>.addTooltip(format.gold("Allows flight in The Betweenlands. Ingredient used to make the Tear of Icarus."));
-
-//Adds Tooltip to Mystic Gumbo
-<contenttweaker:mysticgumbo>.addTooltip(format.aqua("This stew smells absolutely delicious but can never be eaten."));
-<contenttweaker:mysticgumbo>.addTooltip(format.gold("Allows flight in The Betweenlands. Ingredient used to make the Tear of Icarus."));
-
-//Adds Tooltip to the Tears of Icarus
-<contenttweaker:tearsicarus>.addTooltip(format.aqua("A strange watery gem that seems to beckon you up into the sky."));
-<contenttweaker:tearsicarus>.addTooltip(format.gold("Allows flight in all dimensions."));
-
-//Adds OreDict tags to flight items
-var flight = [
-    <contenttweaker:mysticgumbo>,
-    <contenttweaker:swampviscera>,
-    <contenttweaker:preciousdoll>
-] as IItemStack[];
-
-for item in flight {
-    <ore:flight>.add(item);
-}
 
 //===Adds Tooltips to high-level foods from other mods===
 //Animania Super Omelette, Prime Roasted Beef/Pork
@@ -738,7 +601,6 @@ var topTierFoods = [
     <animania:cooked_prime_beef>,
     <erebus:erebus_food:16>,
     <erebus:stag_heart_cooked>,
-    <mysticalworld:epic_squid>,
     <actuallyadditions:item_food:3>,
     <thebetweenlands:kraken_calamari>,
     <quark:golden_frog_leg>

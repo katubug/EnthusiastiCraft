@@ -7,23 +7,6 @@
     </spawning>
   </recipe>
   
-  <recipe name="Spawner, Ice and Fire" required="false">
-    <spawning>
-	  <entity name="iceandfire:firedragon" disabled="true"/>
-	  <entity name="iceandfire:icedragon" disabled="true"/>
-	  <entity name="iceandfire:gorgon" disabled="true"/>
-    <entity name="iceandfire:dragonegg" disabled="true" soulvial="false"/>
-    <entity name="iceandfire:myrmex_egg" disabled="true" soulvial="false"/>
-    </spawning>
-  </recipe>
-  
-  <recipe name="Spawner, ZAWA" required="false">
-    <spawning>
-      <entity name="zawa:AnimalTransportVehicle" disabled="true" soulvial="false"/>
-	  <entity name="zawa:OffRoadVehicle" disabled="true" soulvial="false"/>
-    </spawning>
-  </recipe>
-  
     <recipe name="Tweak: Stick from Wood" required="false" disabled="true">
     <crafting>
       <grid size="1x2">

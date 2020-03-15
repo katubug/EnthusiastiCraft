@@ -19,14 +19,6 @@ import crafttweaker.oredict.IOreDictEntry;
 				},
 				Damage: 0 as short
 			},
-			agricraft: {
-				id: "agricraft:journal",
-				Count: 1 as byte,
-				tag: {
-					"akashictome:definedMod": "agricraft"
-				},
-				Damage: 0 as short
-			},
 			astralsorcery: {
 				id: "astralsorcery:itemjournal",
 				Count: 1 as byte,
@@ -67,15 +59,6 @@ import crafttweaker.oredict.IOreDictEntry;
 				},
 				Damage: 1 as short
 			},
-			deepmoblearning: {
-				id: "patchouli:guide_book",
-				Count: 1 as byte,
-				tag: {
-					"akashictome:definedMod": "deepmoblearning",
-					"patchouli:book": "deepmoblearning:book"
-				},
-				Damage: 0 as short
-			},
 			extrautils2: {
 				id: "extrautils2:book",
 				Count: 1 as byte,
@@ -97,14 +80,6 @@ import crafttweaker.oredict.IOreDictEntry;
 				Count: 1 as byte,
 				tag: {
 					"akashictome:definedMod": "industrialforegoing"
-				},
-				Damage: 0 as short
-			},
-			integrateddynamics: {
-				id: "integrateddynamics:on_the_dynamics_of_integration",
-				Count: 1 as byte,
-				tag: {
-					"akashictome:definedMod": "integrateddynamics"
 				},
 				Damage: 0 as short
 			},
@@ -148,54 +123,12 @@ import crafttweaker.oredict.IOreDictEntry;
 				},
 				Damage: 0 as short
 			},
-			zawa: {
-				id: "zawa:data_book",
-				Count: 1 as byte,
-				tag: {
-					"akashictome:definedMod": "zawa"
-				},
-				Damage: 0 as short
-			},
-			zawa1: {
-				id: "zawa:care_guide",
-				Count: 1 as byte,
-				tag: {
-					"akashictome:definedMod": "zawa"
-				},
-				Damage: 0 as short
-			},
-			zawa2: {
-				id: "zawa:exploration_guide",
-				Count: 1 as byte,
-				tag: {
-					"akashictome:definedMod": "zawa"
-				},
-				Damage: 0 as short
-			},
-			roots: {
-				id: "patchouli:guide_book",
-				Count: 1 as byte,
-				tag: {
-					"akashictome:definedMod": "roots",
-					"patchouli:book": "roots:roots_guide"
-				},
-				Damage: 0 as short
-			},
 			arcanearchives: {
 				id: "arcanearchives:tome_arcana",
 				Count: 1 as byte,
 				tag: {
 					"akashictome:definedMod": "arcanearchives",
 					"arcanearchives:tome_arcana": "arcanearchives:xml/tome.xml"
-				},
-				Damage: 0 as short
-			},
-			mysticalworld: {
-				id: "patchouli:guide_book",
-				Count: 1 as byte,
-				tag: {
-					"akashictome:definedMod": "mysticalworld",
-					"patchouli:book": "mysticalworld:world_guide"
 				},
 				Damage: 0 as short
 			},

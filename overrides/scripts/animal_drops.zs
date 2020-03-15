@@ -9,7 +9,7 @@ import crafttweaker.data.IData;
 
 //Remove Venison Drops from BetterAnimalsPlus
 val bapDeer = LootTables.getTable("betteranimalsplus:deer");
-val bapDeerMain = bapDeer.getPool("deer");
+val bapDeerMain = bapDeer.getPool("deer-venison");
 bapDeerMain.removeEntry("betteranimalsplus:venisonraw");
 
 //Add Pam's Venison to BetterAnimalsPlus
@@ -22,14 +22,6 @@ tfDeerMain.removeEntry("twilightforest:raw_venison");
 
 //Add Pam's Venison to Twilight Forest
 tfDeerMain.addItemEntry(<harvestcraft:venisonrawitem>, 5);
-
-//Remove Venison drops from Mystical World
-val mwDeer = LootTables.getTable("mysticalworld:entity/deer");
-val mwDeerMain = mwDeer.getPool("pool1");
-mwDeerMain.removeEntry("mysticalworld:venison");
-
-//Add Pam's Venison to Mystical World
-mwDeerMain.addItemEntry(<harvestcraft:venisonrawitem>, 5);
 
 //Add Truffles to piggie drop tables
 val aniPig = LootTables.getTable("animania:pig_regular");
@@ -124,15 +116,3 @@ val dtMeatHorse = dtHorse.getPool("main");
 	dtMeatChicken.addItemEntryJson(<minecraft:chicken>, 5 as int, 0 as int, autoSmelt as IData[], minimalConditionArr as IData[], "vanillaChicken");
 //Add Animania drop.
 	dtMeatChicken.addItemEntryJson(<animania:raw_prime_chicken>, 1 as int, 0 as int, autoSmelt as IData[], minimalConditionArr as IData[], "animaniaChicken");
-
-
-//========= Adds special items to Boss Drop Tables=========
-//Betweenlands Primordial Malevolence
-val primMale = LootTables.getTable("thebetweenlands:entities/fortress_boss");
-val primMaleFlight = primMale.addPool("flight", 1, 1, 0, 0);
-primMaleFlight.addItemEntry(<contenttweaker:swampviscera>, 1, "EC_BetweenlandsFlight");
-
-//Twilight Forest Cave Troll
-val caveTroll = LootTables.getTable("twilightforest:entities/troll");
-val caveTrollFlight = caveTroll.addPool("flight", 1, 1, 0, 0);
-caveTrollFlight.addItemEntry(<contenttweaker:preciousdoll>, 1);

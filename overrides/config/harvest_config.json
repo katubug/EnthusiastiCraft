@@ -1,643 +1,697 @@
 {
   "crops": [
-      {
-        "initialBlock": {
-          "blockName": "minecraft:wheat",
-          "meta": 7
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "minecraft:carrots",
-          "meta": 7
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "minecraft:potatoes",
-          "meta": 7
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "minecraft:beetroots",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "erebus:crop_turnip",
-          "meta": 7
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "erebus:crop_cabbage",
-          "meta": 7
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "erebus:crop_mandrake",
-          "meta": 7
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "actuallyadditions:block_rice",
-          "meta": 7
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "actuallyadditions:block_canola",
-          "meta": 7
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "actuallyadditions:block_flax",
-          "meta": 7
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "actuallyadditions:block_coffee",
-          "meta": 7
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamblackberrycrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamblueberrycrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamcandleberrycrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamraspberrycrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamstrawberrycrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamcactusfruitcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamasparaguscrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pambarleycrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamoatscrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamryecrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamcorncrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pambambooshootcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamcantaloupecrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamcucumbercrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamwintersquashcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamzucchinicrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pambeetcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamonioncrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamparsnipcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pampeanutcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamradishcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamrutabagacrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamsweetpotatocrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamturnipcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamrhubarbcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamcelerycrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamgarliccrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamgingercrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamspiceleafcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamtealeafcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamcoffeebeancrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pammustardseedscrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pambroccolicrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamcauliflowercrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamleekcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamlettucecrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamscallioncrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamartichokecrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pambrusselsproutcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamcabbagecrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamspinachcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamwhitemushroomcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pambeancrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamsoybeancrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pambellpeppercrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamchilipeppercrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pameggplantcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamokracrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pampeascrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamtomatocrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamcottoncrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pampineapplecrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamgrapecrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamkiwicrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamcranberrycrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamricecrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamseaweedcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamcurryleafcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamsesameseedscrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamwaterchestnutcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamgigapicklecrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamkalecrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamagavecrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamamaranthcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamarrowrootcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamcassavacrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamchickpeacrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamelderberrycrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamflaxcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamgreengrapecrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamhuckleberrycrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamjicamacrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamjutecrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamkenafcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamkohlrabicrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamlentilcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pammilletcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pammulberrycrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamquinoacrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamsisalcrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamtarocrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamtomatillocrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "harvestcraft:pamjuniperberrycrop",
-          "meta": 3
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "cyclicmagic:sprout",
-          "meta": 7
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "cyclicmagic:apple",
-          "meta": 7
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "roots:moonglow_crop",
-          "meta": 7
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "roots:pereskia_crop",
-          "meta": 7
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "roots:wildroot_crop",
-          "meta": 7
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "roots:spirit_herb_crop",
-          "meta": 7
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "roots:wildewheet_crop",
-          "meta": 7
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "roots:cloud_berry_crop",
-          "meta": 7
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "roots:infernal_bulb_crop",
-          "meta": 7
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "roots:dewgonia_crop",
-          "meta": 7
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "roots:stalicripe_crop",
-          "meta": 7
-        }
-      },
-      {
-        "initialBlock": {
-          "blockName": "mysticalworld:aubergine_crop",
-          "meta": 7
-        }
+    {
+      "initialBlock": {
+        "blockName": "minecraft:wheat",
+        "meta": 7
       }
-    ],
+    },
+    {
+      "initialBlock": {
+        "blockName": "minecraft:carrots",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "minecraft:potatoes",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "minecraft:beetroots",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "extratrees:hops",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "floricraft:crop_hemp",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "theaurorian:lavendercrop",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "theaurorian:silkberrycrop",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "atum:emmer_wheat",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "atum:anputs_fingers",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "atum:flax_block",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "bewitchment:crop_aconitum",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "bewitchment:crop_belladonna",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "bewitchment:crop_garlic",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "bewitchment:crop_hellebore",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "bewitchment:crop_mandrake",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "bewitchment:crop_white_sage",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "bewitchment:crop_wormwood",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "dawnoftimebuilder:camellia",
+        "meta": 5
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "dawnoftimebuilder:mulberry",
+        "meta": 4
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "dawnoftimebuilder:rice",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "dawnoftimebuilder:commelina",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "dawnoftimebuilder:maize",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "erebus:crop_turnip",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "erebus:crop_cabbage",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "erebus:crop_mandrake",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "actuallyadditions:block_rice",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "actuallyadditions:block_canola",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "actuallyadditions:block_flax",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "actuallyadditions:block_coffee",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamblackberrycrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamblueberrycrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamcandleberrycrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamraspberrycrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamstrawberrycrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamcactusfruitcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamasparaguscrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pambarleycrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamoatscrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamryecrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamcorncrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pambambooshootcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamcantaloupecrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamcucumbercrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamwintersquashcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamzucchinicrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pambeetcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamonioncrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamparsnipcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pampeanutcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamradishcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamrutabagacrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamsweetpotatocrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamturnipcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamrhubarbcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamcelerycrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamgarliccrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamgingercrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamspiceleafcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamtealeafcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamcoffeebeancrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pammustardseedscrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pambroccolicrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamcauliflowercrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamleekcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamlettucecrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamscallioncrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamartichokecrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pambrusselsproutcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamcabbagecrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamspinachcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamwhitemushroomcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pambeancrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamsoybeancrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pambellpeppercrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamchilipeppercrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pameggplantcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamokracrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pampeascrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamtomatocrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamcottoncrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pampineapplecrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamgrapecrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamkiwicrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamcranberrycrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamricecrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamseaweedcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamcurryleafcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamsesameseedscrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamwaterchestnutcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamgigapicklecrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamkalecrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamagavecrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamamaranthcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamarrowrootcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamcassavacrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamchickpeacrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamelderberrycrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamflaxcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamgreengrapecrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamhuckleberrycrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamjicamacrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamjutecrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamkenafcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamkohlrabicrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamlentilcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pammilletcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pammulberrycrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamquinoacrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamsisalcrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamtarocrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamtomatillocrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "harvestcraft:pamjuniperberrycrop",
+        "meta": 3
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "cyclicmagic:sprout",
+        "meta": 7
+      }
+    },
+    {
+      "initialBlock": {
+        "blockName": "cyclicmagic:apple",
+        "meta": 7
+      }
+    }
+  ],
   "exhaustionPerHarvest": 0.005,
   "additionalLogging": false,
-  "checkForCrops": true
+  "checkForCrops": false
 }

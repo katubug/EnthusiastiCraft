@@ -1,6 +1,9 @@
-[2.0.0] 
+# ============================================== #
+#                     [2.0.0]                    #
+# ============================================== #
  
-===Mod Additions/Removals/Updates===
+# ================= Mod Changes ================ #
+
 - Added /dank/null.
 - Added Advanced Rocketry.
 - Added Aether Continuation.
@@ -51,6 +54,11 @@
 - Added Wild Lands.
 - Added Wishing for Sunshine.
 - Added Yung's Better Caves.
+- Added Better Diving
+- Added CTDCore
+- Added Mekanism Generators
+- Added Rope Bridge
+- Added Wall Jump
 
 - Removed Aerial Affinity.
 - Removed AgriCraft.
@@ -73,7 +81,6 @@
 - Removed Worley's Caves (replaced).
 - Removed Corail Tombstone (replaced).
 - Removed Roots.
-- Removed Mystical Lib.
 - Removed Mystical World.
 
 - Updated Actually Additions to 151-2.
@@ -147,7 +154,8 @@
 - Updated Wireless Crafting Terminal to 3.12.97.
 
  
-===Configs/Quests/Compatibility===
+# =============== Config Changes =============== #
+
 Extra Moas - 
     - Tamed Moas will trigger death messages.
 
@@ -155,6 +163,7 @@ Applied Energistics 2 -
     - Items in AE2 systems which would cause crashes will instead be deleted.
     - TinyTNT has been disabled.
     - Channels have again been disabled.
+    - Meteorites may now generate in the Erebus.
 
 Bountiful - 
     - Items from removed mods can (obviously) no longer be requested as bounties or granted as awards.
@@ -195,6 +204,7 @@ Automatic Doors -
 
 Bewitchment - 
     - It is now Wednesday, my dudes.
+    - Bewitchment trees and ores will now spawn in dimensions other than the overworld.
 
 Doggy Talents - 
     - Dogs no longer have genders.
@@ -253,24 +263,113 @@ Wishing for Sunshine -
     - Wishing wells spawn in villages at a 100% rate.
 
 World Primer - 
-    - Removed the portion that targeted Ice and Fire Stymphalian Feathers.
+    - Removed the lines that targeted Ice and Fire Stymphalian Feathers.
+    - Removed the lines that targeted ZAWA Hawksbill Sea Turtles.
 
 Forestry - 
-    - Modules: Disabled food and mail modules.
+    - Modules: Disabled food module.
     - Common:
         - Preferred difficulty has been set to HARD to match the server.
         - Vanilla trees must be analyzed before they can be pollinated.
         - Capsules can now directly pick up liquids from in-world.
         - Capsules are now reusable.
         - Players no longer spawn with the Forestry Guidebook.
+        - Additional dimensions have been added for related worldgen.
 
 JEI -
     - Hid extra Doggy Bed variants.
 
 Nature's Compass - 
     - Blacklisted all non-overworld biomes to prevent clutter.
+
+Better Diving - 
+    - Disabled Limestone.
+
+Pretty Beaches -
+    - Added fill-in functionality to gravel as well as sand.
+
+Actually Additions - 
+    - Removed lines that referenced removed mods.
+
+Advanced Rocketry -
+    - Players may respawn at beds on planets as long as the atmosphere near the bed is breatheable.
+    - Terraforming has been enabled for all AR planets.
+    - Zero G Space Stations have been made possible.
+    - AR will not generate materials from other mods, to avoid clutter.
+    - Planets must be discovered in the warp controller before they may be visited.
+    - Vanilla structures will generate on planets with breatheable atmosphere.
+    - AR planets will generate using dimension ID 25 and up instead of 2 and up.
+
+Draconic Evolution -
+    - Celestial Manipulator sound effects have been reduced.
+    - Shielded armor will no longer make a sound upon hit.
+    - Bows cannot break blocks.
+    - Large reactor explosions are disabled.
+    - Flight speed has been limited to 250%.
+    - Guardians can no longer kill players in creative mode.
+    - Geckos will not drop souls and cannot be spawned.
+    - Draconium Ore has been disabled from non-ore dimensions, and the Betweenlands.
+
+EnderIO -
+    - References to removed mods have been deleted.
+
+Industrial Foregoing -
+    - Lines that reference removed mods have been deleted.
+    - Wither Builders are now enabled.
+
+Mekanism -
+    - All transmitters will now be rendered as opaque.
+    - Volume of all machines has been reduced by half.
+    - Chunk loading has been disabled.
+    - Server OPs may bypass security restrictions.
+    - Baby Skeletons have been disabled.
+    - Generators: Wind Turbines will now only generate wind in sensible dimensions.
+
+More Avaritia -
+    - ExU2's Creative Spikes have had their recipe disabled.
+
+Wishing for Sunshine -
+    - To summon morning, an Egg is used.
+    - To summon sunset, Dusk Ash is used.
+
+Yung's Better Caves -
+    - Type 1 Caves have been changed from VeryCommon to Common.
+    - Type 2 Caves have been changed from VeryCommon to Common.
+    - Water Region Frequency has been changed from Normal to Common.
+    - Bedrock Layer Width has been increased from 1 to 2.
+
+Simple Harvest -
+    - Right-click harvestable crops have been automatically updated.
+
+# =============== Script Changes =============== #
+
+akashic_tome.zs -
+    - Books from the following mods have been removed: AgriCraft, Deep Mob Learning, Integrated Dynamics, ZAWA, Mystical World.
+
+animal_drops.zs -
+    - References to Mystical World's deer have been removed.
+    - Boss drops have been removed to reflect the removal of the Broken Wings mod.
+    - Changed the BAP deer loot table name to match the mod.
+
+misc_changes.zs -
+    - Bat wings no longer need to be oredicted.
+    - References to items from removed mods have been deleted.
+    - AE2 cable-washing recipes have been disabled.
+
+new_items.zs -
+    - This file has been removed entirely.
+
+recipe_conflicts.zs -
+    - References to items from removed mods have been deleted.
+
+recipe_editing.zs -
+    - References to items from removed mods have been deleted.
+    - Rats Plastic and Industrial Foregoing's Plastic can now be used interchangeably in crafting table recipes.
+    - Recipe for the Ender Dragon Egg has been changed, however this is may be changed again later. And, with Draconic Evolution, may not even be relevant anymore.
+    - Recipe for the "reliable but expensive" Angel Ring has been changed as well, but again, this may not be the final recipe for this item.
  
-===Server Changelog===
+# ============== Server Changelog ============== #
+
 - Biome size has been changed to Large.
 - PVP has been disabled.
  

@@ -3,6 +3,11 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
+//===Makes Plastics Compatible===
+<ore:plastic>.add(<industrialforegoing:plastic>);
+recipes.replaceAllOccurences(<rats:raw_plastic>, <ore:plastic>);
+recipes.replaceAllOccurences(<industrialforegoing:plastic>, <ore:plastic>);
+
 //===Adds in a recipe for Bottles of Enchanting===
 //Adds both types of solid exp to oreDict
 recipes.addShapeless("EC_Bottleenchantingchix", <minecraft:experience_bottle> * 3, [<morechickens:solidxp>, <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]);
@@ -15,42 +20,6 @@ recipes.addShapeless(<erebus:materials:62>, [<erebus:materials:61>,<ore:cropCabb
 //===Frog Leg Stirfry===
 recipes.remove(<harvestcraft:froglegstirfryitem>);
 recipes.addShapeless(<harvestcraft:froglegstirfryitem>, [<harvestcraft:skilletitem>,<ore:listAllfrog>,<ore:cropRice>,<harvestcraft:broccoliitem>,<minecraft:carrot>,<harvestcraft:bellpepperitem>]);
-
-//===Mystic Gumbo recipe (Erebus flight)===
-recipes.addShapeless(<contenttweaker:mysticgumbo>, [<erebus:erebus_food:16>,<erebus:antlion_egg>,<erebus:tarantula_egg>,<erebus:stag_heart_raw>,<erebus:wand_of_animation>.giveBack()]);
-
-//===Flight item recipe===
-recipes.addShapedMirrored("EC_TearsofIcarus", <contenttweaker:tearsicarus>, [[null, <ore:flight>, null],[<minecraft:dragon_breath>, <ore:blockDiamond>, <ore:flight>], [null, <minecraft:nether_star>, null]]);
-
-//===Quark Bark converts to Roots Bark===
-//Add knives to OreDict
-val listAllknife = <ore:listAllknife>;
-listAllknife.add(<mysticalworld:silver_knife:*>);
-listAllknife.add(<mysticalworld:copper_knife:*>);
-listAllknife.add(<mysticalworld:amethyst_knife:*>);
-listAllknife.add(<roots:wood_knife:*>);
-listAllknife.add(<roots:gold_knife:*>);
-listAllknife.add(<roots:diamond_knife:*>);
-listAllknife.add(<roots:iron_knife:*>);
-listAllknife.add(<roots:stone_knife:*>);
-
-//Oak
-recipes.addShapeless(<roots:bark_oak> * 4, [<quark:bark>,<ore:listAllknife>.giveBack()]);
-
-//Spruce
-recipes.addShapeless(<roots:bark_spruce> * 4, [<quark:bark:1>,<ore:listAllknife>.giveBack()]);
-
-//Birch
-recipes.addShapeless(<roots:bark_birch> * 4, [<quark:bark:2>,<ore:listAllknife>.giveBack()]);
-
-//Jungle
-recipes.addShapeless(<roots:bark_jungle> * 4, [<quark:bark:3>,<ore:listAllknife>.giveBack()]);
-
-//Acacia
-recipes.addShapeless(<roots:bark_acacia> * 4, [<quark:bark:4>,<ore:listAllknife>.giveBack()]);
-
-//Dark Oak
-recipes.addShapeless(<roots:bark_dark_oak> * 4, [<quark:bark:5>,<ore:listAllknife>.giveBack()]);
 
 //Mob Control Pacification Wand is more expensive
 recipes.remove(<micwands:wandpacify>);
@@ -78,56 +47,7 @@ recipes.addShaped("EC_MoarSignsOverride", <minecraft:sign> * 3, [[<minecraft:pla
 <ore:listAllLava>.add(<chickens:liquid_egg:1>);
 recipes.addShaped(<industrialforegoing:fluid_pump>, [[<industrialforegoing:plastic>, <minecraft:bucket>, <industrialforegoing:plastic>],[<ore:listAllwater>, <enderio:item_material>, <ore:listAllLava>], [<industrialforegoing:plastic>, <ore:gearGold>, <industrialforegoing:plastic>]]);
 
-//Adds recipes for ZAWA stone types
-recipes.addShapeless("EC_ZawaRiverStone", <zawa:river_stone>, [<ore:listAllwater>,<minecraft:cobblestone>]);
-recipes.addShapeless("EC_ZawaMixedStone", <zawa:mixed_stone>, [<minecraft:cobblestone>,<minecraft:gravel>]);
-recipes.addShapeless("EC_ZawaMixedStoneMossy", <zawa:mixed_stone_mossy>, [<minecraft:mossy_cobblestone>,<minecraft:gravel>]);
 
-//======================Adds recipes for AgriCraft flower seeds======================
-//Oxeye Daisy
-val oDaisySeed = <agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "vanilla:daisy_plant", agri_growth: 1 as byte});
-
-recipes.addShaped("EC_DaisySeed", oDaisySeed * 2, [[<minecraft:red_flower:8>, <minecraft:red_flower:8>, null],[null, null, null], [null, null, null]]);
-
-//Pink Tulip
-val pTulipSeed = <agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "vanilla:pink_tulip_plant", agri_growth: 1 as byte});
-
-recipes.addShaped("EC_PTulipSeed", pTulipSeed * 2, [[<minecraft:red_flower:7>, <minecraft:red_flower:7>, null],[null, null, null], [null, null, null]]);
-
-//White Tulip
-val wTulipSeed = <agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "vanilla:white_tulip_plant", agri_growth: 1 as byte});
-
-recipes.addShaped("EC_WTulipSeed", wTulipSeed * 2, [[<minecraft:red_flower:6>, <minecraft:red_flower:6>, null],[null, null, null], [null, null, null]]);
-
-//Red Tulip
-val rTulipSeed = <agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "vanilla:red_tulip_plant", agri_growth: 1 as byte});
-
-recipes.addShaped("EC_RTulipSeed", rTulipSeed * 2, [[<minecraft:red_flower:4>, <minecraft:red_flower:4>, null],[null, null, null], [null, null, null]]);
-
-//Orange Tulip
-val oTulipSeed = <agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "vanilla:orange_tulip_plant", agri_growth: 1 as byte});
-
-recipes.addShaped("EC_OTulipSeed", oTulipSeed * 2, [[<minecraft:red_flower:5>, <minecraft:red_flower:5>, null],[null, null, null], [null, null, null]]);
-
-//Dandelion
-val dandelionSeed = <agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "vanilla:dandelion_plant", agri_growth: 1 as byte});
-
-recipes.addShaped("EC_DandelionSeed", dandelionSeed * 2, [[<minecraft:yellow_flower>, <minecraft:yellow_flower>, null],[null, null, null], [null, null, null]]);
-
-//Poppy
-val poppySeed = <agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "vanilla:poppy_plant", agri_growth: 1 as byte});
-
-recipes.addShaped("EC_PoppySeed", poppySeed * 2, [[<minecraft:red_flower>, <minecraft:red_flower>, null],[null, null, null], [null, null, null]]);
-
-//Blue Orchid
-val blueOrchidSeed = <agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "vanilla:orchid_plant", agri_growth: 1 as byte});
-
-recipes.addShaped("EC_BlueOrchidSeed", blueOrchidSeed * 2, [[<minecraft:red_flower:1>, <minecraft:red_flower:1>, null],[null, null, null], [null, null, null]]);
-
-//Allium
-val alliumSeed = <agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "vanilla:allium_plant", agri_growth: 1 as byte});
-
-recipes.addShaped("EC_AlliumSeed", alliumSeed * 2, [[<minecraft:red_flower:2>, <minecraft:red_flower:2>, null],[null, null, null], [null, null, null]]);
 
 //======================Add recipe for Name Tag======================
 recipes.addShapeless("EC_NameTag", <minecraft:name_tag>, [<ore:paper>,<ore:string>,<ore:slimeball>]);
@@ -145,12 +65,11 @@ recipes.addShapeless(<animania:block_mud>, [<biomesoplenty:mud>]);
 recipes.addShapeless(<animania:block_mud>, [<pvj:mud>]);
 recipes.addShapeless(<animania:block_mud>, [<thebetweenlands:mud>]);
 
-//======================Craftable Ender Dragon Egg======================
-recipes.addShapedMirrored("EC_DragonEgg", <minecraft:dragon_egg>, [[<minecraft:dragon_breath>, <thermalfoundation:storage_alloy:7>, <minecraft:dragon_breath>],[<iceandfire:fire_dragon_heart>, <bhc:green_heart_canister>, <iceandfire:ice_dragon_heart>], [<minecraft:dragon_breath>, <thermalfoundation:storage_alloy:7>, <minecraft:dragon_breath>]]);
+//======================Craftable Ender Dragon FIXME Egg======================
+recipes.addShapedMirrored("EC_DragonEgg", <minecraft:dragon_egg>, [[<minecraft:dragon_breath>, <thermalfoundation:storage_alloy:7>, <minecraft:dragon_breath>],[<botania:manaresource:9>, <quark:enderdragon_scale>, <botania:manaresource:9>], [<minecraft:dragon_breath>, <thermalfoundation:storage_alloy:7>, <minecraft:dragon_breath>]]);
 
 //======================Mega Torch Recipes======================
 recipes.remove(<torchmaster:mega_torch>);
-recipes.addShaped("EC_MegaTorch", <torchmaster:mega_torch>, [[<xreliquary:interdiction_torch>, <xreliquary:interdiction_torch>, <xreliquary:interdiction_torch>], [<minecraft:iron_nugget>, <ore:logWood>, <minecraft:iron_nugget>], [<minecraft:gold_block>, <ore:logWood>, <minecraft:gold_block>]]);
 
 recipes.addShaped("EC_MegaTorch2", <torchmaster:mega_torch>, [[null, <randomthings:peacecandle>, null], [null, <ore:logWood>, null], [<minecraft:gold_block>, <ore:logWood>, <minecraft:gold_block>]]);
 
@@ -166,9 +85,6 @@ recipes.addShaped("EC_Diaphanous", <randomthings:diaphanousblock> * 4, [[null, <
 //======================Change Recipe for Trigger Glass so it doesn't require disabled items.======================
 recipes.remove(<randomthings:triggerglass>);
 recipes.addShaped("EC_TriggerGlass", <randomthings:triggerglass> * 4, [[null, <ore:blockGlassColorless>, null], [<extrautils2:ineffableglass>, <minecraft:redstone>, <extrautils2:ineffableglass>], [null, <minecraft:glass>, null]]);
-
-//======================Changes Roost Collector Recipe to require Henhouses======================
-//recipes.addShaped("EC_RoostCollector", <roost:collector>, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, <ore:henHouse>, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
 //======================Changes Ender Shards Recipe======================
 recipes.remove(<extrautils2:endershard>);
@@ -382,40 +298,10 @@ var lassoGhast = <extrautils2:goldenlasso:1>.withTag({Animal: {id: "minecraft:gh
 recipes.removeShaped(shapedRing);
 
 //Add in Recipe for the Basic Ring
-recipes.addShaped(<extrautils2:angelring>, [[<ore:pixieDust>, <botania:flighttiara>, <twilightforest:raven_feather>], [lassoBat, <extrautils2:chickenring:1>, lassoGhast], [<iceandfire:stymphalian_bird_feather>, <actuallyadditions:item_wings_of_the_bats>, <minecraft:feather>]]);
+recipes.addShaped(<extrautils2:angelring>, [[<ore:pixieDust>, <botania:flighttiara>, <twilightforest:raven_feather>], [lassoBat, <extrautils2:chickenring:1>, lassoGhast], [<ore:peacockFeather>, <actuallyadditions:item_wings_of_the_bats>, <minecraft:feather>]]);
 
 //Add Expensive but Reliable Recipe for the Basic Ring
-recipes.addShaped(<extrautils2:angelring>, [[<xreliquary:angelic_feather>, <botania:flighttiara>, <xreliquary:angelic_feather>], [lassoBat, <extrautils2:chickenring:1>, lassoGhast], [<xreliquary:angelic_feather>, <actuallyadditions:item_wings_of_the_bats>, <xreliquary:angelic_feather>]]);
-
-//===================Bat Wing Recipes Use OreDict===================
-
-//Wings of the Bats
-recipes.remove(<actuallyadditions:item_wings_of_the_bats>);
-recipes.addShaped(<actuallyadditions:item_wings_of_the_bats>, [[<ore:batWing>, <actuallyadditions:block_crystal_empowered:2>, <ore:batWing>], [<ore:batWing>, <actuallyadditions:item_misc:19>, <ore:batWing>], [<ore:batWing>, <actuallyadditions:block_crystal_empowered:2>, <ore:batWing>]]);
-
-//Interdiction Torch
-recipes.remove(<xreliquary:interdiction_torch>);
-recipes.addShapeless(<xreliquary:interdiction_torch> * 4, [<ore:batWing>, <xreliquary:mob_ingredient:7>, <xreliquary:mob_ingredient:11>, <ore:rodBlaze>]);
-
-//Angelic Feather
-recipes.remove(<xreliquary:angelic_feather>);
-recipes.addShapeless(<xreliquary:angelic_feather>, [<ore:feather>, <xreliquary:mob_ingredient:9>, <ore:batWing>, <xreliquary:mob_ingredient:11>]);
-
-//Ender Staff
-recipes.remove(<xreliquary:ender_staff>);
-recipes.addShaped(<xreliquary:ender_staff>, [[null, <ore:batWing>, <ore:pearlEnderEye>], [<xreliquary:mob_ingredient:11>, <xreliquary:void_tear>, <ore:batWing>], [<minecraft:stick>, <xreliquary:mob_ingredient:11>, null]]);
-
-//Rod of Lyssa
-recipes.remove(<xreliquary:rod_of_lyssa>);
-recipes.addShapeless(<xreliquary:rod_of_lyssa>, [<ore:batWing>, <xreliquary:mob_ingredient:13>, <minecraft:fishing_rod>, <xreliquary:mob_ingredient:11>]);
-
-//Rending Gale
-recipes.remove(<xreliquary:rending_gale>);
-recipes.addShaped(<xreliquary:rending_gale>, [[null, <ore:batWing>, <xreliquary:mob_ingredient:8>], [<ore:ingotGold>, <xreliquary:void_tear>, <ore:batWing>], [<minecraft:stick>, <ore:ingotGold>, null]]);
-
-//Coin of Fortune
-recipes.remove(<xreliquary:fortune_coin>);
-recipes.addShapeless(<xreliquary:fortune_coin>, [<xreliquary:mob_ingredient:11>, <xreliquary:mob_ingredient:4>, <ore:batWing>, <ore:nuggetGold>]);
+recipes.addShaped(<extrautils2:angelring>, [[<erebus:materials:27>, <botania:flighttiara>, <erebus:materials:27>], [lassoBat, <extrautils2:chickenring:1>, lassoGhast], [<erebus:materials:27>, <actuallyadditions:item_wings_of_the_bats>, <erebus:materials:27>]]);
 
 //==================HarvestCraft Recipe Fixes======================
 
@@ -453,28 +339,6 @@ recipes.remove(<biomesoplenty:bamboo_thatching>);
 recipes.addShapeless(<biomesoplenty:bamboo> * 9, [<biomesoplenty:bamboo_thatching>]);
 recipes.addShapeless(<biomesoplenty:bamboo_thatching>, [<biomesoplenty:bamboo>,<biomesoplenty:bamboo>,<biomesoplenty:bamboo>,<biomesoplenty:bamboo>,<biomesoplenty:bamboo>,<biomesoplenty:bamboo>,<biomesoplenty:bamboo>,<biomesoplenty:bamboo>,<biomesoplenty:bamboo>]);
 
-//===Other Bamboo Stuff===
-//Convert BoP to Zawa
-recipes.addShapeless("EC_BambooConvert", <zawa:bamboo>, [<biomesoplenty:bamboo>]);
-
-//Change ZAWA Bamboo Blocks to match BoP ones
-recipes.remove(<zawa:bamboo_decortation>);
-recipes.remove(<zawa:dried_bamboo_decortation>);
-
-recipes.addShapeless("EC_ZawaBambooBlock", <zawa:bamboo_decortation>, [<zawa:bamboo>,<zawa:bamboo>,<zawa:bamboo>,<zawa:bamboo>,<zawa:bamboo>,<zawa:bamboo>,<zawa:bamboo>,<zawa:bamboo>,<zawa:bamboo>]);
-recipes.addShapeless("EC_ZawaDriedBambooBlock", <zawa:dried_bamboo_decortation>, [<zawa:dried_bamboo>,<zawa:dried_bamboo>,<zawa:dried_bamboo>,<zawa:dried_bamboo>,<zawa:dried_bamboo>,<zawa:dried_bamboo>,<zawa:dried_bamboo>,<zawa:dried_bamboo>,<zawa:dried_bamboo>]);
-
-recipes.addShapeless("EC_ZawaBambooStick", <zawa:bamboo> * 9, [<zawa:bamboo_decortation>]);
-recipes.addShapeless("EC_ZawaDriedBambooStick", <zawa:dried_bamboo> * 9, [<zawa:dried_bamboo_decortation>]);
-
-
-//===Eucalyptus leaves conversion===
-//Adds Eucalyptus Leaves to OreDict
-<ore:leavesEucalyptus>.add(<natura:overworld_leaves2:1>);
-<ore:leavesEucalyptus>.add(<biomesoplenty:leaves_5:11>);
-//Creates Recipe to convert to Koala food
-recipes.addShapeless("EU_EucalyptusLeaves", <zawa:eucalyptus> * 4, [<ore:leavesEucalyptus>]);
-
 //===Industrial Foregoing Rubber > Tiny Rubber for Compacting Drawers support.===
 recipes.addShapeless(<industrialforegoing:tinydryrubber> * 9, [<industrialforegoing:dryrubber>]);
 
@@ -507,9 +371,6 @@ recipes.addShapeless(<minecraft:ender_pearl>, [<extrautils2:endershard>, <extrau
 //===Mushroom Blocks into Mushroom Food===
 recipes.addShapeless(<minecraft:brown_mushroom> * 4, [<minecraft:brown_mushroom_block>]);
 recipes.addShapeless(<minecraft:red_mushroom> * 4, [<minecraft:red_mushroom_block>]);
-
-//===Dragon Bones to regular Bones===
-recipes.addShapeless(<minecraft:bone> * 4, [<ore:bonedragon>]);
 
 //===Silicon conversion===
 recipes.addShapeless(<appliedenergistics2:material:5>, [<enderio:item_material:5>]);
@@ -571,9 +432,6 @@ recipes.addShaped(<tconstruct:materials:17> * 3, [[<ore:boneWithered>, null, <or
 
 //"n" Shape = NetherEx's
 recipes.addShaped(<netherex:wither_bone> * 3, [[null, <ore:boneWithered>, null], [<ore:boneWithered>, null, <ore:boneWithered>]]);
-
-//"/" Shape = IceandFire's
-recipes.addShaped(<iceandfire:witherbone> * 3, [[null, null, <ore:boneWithered>], [null, <ore:boneWithered>, null], [<ore:boneWithered>, null, null]]);
 
 //Horizontal Line = Baubley Heart Canister's
 recipes.addShaped(<bhc:wither_bone> * 3, [[<ore:boneWithered>], [<ore:boneWithered>], [<ore:boneWithered>]]);

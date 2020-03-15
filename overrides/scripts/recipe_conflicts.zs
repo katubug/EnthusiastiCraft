@@ -77,14 +77,6 @@ recipes.removeShapeless(<harvestcraft:pizzasliceitem>, [<harvestcraft:cuttingboa
 //===Remove Extra Utils' and EnderIO's Logs to Sticks recipes to avoid overlaps===
 recipes.remove(<minecraft:stick> * 16);
 
-//===Fix a conflict between different Sapphire Blocks by making Ice and Fire not accept OreDict===
-recipes.remove(<iceandfire:sapphire_block>);
-recipes.addShapeless("EC_IFSapphire", <iceandfire:sapphire_block>, [<iceandfire:sapphire_gem>,<iceandfire:sapphire_gem>,<iceandfire:sapphire_gem>,<iceandfire:sapphire_gem>,<iceandfire:sapphire_gem>,<iceandfire:sapphire_gem>,<iceandfire:sapphire_gem>,<iceandfire:sapphire_gem>,<iceandfire:sapphire_gem>]);
-
-//===Fix a conflict between ZAWA's Steel Bars and Quark's Iron Ladders===
-recipes.remove(<zawa:steel_bars>);
-recipes.addShaped("EC_ZawaSteelBar", <zawa:steel_bars> * 4, [[<ore:ingotSteel>, null, <ore:ingotSteel>],[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, null, <ore:ingotSteel>]]);
-
 //===Fix conflict between RandomThings' Sound Block and [??? I forget]===
 recipes.remove(<randomthings:soundbox>);
 recipes.addShapeless(<randomthings:soundbox>, [<minecraft:noteblock>,<ore:dyeBlue>]);
@@ -112,18 +104,10 @@ recipes.remove(<modcurrency:coin:4>);
 recipes.remove(<immersiveengineering:stone_decoration:3>);
 recipes.addShapeless("EC_CoalCoke", <immersiveengineering:stone_decoration:3>, [<immersiveengineering:material:6>,<immersiveengineering:material:6>,<immersiveengineering:material:6>,<immersiveengineering:material:6>,<immersiveengineering:material:6>,<immersiveengineering:material:6>,<immersiveengineering:material:6>,<immersiveengineering:material:6>,<immersiveengineering:material:6>]);
 
-//===Remove recipes related to Ice and Fire's Silver===
-recipes.remove(<iceandfire:silver_nugget:0>);
-recipes.remove(<iceandfire:silver_ingot:0>);
-recipes.remove(<iceandfire:silver_block>);
 
 //===Changes Rustic's Crop Stake to avoid Quark Vertical Planks conflict===
 recipes.remove(<rustic:crop_stake>);
 recipes.addShaped("EC_CropStake", <rustic:crop_stake>, [[null, <ore:stickWood>, null],[null, <ore:plankWood>, null], [null, <ore:stickWood>, null]]);
-
-//===Changes Blindfold recipe to avoid conflict===
-recipes.remove(<iceandfire:blindfold>);
-recipes.addShaped("EC_IFBlindfold", <iceandfire:blindfold>, [[<ore:leather>, <ore:leather>, <ore:leather>]]);
 
 //===Removes the Flax tag from string to avoid conflict between Rustic and HarvestCraft===
 val cropFlax = <ore:cropFlax>;
