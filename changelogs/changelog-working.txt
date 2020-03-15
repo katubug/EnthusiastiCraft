@@ -82,6 +82,7 @@
 - Removed Corail Tombstone (replaced).
 - Removed Roots.
 - Removed Mystical World.
+- Removed ContentTweaker.
 
 - Updated Actually Additions to 151-2.
 - Updated Advanced Chimneys to 3.5.7.0-build.0424.
@@ -123,13 +124,13 @@
 - Updated Just Enough Items (JEI) to 4.15.0.293.
 - Updated JourneyMap to 5.7.0.
 - Updated LagGoggles to THIN 4.9.
-- Updated LibraryEx to 1.1.0.
-- Updated LittleTiles to 1.5.0-pre199_15.
+- Updated LibraryEx to 1.1.1.
+- Updated LittleTiles to 1.5.0-pre199_17.
 - Updated LootTweaker to 0.1.5.
 - Updated MysticalLib to 1.6.0.
 - Updated Mystical World to 1.7.1.
 - Updated Nature's Compass to 1.8.5.
-- Updated NetherEx to 2.1.0.
+- Updated NetherEx to 2.1.1.
 - Updated Online Picture Frame to 1.4.35.
 - Updated Ore Excavation to 1.4.150.
 - Updated p455w0rd's Library to 2.3.161.
@@ -139,7 +140,7 @@
 - Updated Rustic to 1.1.2.
 - Updated Sound Filters to 0.12.
 - Updated Storage Drawers to 5.4.1.
-- Updated Tinker's Construct to 2.13.0.179.
+- Updated Tinker's Construct to 2.13.0.183.
 - Updated Tesla Core Lib to 1.0.17.
 - Updated The Betweenlands to 3.5.7.
 - Updated Corail Tombstone to 3.6.9.
@@ -299,6 +300,7 @@ Advanced Rocketry -
     - Planets must be discovered in the warp controller before they may be visited.
     - Vanilla structures will generate on planets with breatheable atmosphere.
     - AR planets will generate using dimension ID 25 and up instead of 2 and up.
+    - UI is no longer locked and can be moved with middle mouse button.
 
 Draconic Evolution -
     - Celestial Manipulator sound effects have been reduced.
