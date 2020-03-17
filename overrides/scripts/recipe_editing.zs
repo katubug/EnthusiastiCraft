@@ -4,9 +4,9 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 //===Makes Plastics Compatible===
-<ore:plastic>.add(<industrialforegoing:plastic>);
-recipes.replaceAllOccurences(<rats:raw_plastic>, <ore:plastic>);
-recipes.replaceAllOccurences(<industrialforegoing:plastic>, <ore:plastic>);
+//<ore:plastic>.add(<industrialforegoing:plastic>);
+//recipes.replaceAllOccurences(<rats:raw_plastic>, <ore:plastic>);
+//recipes.replaceAllOccurences(<industrialforegoing:plastic>, <ore:plastic>);
 
 //===Adds in a recipe for Bottles of Enchanting===
 //Adds both types of solid exp to oreDict
@@ -91,7 +91,8 @@ recipes.remove(<extrautils2:endershard>);
 recipes.addShapeless("EC_EnderPearl", <extrautils2:endershard> * 9, [<minecraft:ender_pearl>]);
 
 //======================Muffler to Super Sound Muffler recipe======================
-recipes.addShaped("EC_MufflerConversion", <supersoundmuffler:sound_muffler>, [[<ore:woolBlock>, <extrautils2:soundmuffler>, <ore:woolBlock>]]);
+//temp disabled because super sound muffler modid may be different and i don't wanna get it rn
+//recipes.addShaped("EC_MufflerConversion", <supersoundmuffler:sound_muffler>, [[<ore:woolBlock>, <extrautils2:soundmuffler>, <ore:woolBlock>]]);
 
 //======================Honey Buckets Craftable to Honey======================
 var vanHoney = <forge:bucketfilled>.withTag({FluidName: "honey", Amount: 1000});
