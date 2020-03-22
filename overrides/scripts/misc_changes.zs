@@ -578,9 +578,6 @@ mods.bonsaitrees.SoilCompatibility.removeCompatibleTagFromTree("biomesoplenty:he
 //Lingering Potions
 <minecraft:lingering_potion>.maxStackSize = 16;
 
-//Chickens
-<roost:chicken>.maxStackSize = 8;
-
 //===================Tooltips===================
 
 //Hopefully makes "Crescent Hammer" searchable with "wrench" ffs

@@ -1,0 +1,272 @@
+# ============================================== # 
+#                     [2.0.1]                    # 
+# ============================================== # 
+
+hahaaaaa i feel terrible this changelog is gonna be lazy af, sorry
+
+- The plastics integration between Rats and Industrial Foregoing was causing issues with server connections and has been removed for now.
+- An alternate recipe for the Super Sound Muffler has been disabled until I have the time to fix it.
+- Atum 2 has been removed.
+- Auto Doors 2 has been removed.
+- Added Better Invalid Session.
+- Quark's Block Variations have been enabled.
+- Deleted some excess files.
+- RandomPatches timeout limits have been altered to allow server connections not to fail.
+-- keepAlivePacketInterval: from 15 to 120
+-- loginTimeout: from 900 to 10,000
+-- readTimeout: from 90 to 720
+- Disabled the nether_lake.json in cofh world until I can fix it.
+ 
+# ============================================== # 
+ 
+ 
+[Full Modlist:] 
+ 
+    ActuallyAdditions-1.12.2-r151-2.jar
+    ActuallyBaubles-1.12-1.1.jar
+    AdChimneys-1.12.2-3.5.11.0-build.0445.jar
+    AdvancedRocketry-1.12.2-1.7.0-208-universal.jar
+    ae2stuff-0.7.0.4-mc1.12.2.jar
+    AE2WTLib-1.12.2-1.0.34.jar
+    aether_continuation-1.12.2-v1.2.3.jar
+    aether_legacy-1.12.2-v1.4.4.jar
+    AIImprovements-1.12-0.0.1b3.jar
+    AkashicTome-1.2-12.jar
+    AmbientEnvironment-1.0.2.jar
+    ambients-1.2.0.jar
+    AmbientSounds_v3.0.10_mc1.12.2.jar
+    animania-1.12.2-1.7.3.jar
+    AppleCore-mc1.12.2-3.2.0.jar
+    AppleSkin-mc1.12-1.0.9.jar
+    appliedenergistics2-rv6-stable-7.jar
+    arcanearchives-0.2.0.15.jar
+    architecturecraft-1.12-3.98.jar
+    armoryexpansion-1.4.1.jar
+    Aroma1997Core-1.12.2-2.0.0.2.b166.jar
+    Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.b89.jar
+    astralsorcery-1.12.2-1.10.22.jar
+    AttributeFix-1.12.2-1.0.10.jar
+    AutoRegLib-1.3-32.jar
+    Avaritia-1.12.2-3.3.0.33-universal.jar
+    base-1.12.2-3.13.0.jar
+    Baubles-1.12-1.5.2.jar
+    baubley-heart-canisters-1.12.2-2.0.3.jar
+    bdlib-1.14.3.12-mc1.12.2.jar
+    Beasts-1.12.2-1.2.1.jar
+    BetterAdvancements-1.12.2-0.1.0.77.jar
+    betteranimalsplus-1.12.2-8.2.0.jar
+    BetterBuildersWands-1.12.2-0.13.2.271+5997513.jar
+    bettercaves-1.12.2-1.6.0.jar
+    BetterDiving-1.12.2-1.4.14.jar
+    BetterFoliage-MC1.12-2.3.1.jar
+    BetterFps-1.4.8.jar
+    BetterInvalidSession-1.12.2-1.0.3.jar
+    bewitchment-1.12.2-0.0.21.10.jar
+    BiblioCraft[v2.4.5][MC1.12.2].jar
+    binnie-mods-1.12.2-2.5.1.200.jar
+    BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar
+    blockcraftery-1.12.2-1.3.1.jar
+    bonsaitrees-1.1.4-b170.jar
+    Bookshelf-1.12.2-2.3.590.jar
+    Botania r1.10-363.jar
+    Bountiful-2.2.1.jar
+    BrandonsCore-1.12.2-2.4.18.210-universal.jar
+    CarryOn MC1.12.2 v1.12.3.jar
+    Cathedral-1.12.2-1.9.7k.jar
+    Ceramics-1.12-1.3.7.jar
+    Chameleon-1.12-4.1.3.jar
+    chickens-6.1.0.jar
+    Chisel-MC1.12.2-1.0.1.44.jar
+    chiselsandbits-14.33.jar
+    classicbar-0.5.4.jar
+    ClientTweaks_1.12.2-3.1.11.jar
+    Clumps-3.1.2.jar
+    CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+    CoFHCore-1.12.2-4.6.3.27-universal.jar
+    CoFHWorld-1.12.2-1.3.1.7-universal.jar
+    CommonCapabilities-1.12.2-2.4.5.jar
+    compactmachines3-1.12.2-3.0.18-b278.jar
+    conarm-1.12.2-1.2.5.4.jar
+    Controlling-3.0.8.jar
+    CookingForBlockheads_1.12.2-6.5.0.jar
+    CosmeticArmorReworked-1.12.2-v4b.jar
+    CraftingTweaks_1.12.2-8.1.9.jar
+    CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar
+    CraftTweaker2-1.12-4.1.20.jar
+    CreativeCore_v1.10.3_mc1.12.2.jar
+    CTD-Core-1.12.2-1.4.2.jar
+    CTM-MC1.12.2-1.0.1.30.jar
+    Currency-1.12.0-1.3.11.jar
+    CustomMainMenu-MC1.12.2-2.0.9.1.jar
+    Cyclic-1.12.2-1.19.21.jar
+    CyclopsCore-1.12.2-1.6.1.jar
+    DankNull-1.12.2-1.7.89.jar
+    DarkUtils-1.12.2-1.8.230.jar
+    dawnoftime_builder_edition-1.0.6.jar
+    Decocraft-2.6.3_1.12.2.jar
+    DefaultOptions_1.12.2-9.2.8.jar
+    DocumentYourModMod-2.0.0.jar
+    DoggyTalents-1.12.2-1.15.1.4-universal.jar
+    Draconic-Evolution-1.12.2-2.3.25.351-universal.jar
+    Dungeons2-mc1.12.2-f14.23.5.2768-v1.7.1.jar
+    DynamicSurroundings-1.12.2-3.6.0.2.jar
+    EDX-Multipart-1.1.1.jar
+    EnchantmentDescriptions-1.12.2-1.1.15.jar
+    EnderCompass-1.12.2-1.0.jar
+    EnderCore-1.12.2-0.5.73.jar
+    EnderIO-1.12.2-5.1.55.jar
+    EnderStorage-1.12.2-2.4.6.137-universal.jar
+    engineers_doors-1.12.2-0.8.0.jar
+    Erebus-1.0.31.jar
+    extra-moas-v1.2.0.jar
+    ExtraBotany-r1.1-58r.jar
+    extrautils2-1.12-1.9.9.jar
+    fairylights-2.1.10-1.12.2.jar
+    FarmingForBlockheads_1.12.2-3.1.28.jar
+    FastFurnace-1.12.2-1.3.1.jar
+    FastWorkbench-1.12.2-1.7.3.jar
+    fencejumper-1.12-1.0.5.jar
+    Ferdinand's Flowers-1.12.x-1.10.4.1.jar
+    Fishs_Undead_Rising-1.0.13.jar
+    Floricraft-1.12.2-4.4.3.jar
+    foamfix-0.10.10-1.12.2.jar
+    forestry_1.12.2-5.8.2.418.jar
+    ForgeEndertech-1.12.2-4.5.0.0-build.0435.jar
+    Forgelin-1.8.4.jar
+    fossilsarcheology-8.0.3.jar
+    FTBBackups-1.1.0.1.jar
+    FTBLib-5.4.7.0.jar
+    FTBUtilities-5.4.0.124.jar
+    furniture-6.3.1-1.12.2.jar
+    GamblingStyle-v1.0.1-1.12.2.jar
+    GottschCore-mc1.12.2-f14.23.5.2768-v1.12.1.jar
+    GravelMiner_1.12.1-6.1.2.jar
+    Harvest-1.12-1.2.7-20.jar
+    ImmersiveEngineering-0.12-92.jar
+    immersivepetroleum-1.12.2-1.1.9.jar
+    industrialforegoing-1.12.2-1.12.13-237.jar
+    infinitylib-1.12.0.jar
+    instantunify-1.12.2-1.1.2.jar
+    IntegrationForegoing-1.12.2-1.9.jar
+    InventoryTweaks-1.64+dev.150.jar
+    invisiblights-3.2-10.jar
+    itemzoom_1.12.2-1.11.jar
+    jei_1.12.2-4.15.0.293.jar
+    journeymap-1.12.2-5.7.0.jar
+    just-enough-harvestcraft-1.12.2-1.7.0.jar
+    JustEnoughIDs-1.0.3-48.jar
+    JustEnoughResources-1.12.2-0.9.2.60.jar
+    LagGoggles-THIN-1.12.2-4.9.jar
+    LibraryEx-1.12.2-1.1.1.jar
+    LibVulpes-1.12.2-0.4.2-74-universal.jar
+    littleopener-1.0.1.jar
+    LittleTiles_v1.5.0-pre199_17_mc1.12.2.jar
+    llibrary-1.7.19-1.12.2.jar
+    LootTweaker-0.1.5+MC1.12.2.jar
+    lost_aether-content-1.12.2-0.1.2.jar
+    LunatriusCore-1.12.2-1.2.0.42-universal.jar
+    Mantle-1.12-1.3.3.55.jar
+    maplesyrup-0.1.4-beta.jar
+    mcjtylib-1.12-3.5.4.jar
+    MCMultiPart-2.5.3.jar
+    mcw-bridges-1.0.4-mc1.12.2.jar
+    mcw-roofs-1.0.2-mc1.12.2.jar
+    Mekanism-1.12.2-9.8.3.390.jar
+    MekanismGenerators-1.12.2-9.8.3.390.jar
+    MineMenu-1.12.2-1.6.11-universal.jar
+    MmmMmmMmmMmm-1.12-1.14.jar
+    Mo-Glowstone-1.12.2-1.5.6.jar
+    MoarSigns-1.12.2-6.0.0.11.jar
+    MobControlWands_1.12.2-1.0.4.jar
+    modnametooltip_1.12.2-1.10.1.jar
+    moreavaritia-mc1.12.2-v3.2.jar
+    morechickens-1.12.2-3.1.0.jar
+    moreoverlays-1.15.1-mc1.12.2.jar
+    MouseTweaks-2.10-mc1.12.2.jar
+    mowziesmobs-1.5.4.jar
+    multibeds-1.12.0-1.4.4.jar
+    mysticallib-1.12.2-1.6.0.jar
+    mysticalwildlife-1.12.2-1.3.0.1.jar
+    NaturesCompass-1.12.2-1.8.5.jar
+    NetherEx-1.12.2-2.1.1.jar
+    NoMoreRecipeConflict-0.13(1.12.2).jar
+    NotEnoughPets-1.12.2-v2.1.0.jar
+    Nutrition-1.12.2-4.4.0.jar
+    OnlinePicFrame_v1.4.35_mc1.12.2.jar
+    OpenBlocks-1.12.2-1.8.1.jar
+    OpenModsLib-1.12.2-0.12.2.jar
+    OreExcavation-1.4.150.jar
+    OreLib-1.12.2-3.6.0.1.jar
+    p455w0rdslib-1.12.2-2.3.161.jar
+    Pam's HarvestCraft 1.12.2zf.jar
+    pamsimpleharvest-2.0.0.jar
+    Patchouli-1.0-20.jar
+    Pewter-1.4.3.jar
+    phosphor-1.12.2-0.2.6+build50-universal.jar
+    Placebo-1.12.2-1.6.0.jar
+    plustic-7.1.6.1.jar
+    pn_1.12-1.0.jar
+    PrettyBeaches_1.12.2-1.0.4.jar
+    ProjectVibrantJourneys-1.12.2-1.6.4.jar
+    PTRLib-1.0.4.jar
+    Quark-r1.6-178.jar
+    quickconsume-1.12.2.1.0.1.0.jar
+    QuickLeafDecay-MC1.12.1-1.2.4.jar
+    randompatches-1.12.2-1.21.0.0.jar
+    RandomThings-MC1.12.2-4.2.7.3.jar
+    randomtweaks-1.12.2-2.7.1.0.jar
+    rangedpumps-0.5.jar
+    rats-3.2.6.jar
+    reauth-3.6.0.jar
+    RedstoneFlux-1.12-2.1.0.6-universal.jar
+    ResourceLoader-MC1.12.1-1.5.3.jar
+    respawnable-pets-1.0.6.1.jar
+    Rex's-Additional-Structures-1.12.x-(v.2.3.1).jar
+    roost-1.12.2-2.0.10.jar
+    ropebridge-1.12-2.0.7.jar
+    rustic-1.1.2.jar
+    savemystronghold-1.12.2-1.0.0.jar
+    SBM-Merpig-1.12.2-0.0.1b20190504132456.jar
+    Schematica-1.12.2-1.8.0.169-universal.jar
+    shetiphiancore-1.12.0-3.5.9.jar
+    SoundFilters-0.12_for_1.12.jar
+    stg-1.12.2-1.2.3.jar
+    StorageDrawers-1.12.2-5.4.1.jar
+    supersoundmuffler-revived_1.12.2_1.0.2.10.jar
+    TConstruct-1.12.2-2.13.0.183.jar
+    tesla-core-lib-1.12.2-1.0.17.jar
+    theaurorian-1.12.2-beta-mar0620.jar
+    TheBetweenlands-3.5.7-universal.jar
+    theoneprobe-1.12-1.4.28.jar
+    ThermalDynamics-1.12.2-2.5.5.21-universal.jar
+    ThermalExpansion-1.12.2-5.5.4.43-universal.jar
+    ThermalFoundation-1.12.2-2.6.3.27-universal.jar
+    ThermalInnovation-1.12.2-0.3.3.12-universal.jar
+    tinkersjei-1.2.jar
+    TinkerToolLeveling-1.12.2-1.1.0.jar
+    TinyMobFarm-1.12.2-1.0.5.jar
+    Toast Control-1.12.2-1.8.1.jar
+    TombManyGraves-1.12-4.2.0.jar
+    tombmanygraves2api-1.12.2-1.0.0.jar
+    tombmanypluginscosmeticarmorreworked-1.0.0.jar
+    tombmanypluginsthebetweenlands-1.0.0.jar
+    tombmanypluginswearablebackpacks-1.0.0.jar
+    topaddons-1.12.2-1.13.0.jar
+    torchmaster_1.12.2-1.8.1.81.jar
+    Totemic-1.12.2-0.11.6.jar
+    Treasure2-mc1.12.2-f14.23.5.2768-v1.10.0.jar
+    twilightforest-1.12.2-3.10.1013-universal.jar
+    UniDict-1.12.2-2.9.6.jar
+    UnlimitedChiselWorks-0.3.4.jar
+    unloader-1.2.0.jar
+    VanillaFix-1.0.10-99.jar
+    vilnames_1.12-1.4.jar
+    walljump-1.12.2-1.3.2.jar
+    WanionLib-1.12.2-2.4.jar
+    Waystones_1.12.2-4.1.0.jar
+    WearableBackpacks-1.12.2-3.1.4.jar
+    wings-1.1.6-1.12.2.jar
+    WirelessCraftingTerminal-1.12.2-3.12.97.jar
+    wishingforsunshine-1.12.2-0.0.0.4.jar
+    WitherSkeletonTweaks-1.12.2-2.6.3.jar
+    [1.12]MoVillages-1.5.4.jar

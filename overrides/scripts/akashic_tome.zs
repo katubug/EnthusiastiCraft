@@ -157,9 +157,6 @@ import crafttweaker.oredict.IOreDictEntry;
 //Adds tooltip and description
 filledAkashic.addTooltip(format.gold("Contains all the guidebooks in the pack."));
 
-//Adds to JEI
-mods.jei.JEI.addItem(filledAkashic);
-
 //Stuff for homemade guidebook.
 val welcomeBook = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:ecwelcome"});
 

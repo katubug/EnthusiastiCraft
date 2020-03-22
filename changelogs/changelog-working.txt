@@ -1,20 +1,44 @@
 # ============================================== # 
-#                     [2.0.1]                    # 
+#                     [2.1.0]                    # 
 # ============================================== # 
+ 
+# ================= Mod Changes ================ # 
+- Removed Integration Foregoing.
+- Added Environmental Tech 2.0.20.2.
+- Added Valkyrie Lib 2.0.20.1.
+ 
+# =============== Config Changes =============== # 
+FTB Utilities -
+	- AFK timer has been disabled in favor of Quark's.
 
-hahaaaaa i feel terrible this changelog is gonna be lazy af, sorry
+OreExcavation -
+	- Block excavation limit has been increased from 128 to 512.
+	- Excavation range has been increased from 16 to 32.
 
-- The plastics integration between Rats and Industrial Foregoing was causing issues with server connections and has been removed for now.
-- An alternate recipe for the Super Sound Muffler has been disabled until I have the time to fix it.
-- Atum 2 has been removed.
-- Auto Doors 2 has been removed.
-- Added Better Invalid Session.
-- Quark's Block Variations have been enabled.
-- Deleted some excess files.
-- RandomPatches timeout limits have been altered to allow server connections not to fail.
--- keepAlivePacketInterval: from 15 to 120
--- loginTimeout: from 900 to 10,000
--- readTimeout: from 90 to 720
-- Disabled the nether_lake.json in cofh world until I can fix it.
+PlusTiC -
+	- The following integrations have been enabled: Advanced Rocketry, Avaritia, Draconic Evolution, Environmental Tech, Erebus, Mekanism.
+
+Quark -
+	- Dogs now wish to be petted at least once every 30 minutes.
+	- The required percentage of sleepers to pass the night has been reduced from 25% to 20%.
+	- Players will now be marked AFK after 30 minutes.
+
+Cyclic -
+	- Named animals will no longer drop name tags.
+
+EDX Multipart -
+	- To avoid conflict with Bewitchment Altars, carpets are no longer multipart.
+
+Tinker's Construct -
+	- Table variants will no longer show in JEI.
+	- Part variants will now show in JEI.
+
+# =============== Script Changes =============== # 
+
+akashic_tome.zs: Removed a line adding this to JEI because it didn't seem to work.
+
+misc_changes.zs: Chickens now stack to 16 again instead of 8.
+ 
+# ============== Server Changelog ============== # 
  
 # ============================================== # 
