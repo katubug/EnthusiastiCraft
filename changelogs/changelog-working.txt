@@ -39,6 +39,4 @@ akashic_tome.zs: Removed a line adding this to JEI because it didn't seem to wor
 
 misc_changes.zs: Chickens now stack to 16 again instead of 8.
  
-# ============== Server Changelog ============== # 
- 
 # ============================================== # 
